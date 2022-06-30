@@ -1,0 +1,87 @@
+/* @settings
+
+name: Embedded Note Titles
+id: embedded-note-titles
+settings:
+    - 
+        id: embedded-note-title-font
+        title: Font
+        type: variable-text
+        default: Inter
+    - 
+        id: embedded-note-title-size
+        title: Font Size
+        type: variable-number-slider
+        default: 32
+        format: px
+        min: 10
+        max: 80
+        step: 1
+    - 
+        id: embedded-note-title-weight
+        title: Font Weight
+        type: variable-number-slider
+        default: 800
+        min: 100
+        max: 1000
+        step: 100
+    - 
+        id: embedded-note-title-line-height
+        title: Line Height
+        type: variable-number-slider
+        default: 1.4
+        min: 1
+        max: 2
+        step: 0.05
+    - 
+        id: embedded-note-title-padding-bottom
+        title: Bottom Spacing
+        type: variable-number-slider
+        default: 0
+        format: rem
+        min: 0
+        max: 5
+        step: 0.25
+    - 
+        id: embedded-note-title-padding-top
+        title: Top Spacing
+        type: variable-number-slider
+        default: 0
+        format: rem
+        min: 0
+        max: 5
+        step: 0.25
+
+*/
+
+:root {
+  --embedded-note-title-size: 32px;
+  --embedded-note-title-font: var(--default-font);
+  --embedded-note-title-line-height: 1.4;
+  --embedded-note-title-padding-bottom: 0;
+  --embedded-note-title-padding-top: 0;
+  --embedded-note-title-weight: 800;
+  --embedded-note-title-height: 0;
+}
+
+h1.embedded-note-title,
+h1.cm-line.embedded-note-title {
+  font-family: var(--embedded-note-title-font);
+  font-size: var(--embedded-note-title-size);
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: var(--embedded-note-title-padding-top);
+  padding-bottom: var(--embedded-note-title-padding-bottom);
+  line-height: var(--embedded-note-title-line-height);
+  font-weight: var(--embedded-note-title-weight);
+}
+
+h1.embedded-note-title.embedded-note-title__hidden,
+h1.cm-line.embedded-note-title.embedded-note-title__hidden {
+  padding-bottom: 0 !important;
+  line-height: 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters {
+  padding-top: var(--embedded-note-title-height);
+}

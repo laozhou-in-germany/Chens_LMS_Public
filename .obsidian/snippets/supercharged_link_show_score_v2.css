@@ -1,0 +1,22 @@
+
+a.internal-link[data-link-score$="x" ]::after{
+    content: "◷" ;
+    color: gold 
+}
+a.internal-link[data-link-score$="xx"]::after{
+    content: "◔";
+    color: gold 
+}
+a.internal-link[data-link-score$="xxx"]::after{
+    content: "◑"; 
+    color: gold
+}
+a.internal-link[data-link-score$="xxxx"]::after{
+    content: "◕";
+    color: gold 
+}
+a.internal-link[data-link-score$="xxxxx"]::after{
+    content: "●";
+    color: gold 
+}
+

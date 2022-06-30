@@ -1,0 +1,56 @@
+{
+  "sidebarCommands": [
+    {
+      "id": "homepage:open-homepage",
+      "name": "Homepage: Open homepage",
+      "icon": "feather-home"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "name": "Toggle pin",
+      "icon": "filled-pin"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
+      "name": "Excalidraw: Create a new drawing - IN A NEW PANE - and embed into active document",
+      "icon": "image-file"
+    },
+    {
+      "id": "snippet-commands-obsidian:snippet-command-image_h150px",
+      "name": "Snippet Commands: Toggle image_h150px",
+      "icon": "three-horizontal-bars"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "name": "File explorer: Move file to another folder",
+      "icon": "paper-plane-glyph"
+    },
+    {
+      "id": "obsidian-admonition:insert-admonition",
+      "name": "Admonition: Insert Admonition",
+      "icon": "feather-message-square"
+    },
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "hotkeys": [],
+      "icon": "bullet-list-glyph"
+    }
+  ],
+  "hiddenCommands": [
+    "Templater",
+    "Update Map of Content",
+    "Manage workspaces",
+    "Open homepage",
+    "New Excalidraw drawing",
+    "New Excalidraw drawing",
+    "Insert template",
+    "PDF Highlights",
+    "Open command palette",
+    "Open graph view",
+    "Open quick switcher",
+    "Open Viewer",
+    "Advanced Tables Toolbar",
+    "Update Map of Content"
+  ]
+}

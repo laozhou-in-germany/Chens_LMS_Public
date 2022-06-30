@@ -1,0 +1,24 @@
+{
+  "legacyEditor": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "readableLineLength": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "600 💡Knowledge/610 📔Literature Note",
+  "attachmentFolderPath": "990 Help/991_assets",
+  "strictLineBreaks": false,
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ],
+  "fileSortOrder": "alphabetical",
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "mobilePullAction": "switcher:open"
+}

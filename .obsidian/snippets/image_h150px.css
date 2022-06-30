@@ -1,0 +1,3 @@
+img[src*="."] {
+   height:150px;
+}

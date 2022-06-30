@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-embedded-note-titles",
+	"name": "Embedded Note Titles",
+	"version": "1.2.8",
+	"minAppVersion": "0.13.8",
+	"description": "Inserts the note file name as an H1 heading above each note.",
+	"author": "mgmeyers",
+	"authorUrl": "https://github.com/mgmeyers/obsidian-embedded-note-titles",
+	"isDesktopOnly": false
+}

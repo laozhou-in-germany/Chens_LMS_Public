@@ -1,0 +1,26 @@
+{
+  "CN_path": "600 💡Knowledge/601 💡Knowlege Home Node.md",
+  "exluded_folders": [
+    "100 🗻Action Pyramid/",
+    "300 🌄journal/",
+    "320 🎉Events/",
+    "340 🖥️Meetings/",
+    "400 🧺Vault Elements/",
+    "700 ⭕Cycles/",
+    "800 🧰Workspaces/"
+  ],
+  "exluded_filename_components": [
+    ".pdf",
+    ".jpg",
+    ".png",
+    ".gif",
+    "Dashboard"
+  ],
+  "settings_version": "0.1.16",
+  "plugin_version": "0.1.18",
+  "do_show_update_notice": false,
+  "auto_update_on_file_change": true,
+  "do_remember_expanded": false,
+  "MOC_path_starts_at_CN": false,
+  "file_descendants_expanded": {}
+}

@@ -1,0 +1,6 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "300 🌄journal|900 Template|990 Help|Excalidraw|excalidraw|Kanban",
+  "useFileOpenHook": false
+}

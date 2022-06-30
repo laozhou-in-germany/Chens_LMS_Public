@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "43d0714272199989",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "600 💡Knowledge/600 💡Knowledge.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3994a8a1c8455bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6efee1c71935b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "243db746ab9b8bfe",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "815327c3286132db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d669524f426ed5c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#gro",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23c7e2b1c9374a5d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f55ad70156be8b3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad0ab8a9794d118a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "852114cbb56a6279",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9a918f0d8c5c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "600 💡Knowledge/600 💡Knowledge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ffccce8a5c2920a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "60a7117cd3ff3e9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "600 💡Knowledge/600 💡Knowledge.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8ee8c9b393b3186d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67618a14ca5802cf",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "43d0714272199989",
+  "lastOpenFiles": [
+    "600 💡Knowledge/600 💡Knowledge.md",
+    "600 💡Knowledge/601 💡Knowlege Home Node.md",
+    "🏠Dashboard.md",
+    "800 🧰Workspaces/867 🗩Topic Workshop.md",
+    "800 🧰Workspaces/865 🌲Evergreen Notes Workshop.md",
+    "800 🧰Workspaces/861 📔Literature Notes Workshop.md",
+    "400 🧺Vault Elements/410 👤Person/Zhang Liang.md",
+    "400 🧺Vault Elements/410 👤Person/Sebastian Gepperth.md",
+    "600 💡Knowledge/610 📔Literature Notes/Ludwig II.md",
+    "600 💡Knowledge/670 🗩Topics/Königreich Bayern.md"
+  ]
+}

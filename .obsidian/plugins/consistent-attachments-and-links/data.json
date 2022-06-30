@@ -1,0 +1,18 @@
+{
+  "moveAttachmentsWithNote": true,
+  "deleteAttachmentsWithNote": true,
+  "updateLinks": true,
+  "deleteEmptyFolders": true,
+  "deleteExistFilesWhenMoveNote": true,
+  "changeNoteBacklinksAlt": true,
+  "ignoreFolders": [
+    ".git/",
+    ".obsidian/",
+    "99_Blog/"
+  ],
+  "ignoreFiles": [
+    "consistant-report.md"
+  ],
+  "attachmentsSubfolder": "images",
+  "consistentReportFile": "consistant-report.md"
+}

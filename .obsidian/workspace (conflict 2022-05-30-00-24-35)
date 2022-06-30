@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd1bf7da48068063",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🏠Dashboard.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75a42a3bc00592cb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "de608c9a6ca21ac5",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "af86ca2eb9a4eae6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "2a22ef738cadab70",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e97033b072e270fe",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "99ee378f3ffabf4b",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "136ead6963d7bc45",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ba35affe8dfe4f47",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "66737fe26abcfa76",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "🏠Dashboard.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8b5e29966e11c923",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "🏠Dashboard.md"
+          }
+        }
+      },
+      {
+        "id": "a59af5b9aa526eb6",
+        "type": "leaf",
+        "state": {
+          "type": "map-of-content",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "cd1bf7da48068063",
+  "lastOpenFiles": [
+    "🏠Dashboard.md",
+    "320 🎉Events/2022-05-28 G.md",
+    "600 💡Knowledge/610 📔Literature Note/Das Zettelkasten-Prinzip - Blinkist.md",
+    "600 💡Knowledge/610 📔Literature Note/Criterien for information quality.md",
+    "600 💡Knowledge/610 📔Literature Note/Corona-Endlosschleife by maiLab - shooting & editing.md",
+    "600 💡Knowledge/610 📔Literature Note/Corona und die wundersame Geldvermehrung in Europa by Prof Hans-Werner Sinn.md",
+    "500 📝Drafts/Clipper/Change the Culture, Change the Game.md",
+    "600 💡Knowledge/610 📔Literature Note/Untitled.md",
+    "600 💡Knowledge/610 📔Literature Note/Catholic church sex scandal - case Peter H.md",
+    "600 💡Knowledge/610 📔Literature Note/Carbon Farming als CO2-Speicher Wollen Bauern das.md"
+  ]
+}

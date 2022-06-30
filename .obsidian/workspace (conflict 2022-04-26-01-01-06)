@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bf898e61f83920c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "600 📝Drafts/progress bar example.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "096707b31916b1f0",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "504de002cb3e9f83",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "8c7fd40c0b4415f1",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5d1986fd79c59987",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "86cec9a3455f22c8",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "c2486bf586713d2c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4bcc023cb898f528",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "297afc36d0beca56",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "143ed771f054a017",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "600 📝Drafts/progress bar example.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f752fbae6e240201",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "600 📝Drafts/progress bar example.md"
+          }
+        }
+      },
+      {
+        "id": "a8a925d15a4557db",
+        "type": "leaf",
+        "state": {
+          "type": "map-of-content",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "9bf898e61f83920c",
+  "lastOpenFiles": [
+    "600 📝Drafts/progress bar example.md",
+    "600 💡Knowledge/670 🗩Topics/670 🗩Topics.md",
+    "600 💡Knowledge/610 📔Literature Notes/610 📔Literature Notes.md",
+    "400 🌄journals/2022-04-25.md",
+    "100 🗻Action Pyramid/110 🏛Pillars/110 🏛Pillars.md",
+    "100 🗻Action Pyramid/110 🏛Pillars/☯️ Mental Clarity dummy.md",
+    "600 💡Knowledge/650 🌲Evergreen Notes/经济模型 - 长期债务周期.md",
+    "600 💡Knowledge/670 🗩Topics/️Video editing moc.md",
+    "900 Templates/🗺️ New MOC.md",
+    "600 💡Knowledge/670 🗩Topics/Video maker technique moc.md"
+  ]
+}

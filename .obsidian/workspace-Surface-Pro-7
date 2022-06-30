@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cfce011f4260f68",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "400 🧺Vault Elements/410 👤Person/Sebastian Gepperth.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3994a8a1c8455bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6efee1c71935b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "243db746ab9b8bfe",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "815327c3286132db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d669524f426ed5c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#gro",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23c7e2b1c9374a5d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f55ad70156be8b3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad0ab8a9794d118a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "852114cbb56a6279",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9a918f0d8c5c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "400 🧺Vault Elements/410 👤Person/Sebastian Gepperth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ffccce8a5c2920a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "60a7117cd3ff3e9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "400 🧺Vault Elements/410 👤Person/Sebastian Gepperth.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8ee8c9b393b3186d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67618a14ca5802cf",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1cfce011f4260f68",
+  "lastOpenFiles": [
+    "400 🧺Vault Elements/410 👤Person/Sebastian Gepperth.md",
+    "400 🧺Vault Elements/410 👤Person/Nick Millo.md",
+    "400 🧺Vault Elements/410 👤Person/Norbert Faerber.md",
+    "400 🧺Vault Elements/410 👤Person/Simone Capristo.md",
+    "400 🧺Vault Elements/410 👤Person/Wang Jing.md",
+    "400 🧺Vault Elements/410 👤Person/David Thibault.md",
+    "🏠Dashboard.md",
+    "600 💡Knowledge/610 📔Literature Notes/Waterfall Pericnik.md",
+    "600 💡Knowledge/670 🗩Topics/Slowenien.md",
+    "500 📝Drafts/The cat sat on a mat’ is not a story. ‘The cat sat on the dog’s mat’ is a story. - John le Carré.md"
+  ]
+}
