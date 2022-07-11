@@ -5,7 +5,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 [[<% tp.date.now("YYYY-MM", "P-1M") %>]] <=> [[<% tp.date.now("YYYY-MM", "P+1M") %>]]
 
 # <% tp.file.title %>
-==> [[730 📅Months|📅Months Dashboard]]
+==> [[730_📅Months|📅Months Dashboard]]
 
 Year:: [[<% tp.date.now("YYYY") %>]]  
 Quarter::  [[<% tp.date.now("YYYY-[Q]Q") %>]]  
@@ -39,7 +39,7 @@ Theme:: ==...==
 
 ### Review weekly reflections 
 
-![[710 🗓Weeks#Last 4 Weeks]]
+![[710_🗓Weeks#Last 4 Weeks]]
 - [ ] add new routines
 
 ![[111_🔁Routines#Overview]]

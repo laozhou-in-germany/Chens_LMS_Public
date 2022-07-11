@@ -6,52 +6,44 @@ tags:
 - dashboard
 ---
 # 530_⚛️Atomic_Notes
+## Overview
+~~~dataviewjs
+let notes1 = dv.pages()
+	.where(p => p["fileClass"]=="atomic-note" && p["category-atomic-note"]=="story");
+let n1 = notes1.length
+let pb1 = n1
+let p1 = "Story"
 
 
-> [!info] Story
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" and category-atomic-note="story"
-> ```
+let notes2 = dv.pages()
+	.where(p => p["fileClass"]=="atomic-note" && p["category-atomic-note"]=="aphorism");
+let n2 = notes2.length
+let pb2 = n2
+let p2 = "Aphorism"
 
 
-> [!info] Aphorism 
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" and category-atomic-note="aphorism"
-> ```
+const table = dv.markdownTable(["Note Score","Note Number"],[[p1,pb1],[p2,pb2]],)
+dv.paragraph(table)
+~~~
 
+## Story
+```dataview
+table category-atomic-note as Category
+from -"900_Supporting_Files"
+where fileClass = "atomic-note" and category-atomic-note="story"
+```
 
-> [!info] Info
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" and category-atomic-note="info"
-> ```
+## Aphorism
+```dataview
+table category-atomic-note as Category
+from -"900_Supporting_Files"
+where fileClass = "atomic-note" and category-atomic-note="aphorism"
+```
 
-
-> [!info] Opinion
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" and category-atomic-note="opinion"
-> ```
-
-
-> [!info]- No category 
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" and !category-atomic-note
-> ```
-
-
-> [!info]- All 
-> ```dataview
-> table category-atomic-note as Category
->  or "600 📝Drafts"
-> where fileClass = "atomic-note" 
-> ``` 
+## Opinion
+```dataview
+table category-atomic-note as Category
+from -"900_Supporting_Files"
+where fileClass = "atomic-note" and category-atomic-note="opinion"
+```
 

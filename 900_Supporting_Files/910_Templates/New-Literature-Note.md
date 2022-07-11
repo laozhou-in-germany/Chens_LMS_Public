@@ -4,11 +4,11 @@ excerpt:
 fileClass: literature-note  
 score: xx 
 category-literature-note: article  
-status-literature-note: bolded  
+reviewed: x  
 cover:  
 date: <% tp.date.now("YYYY-MM-DD") %>  
+last-review: <% tp.date.now("YYYY-MM-DD") %>  
 ---
-Last-revision:: [[<% tp.date.now("YYYY-MM-DD") %>]]  
 Tags:: 
 ~~~dataviewjs
 let tags = this.current().file.etags

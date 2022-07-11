@@ -5,7 +5,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 [[<% tp.date.now("YYYY-[Q]Q", "P-3M") %>]] <=> [[<% tp.date.now("YYYY-[Q]Q", "P+3M") %>]]
 
 # <% tp.file.title %>
-==> [[750 ⌛Quarters|⌛Quarters Dashboard]]
+==> [[750_⌛Quarters|⌛Quarters Dashboard]]
 
 Year:: [[<% tp.date.now("YYYY") %>]]  
 Last Quarter:: [[<% tp.date.now("YYYY-[Q]Q", "P-3M") %>]] 

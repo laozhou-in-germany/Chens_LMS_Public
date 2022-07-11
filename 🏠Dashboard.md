@@ -59,9 +59,9 @@ switch( true ) {
 ~~~
 ---
 ## Workspace
-[[510_📔Literature Notes Workshop|📔Literature Notes Workshop]] 
-[[530_🌲Evergreen Notes Workshop|🌲Evergreen Notes Workshop]]
-[[540_🗩Topic Workshop|🗩Topic Workshop]]
+[[511_📔Literature Notes Workshop|📔Literature Notes Workshop]] 
+[[551_🌲Evergreen Notes Workshop|🌲Evergreen Notes Workshop]]
+[[571_🗩Topic Workshop|🗩Topic Workshop]]
 
 ---
 ## Quick Navigation
@@ -96,9 +96,9 @@ switch( true ) {
 
 **Cycles**
 [[770 🌏Years|🌏Years]]
-[[750 ⌛Quarters|⌛Quarters]]
-[[730 📅Months|📅Months]]
-[[710 🗓Weeks|🗓Weeks]]
+[[750_⌛Quarters|⌛Quarters]]
+[[730_📅Months|📅Months]]
+[[710_🗓Weeks|🗓Weeks]]
 [[830 🌄Journal Notes|🌄Journal Notes]]
 ━━━━━━━━━━━━━━
 [[870 ⭕Cycle Zone|⭕Cycle Zone]]

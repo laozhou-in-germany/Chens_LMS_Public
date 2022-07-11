@@ -131,6 +131,6 @@ Theme:: ==...==
 ### 🏛Pillars
 ```dataview
 TABLE status
-from -"900 Templates"
+from -"900_Supporting_Files"
 Where fileClass = "pillar"
 ```

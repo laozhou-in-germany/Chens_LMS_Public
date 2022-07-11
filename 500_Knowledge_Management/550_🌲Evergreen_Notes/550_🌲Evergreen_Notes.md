@@ -5,177 +5,140 @@ alias:
 tags:
 - dashboard
 ---
-
 # 550_🌲Evergreen_Notes
-```dataview
-table  length(rows) as Number
-from #evergreen-note
-group by score
-```
-
-```dataview
-table  length(rows) as Number
-from #evergreen-note
-group by status-evergreen-note
-```
-## Top-Down: Evergreen to research
+## Overview
 ~~~dataviewjs
-let evergreen = dv.pages("#evergreen-note")
-	.where(p => p["to-research"]=="y");
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"
-	]       
-    )
-);
+let notes1 = dv.pages()
+	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="x");
+let n1 = notes1.length
+let pb1 = n1
+let p1 = "◷"
+
+
+let notes2 = dv.pages()
+	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="xx");
+let n2 = notes2.length
+let pb2 = n2
+let p2 = "◔"
+
+
+let notes3 = dv.pages()
+	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="xxx");
+let n3 = notes3.length
+let pb3 = n3
+let p3 = "◑"
+
+let notes4 = dv.pages()
+	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="xxxx");
+let n4 = notes4.length
+let pb4 = n4
+let p4 = "◕"
+
+let notes5 = dv.pages()
+	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="xxxxx");
+let n5 = notes5.length
+let pb5 =  n5
+let p5 = "●"
+
+const table = dv.markdownTable(["Note Score","Note Number"],[[p1,pb1],[p2,pb2],[p3,pb3],[p4,pb4],[p5,pb5]],)
+dv.paragraph(table)
 ~~~
 
-
-## Bottom-Up: Evergreen to consolidate
-~~~dataviewjs
-let evergreen = dv.pages("#evergreen-note")
-	.where(p => p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length >=p ["notes-to-consolidate"] );
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"  
-	]       
-    )
-);
-~~~
-## Seeded
-### Seeded & Reviewed 2 months ago
-
+## Note with missing "score" or "reviewed"
 ```dataview
-table status-evergreen-note as Status, last-revision as Last-Rev
+list
 from -"900_Supporting_Files"
-where fileClass = "evergreen-note" and status-evergreen-note = "seeded" and date(last-revision)<(date(today) - dur(2 months))
-sort last-revision 
+where fileClass = "evergreen-note" and (!score or !reviewed)
+```
+## All Evergreen notes
+### All Interim Reviewed
+~~~ad-note
+collapse: closed
+```dataview
+list
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed)
+sort score
+```
+~~~
+
+### All Ready for Next Review
+> Reviewed 3 months ago, but no final review status reached.
+~~~dataview
+list
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed) and date(last-review)<(date(today) - dur(12 weeks))
+sort score
+~~~
+### All Final Reviewed
+
+~~~dataview
+list
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)<length(reviewed)
+sort score
+~~~
+
+## Score: ◷ 
+~~~ad-note
+collapse: closed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and score="x" 
+```
+~~~
+## Score: ◔
+~~~ad-note
+collapse: closed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and score="xx" 
+```
+~~~
+## Score: ◑ 
+### ◑ Interim Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed) and score="xxx"
+```
+### ◑ Final Reviewed
+> At least 4 x Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)<length(reviewed) and score="xxx"
 ```
 
-### Seeded All (#todo )
-
-~~~dataviewjs
-let evergreen = dv.pages('#evergreen-note and -"900 Templates"')
-	.where(p => p["status-evergreen-note"]=="seeded");
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + (p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length )
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"
-	]       
-    )
-);
-~~~
- 
-## Growing
-### Growing & Reviewed 2 months ago
+## Score: ◕
+### ◕ Interim Reviewed
 ```dataview
-table status-evergreen-note as Status, last-revision as Last-Rev
-where fileClass = "evergreen-note" and status-evergreen-note = "growing" and date(last-revision)<(date(today) - dur(2 months))
-sort last-revision 
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed) and score="xxxx"
+```
+### ◕ Final Reviewed
+> At least 5 x Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)<length(reviewed) and score="xxxx"
 ```
 
-### Growing All
-~~~dataviewjs
-let evergreen = dv.pages('#evergreen-note and -"900 Templates"')
-	.where(p => p["status-evergreen-note"]=="growing");
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"  
-	]       
-    )
-);
-~~~
- 
- 
-## Mature
-### Mature & Reviewed 2 months ago
+## Score: ●
+### ● Interim Reviewed
 ```dataview
-table status-evergreen-note as Status, last-revision as Last-Rev
-where fileClass = "evergreen-note" and status-evergreen-note = "mature" and date(last-revision)<(date(today) - dur(2 months))
-sort last-revision 
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed) and score="xxxxx"
 ```
 
-### Mature All
-~~~dataviewjs
-let evergreen = dv.pages('#evergreen-note and -"900 Templates"')
-	.where(p => p["status-evergreen-note"]=="mature");
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"  
-	]       
-    )
-);
-~~~
-
-## Finished
-~~~dataviewjs
-let evergreen = dv.pages('#evergreen-note and -"900 Templates"')
-	.where(p => p["status-evergreen-note"]=="mature");
-dv.table(
-    ["evergreen","Status","last-revision","Ref notes"],
-    evergreen.map(p =>[
-        p.file.link,
-        p["status-evergreen-note"],
-        p["last-revision"],
-        "![pb|100](https://progress-bar.dev/"  
-	        + p.file.etags.where(t => t !="#literature-note" && t !="#atomic-note" && t!="#evergreen-note" && t!="#moc" && t!="#meeting-minutes" && t!="#day" ).flatMap(tt => dv.pages(tt + ' and !"' + p.file.path + '"').file.link).length
-	        +"/?scale="
-	        + p["notes-to-consolidate"] 
-	        + "&suffix=)"  
-	]       
-    )
-);
-~~~
-
-## Forgotten
+### ● Final Reviewed
+> At least 6 x Reviewed
 ```dataview
-table status-evergreen-note as Status, last-revision as Last-Rev
-where fileClass = "evergreen-note" and status-evergreen-note = "forgotten"
-sort last-revision desc
-``` 
-
-
-## No Status
-```dataview
-table status-evergreen-note as Status, last-revision as Last-Rev
-where fileClass = "evergreen-note" and !status-evergreen-note 
+list 
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)>=length(reviewed) and score="xxxxx"
 ```

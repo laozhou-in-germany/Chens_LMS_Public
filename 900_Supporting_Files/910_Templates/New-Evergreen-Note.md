@@ -2,15 +2,13 @@
 author:  
 excerpt:  
 fileClass: evergreen-note
-score:   
+score: x  
 category-evergreen-note:  
-status-evergreen-note: seeded  
+reviewed: x  
 cover: 
 date: <% tp.date.now("YYYY-MM-DD") %>  
-to-research: n  
-notes-to-consolidate: 5  
+last-review: <% tp.date.now("YYYY-MM-DD") %>  
 ---
-Last-revision:: [[<% tp.date.now("YYYY-MM-DD") %>]]  
 Tags:: 
 ~~~dataviewjs
 let tags = this.current().file.etags

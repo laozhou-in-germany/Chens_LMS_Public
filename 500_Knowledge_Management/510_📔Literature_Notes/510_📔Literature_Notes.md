@@ -6,106 +6,136 @@ tags:
 - dashboard
 ---
 # 510_📔Literature_Notes
+## Overview
+~~~dataviewjs
+let notes1 = dv.pages()
+	.where(p => p["fileClass"]=="literature-note" && p["score"]=="x");
+let n1 = notes1.length
+let pb1 = n1
+let p1 = "◷"
 
-```dataview
-table  length(rows) as Number
-where fileClass = "literature-note"
-group by status-literature-note
-```
 
+let notes2 = dv.pages()
+	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xx");
+let n2 = notes2.length
+let pb2 = n2
+let p2 = "◔"
+
+
+let notes3 = dv.pages()
+	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxx");
+let n3 = notes3.length
+let pb3 = n3
+let p3 = "◑"
+
+let notes4 = dv.pages()
+	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxxx");
+let n4 = notes4.length
+let pb4 = n4
+let p4 = "◕"
+
+let notes5 = dv.pages()
+	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxxxx");
+let n5 = notes5.length
+let pb5 =  n5
+let p5 = "●"
+
+const table = dv.markdownTable(["Note Score","Note Number"],[[p1,pb1],[p2,pb2],[p3,pb3],[p4,pb4],[p5,pb5]],)
+dv.paragraph(table)
+~~~
+
+## Captured
 ```dataview
 list
-from -"900 Templates"
-where fileClass = "literature-note" and !status-literature-note 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and !reviewed 
 ```
-
-> Progressive summary
-
-### Captured
-```dataview
-list
-from -"900 Templates"
-where fileClass = "literature-note" and status-literature-note = "captured"
-```
-
-## Bolded
-### Bolded ⭐⭐⭐+ & Reviewed 2 weeks ago
+## All Literature Notes
+### All Interim Reviewed
 ```dataview
 list 
-
-where fileClass = "literature-note" and status-literature-note = "bolded" and ( score="xxx" or score ="xxxx" or score="xxxxx") and date(last-revision)<(date(today) - dur(2 weeks))
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and length(score)>2 and length(score)>=(length(reviewed) + 2)
+sort score
 ```
-
-### Bolded ⭐⭐⭐+ 
-
+### All Ready for Next Review
+> Reviewed 4 weeks ago, but no final review status reached.
 ```dataview
-table category-literature-note as Category, last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "bolded" and ( score="xxx" or score ="xxxx" or score="xxxxx")
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and length(score)>2 and length(score)>=(length(reviewed) + 2) and date(last-review)<(date(today) - dur(4 weeks))
+sort score
+```
+### All Final Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and length(score)>2 and length(score)<(length(reviewed) + 2)
+sort score
 ```
 
-### Bolded ⭐/⭐⭐ - As Archive
- 
+## Score: ◷ 
+~~~ad-note
+collapse: closed
 ```dataview
-table category-literature-note as Category,  last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "bolded" and (score="x" or score ="xx" or !score)
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="x" 
+```
+~~~
+## Score: ◔
+~~~ad-note
+collapse: closed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xx" 
+```
+~~~
+## Score: ◑ 
+### ◑ Interim Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxx"  and length(score)>=(length(reviewed) + 2)
+```
+### ◑ Final Reviewed
+> At least 2 x Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxx" and length(score)<(length(reviewed) + 2)
 ```
 
-## Highlighted
-### Highlighted ⭐⭐⭐⭐+ & Reviewed 4 weeks ago
- 
+## Score: ◕
+### ◕ Interim Reviewed 
 ```dataview
-list
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "highlighted" and (score ="xxxx" or score="xxxxx") and date(last-revision)<(date(today) - dur(4 weeks))
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxxx"  and length(score)>=(length(reviewed) + 2)
+
+```
+### ◕ Final Reviewed
+> At least 3 x Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxxx" and length(score)<(length(reviewed) + 2)
+
+```
+## Score: ●
+### ● Interim Reviewed
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxxxx"  and length(score)>=(length(reviewed) + 2)
 ```
 
-### Highlighted ⭐⭐⭐⭐+ 
- 
+### ● Final Reviewed
+> At least 4 x Reviewed
 ```dataview
-table category-literature-note as Category,  last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "highlighted" and (score ="xxxx" or score="xxxxx") 
-```
- 
-### Highlighted ⭐⭐⭐ - As Resource
- 
-```dataview
-table category-literature-note as Category,  last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "highlighted" and (score="x" or score ="xx" or score ="xxx" or !score)
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and score="xxxxx" and length(score)<(length(reviewed) + 2)
 ```
 
-## Summarized
-### Summarized ⭐⭐⭐⭐⭐ & Reviewed 4 weeks ago
- 
-```dataview
-list
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "summarized" and score="xxxxx" and date(last-revision)<(date(today) - dur(4 weeks))
-```
-
-### Summarized ⭐⭐⭐⭐⭐
- 
-```dataview
-table category-literature-note as Category,  last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "summarized" and score="xxxxx"
-```
-
-### Summarized ⭐⭐⭐⭐ - To Remember
- 
-```dataview
-table category-literature-note as Category, last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "summarized" and (score="x" or score ="xx" or score ="xxx" or score ="xxx" or !score)
-```
-
-## Remixed
- 
-```dataview
-table category-literature-note as Category,  last-revision as Last-Rev
-from "600 📝Drafts/Clipper" or "600 💡Knowledge"
-where fileClass = "literature-note" and status-literature-note = "remixed"
-```

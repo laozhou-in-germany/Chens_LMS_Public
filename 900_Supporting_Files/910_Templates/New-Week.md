@@ -6,7 +6,7 @@ date: {{date:YYYY-MM-DD}}
 [[{{date-7d:gggg-[W]ww}}]] <=> [[{{date+7d:gggg-[W]ww}}]]
 
 # <% tp.file.title %>
-==> [[710 🗓Weeks|🗓Weeks Dashboard]]
+==> [[710_🗓Weeks|🗓Weeks Dashboard]]
 
 Days: [[{{date:YYYY-MM-DD}}]] => [[{{date+6d:YYYY-MM-DD}}]]
 
@@ -61,5 +61,5 @@ sort date
 - [ ] Time Blocking for next week: at least 5 hours for first things.
 
 ## III. Review Finished! 
-- [ ] Add a new [[710 🗓Weeks|🗓Weeks]]
+- [ ] Add a new [[710_🗓Weeks|🗓Weeks]]
 

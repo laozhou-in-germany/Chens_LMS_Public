@@ -40,9 +40,9 @@ Templates,  Config, Help......
 
 ### 700_Plan_Review
 - 710 ⭕Periodic
-	- 710 🗓Weeks
-	- 730 📅Months
-	- 750 ⌛Quarters
+	- 710_🗓Weeks
+	- 730_📅Months
+	- 750_⌛Quarters
 	- 770 🌏Years
 - 810 🧰Workspaces
 

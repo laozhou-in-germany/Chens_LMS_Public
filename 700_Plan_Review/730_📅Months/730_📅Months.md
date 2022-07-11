@@ -17,7 +17,7 @@ action Periodic Notes: Open monthly note
 
 ~~~dataview
 table Theme as "Theme"
-from -"900 Templates"
+from -"900_Supporting_Files"
 where date >= date(today)-dur(3 months) and date <=date(today) and fileClass = "month-note"
 sort date desc
 ~~~
