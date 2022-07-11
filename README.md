@@ -47,7 +47,7 @@ Templates,  Config, Help......
 - 810 🧰Workspaces
 
 
-## Plugins (Mandatory)
+## Main Plugins 
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
@@ -56,15 +56,16 @@ Templates,  Config, Help......
 - [Dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/. ](https://github.com/blacksmithgu/obsidian-dataview)
 - [MetaEdit: MetaEdit for Obsidian ](https://github.com/chhoumann/MetaEdit)
 - [Periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian ](https://github.com/liamcain/obsidian-periodic-notes)
-## Plugins (Optional)
-- [Advanced Tables: Improved table navigation, formatting, and manipulation in Obsidian.md ](https://github.com/tgrosinger/advanced-tables-obsidian)
-- [Banners: An Obsidian plugin that adds banners to your notes ](https://github.com/noatpad/obsidian-banners)
-- [Customizable sidebar: This Plugin allows you to add every Command to Obsidian's Sidebar Ribbon and add Custom Icons. ](https://github.com/phibr0/obsidian-customizable-sidebar)
-- [Editor syntax highlight: A plugin for [Obsidian](https://obsidian.md) which allows syntax highlighting for code blocks in the editor. ](https://github.com/deathau/cm-editor-syntax-highlight-obsidian)
+- [Tag-wrangler: Rename, merge, toggle, and search tags from the Obsidian tag pane (github.com)](https://github.com/pjeby/tag-wrangler)
+- [Obsidian-tasks: Task management for the Obsidian knowledge base. (github.com)](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- [Templater: A template plugin for obsidian (github.com)](https://github.com/SilentVoid13/Templater)
+## Other Plugins
 - [Excalidraw plugin: A plugin to edit and view Excalidraw drawings in Obsidian ](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - [Filename heading sync: Obisdian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
-- [Focus mode: Add focus mode to Obsidian. ](https://github.com/ryanpcmcquen/obsidian-focus-mode)
 - [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
+- [Obsidian-columns](https://github.com/tnichols217/obsidian-columns)
+- [Outliner: Work with your lists like in Workflowy or RoamResearch](https://github.com/vslinko/obsidian-outliner)
+- [Supercharged links: obsidian plugin to add attributes and context menu options to internal links (github.com)](https://github.com/mdelobelle/obsidian_supercharged_links)
 
 ## Credit
 - [Forte Labs](https://fortelabs.co/)
