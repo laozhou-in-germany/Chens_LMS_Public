@@ -39,15 +39,15 @@ Templates,  Config, Help......
 - 570_🗩Topics
 
 ### 700_Plan_Review
-- 710 ⭕Periodic
-	- 710_🗓Weeks
-	- 730_📅Months
-	- 750_⌛Quarters
-	- 770 🌏Years
-- 810 🧰Workspaces
+- 710_🗓Weeks
+- 730_📅Months
+- 750_⌛Quarters
+- 770_🌏Years
 
 
-## Main Plugins 
+
+## Plugins 
+### Main
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
@@ -59,7 +59,7 @@ Templates,  Config, Help......
 - [Tag-wrangler: Rename, merge, toggle, and search tags from the Obsidian tag pane (github.com)](https://github.com/pjeby/tag-wrangler)
 - [Obsidian-tasks: Task management for the Obsidian knowledge base. (github.com)](https://github.com/obsidian-tasks-group/obsidian-tasks)
 - [Templater: A template plugin for obsidian (github.com)](https://github.com/SilentVoid13/Templater)
-## Other Plugins
+### Optional
 - [Excalidraw plugin: A plugin to edit and view Excalidraw drawings in Obsidian ](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - [Filename heading sync: Obisdian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
 - [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
@@ -68,7 +68,8 @@ Templates,  Config, Help......
 - [Supercharged links: obsidian plugin to add attributes and context menu options to internal links (github.com)](https://github.com/mdelobelle/obsidian_supercharged_links)
 
 ## Credit
-- [Forte Labs](https://fortelabs.co/)
+- Progressive summarization from [Forte Labs](https://fortelabs.co/)
+- Zettelkasten from Niklas Luhmann
 - [Linking Your Thinking](https://www.linkingyourthinking.com/)
 - [August Bradley - Life Design - PPV](https://www.youtube.com/user/augustbradley/featured)
 - [tot0/ObsidianPPV: PPV implementation for Obsidian](https://github.com/tot0/ObsidianPPV)
