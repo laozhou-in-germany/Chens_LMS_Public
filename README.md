@@ -1,15 +1,17 @@
 # README
-LMS (Life Management System), a personal knowledge management system and goal & project management system based on Obsidian-md. 
+LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
+
+[README CN](README%20CN.md)
 
 ## Root folder in Vault
 - **000_Drafts**:
-Default folder for note, drafts of all possible note types, sorted later.
+Default folder for notes, drafts of all possible note types, sorted later.
 - **100_Goals_Projects**: 
 Pillars, value goals, outcomes & projects, also routines and mindsets
 - **300_Journal**: 
 Daily routines , events, meetings and other journal elements
 - **500_Knowledge_Management**: 
-Literature notes, atomic notes, evergreen notes and topics
+Literature notes, atomic notes, evergreen notes, and topics
 - **700_Plan_Review**: 
 Plan, Review and workspaces
 - **900_Supporting_Files**: 
@@ -54,7 +56,8 @@ Since the last year, I have begun to use obsidian.md as my notetaking software. 
 - Journaling
 - Personal knowledge management (PKM)
 - Review.
-  I call it LMS (Life Management System), as it handles the most important parts of my life.
+
+I call it LMS (Life Management System), as it handles the most important parts of my life.
 
 The main reference to build this workflow are:
 
