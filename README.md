@@ -2,6 +2,7 @@
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
 [README CN](README%20CN.md)
+[Guide - How to Use Pillar Page](Guide%20-%20How%20to%20Use%20Pillar%20Page.md)
 
 ## Root folder in Vault
 - **000_Drafts**:
