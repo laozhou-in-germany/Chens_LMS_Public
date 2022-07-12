@@ -1,7 +1,7 @@
 # README
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
- [Guide - How to Use Mindset Dashboard.md](900_Supporting_Files\990_Help\Guide - How to Use Mindset Dashboard.md) 
+ [Guide - How to Use Mindset Dashboard.md](\900_Supporting_Files\990_Help\Guide - How to Use Mindset Dashboard.md) 
 
 ## Root folder in Vault
 - **000_Drafts**:
