@@ -21,8 +21,22 @@ description does not include #migrated
 ~~~
 
 
+## Todoist 
+> [!todo] Today or Overdue
+> ```todoist
+> {
+> "name": "My Tasks",
+> "filter": "today | overdue"
+> }
+> ```
 
 
-
+> [!todo]- 7 days
+> ```todoist
+> {
+> "name": "My Tasks",
+> "filter": "7 days"
+> }
+> ```
 
 
