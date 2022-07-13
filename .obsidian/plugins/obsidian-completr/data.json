@@ -1,0 +1,16 @@
+{
+  "characterRegex": "a-zA-ZöäüÖÄÜß",
+  "maxLookBackDistance": 50,
+  "minWordLength": 3,
+  "minWordTriggerLength": 3,
+  "insertionKey": "Enter",
+  "wordInsertionMode": "Ignore-Case & Replace",
+  "latexProviderEnabled": false,
+  "latexTriggerInCodeBlocks": true,
+  "fileScannerProviderEnabled": false,
+  "fileScannerScanCurrent": false,
+  "wordListProviderEnabled": true,
+  "frontMatterProviderEnabled": true,
+  "frontMatterTagAppendSuffix": false,
+  "frontMatterTagAppendCommaSuffix": false
+}

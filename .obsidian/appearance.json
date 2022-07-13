@@ -1,0 +1,15 @@
+{
+  "baseFontSize": 19,
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "supercharged_link_show_score_progress",
+    "clean_imbeds_all",
+    "supercharged-links-gen",
+    "supercharged_link_show_fileClass",
+    "supercharged_link_show_score_v2",
+    "progressbar",
+    "supercharged_link_show_status",
+    "custom-admonitions.c9c6cb"
+  ],
+  "theme": "obsidian"
+}

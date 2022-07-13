@@ -1,0 +1,20 @@
+{
+  "targetAttributes": [
+    "score",
+    "fileClass",
+    "status"
+  ],
+  "targetTags": true,
+  "presetFields": [],
+  "displayFieldsInContextMenu": false,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "z_config/SuperCharged_Link_fileClass/",
+  "getFromInlineField": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": []
+}

@@ -1,0 +1,9 @@
+{
+  "folderNoteHide": false,
+  "folderNoteType": "inside",
+  "folderNoteName": "_about_",
+  "folderNoteKey": "ctrl",
+  "folderNoteAutoRename": true,
+  "folderDelete2Note": false,
+  "folderNoteStrInit": "# {{FOLDER_NAME}}\n {{FOLDER_BRIEF_LIVE}} \n"
+}

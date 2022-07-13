@@ -1,0 +1,24 @@
+{
+  "legacyEditor": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "readableLineLength": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "000_Drafts",
+  "attachmentFolderPath": "990 Help/991_assets",
+  "strictLineBreaks": false,
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ],
+  "fileSortOrder": "alphabetical",
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "mobilePullAction": "switcher:open"
+}
