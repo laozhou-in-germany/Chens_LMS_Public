@@ -1,13 +1,13 @@
 # README
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
- 
+## General
 [Intro](900_Supporting_Files/991_Readme/01_Intro.md)  
 [Folder Structure](900_Supporting_Files/991_Readme/02_Folder_Structure.md)  
 [Plugins](900_Supporting_Files/991_Readme/03_Plugins.md)  
 
-PKM
-[Note Types](900_Supporting_Files/991_Readme/PKM01_Note_Types.md) *>New<*  
+## PKM  
+[Note Types](900_Supporting_Files/991_Readme/PKM01_Note_Types.md) *New*  
 [Links and Tags](900_Supporting_Files/991_Readme/PKM02_Links_and_Tags.md) Coming soon  
 [Literature Note](900_Supporting_Files/991_Readme/PKM03_Literature_Note.md) Coming soon  
 [Atomic Note](900_Supporting_Files/991_Readme/PKM04_Atomic_Note.md) Coming soon  
@@ -15,13 +15,13 @@ PKM
 [Topic](900_Supporting_Files/991_Readme/PKM006_Topic.md) Coming soon  
 [Put It Together](900_Supporting_Files/991_Readme/PKM010_Put_It_Together.md) Coming soon  
 
-Goal and project management  
+## Goal and project management  
 *Place holder*  
 
-Journaling  
+## Journaling  
 *Place holder*  
 
-Review  
+## Plan & Review  
 *Place holder*  
 
 
