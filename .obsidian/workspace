@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "900_Supporting_Files/991_Readme/03_Templates.md",
+            "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/03_Templates.md",
+                "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/03_Templates.md"
+                "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md"
               }
             }
           }
@@ -128,15 +128,15 @@
   },
   "active": "0479804cde36adeb",
   "lastOpenFiles": [
-    "README.md",
-    "900_Supporting_Files/991_Readme/PKM010_Put_it_together.md",
-    "900_Supporting_Files/991_Readme/QS_Add_the_first_note.md",
-    "100_Goals_Projects/100_Goals_Projects.md",
-    "000_Drafts/My first literature note - about knowledge management.md",
-    "000_Drafts/My first evergreen note - about knowledge management.md",
-    "500_Knowledge_Management/510_📔Literature_Notes/My second literature note - about content management.md",
-    "500_Knowledge_Management/550_🌲Evergreen_Notes/550_🌲Evergreen_Notes.md",
     "500_Knowledge_Management/510_📔Literature_Notes/510_📔Literature_Notes.md",
-    "000_Drafts/My second draft.md"
+    "500_Knowledge_Management/500_Knowledge_Management.md",
+    "000_Drafts/QS1 - my first evergreen note.md",
+    "000_Drafts/QS1 - my first literature note.md",
+    "🏠Dashboard.md",
+    "500_Knowledge_Management/550_🌲Evergreen_Notes/550_🌲Evergreen_Notes.md",
+    "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
+    "900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md",
+    "900_Supporting_Files/991_Readme/01_Intro.md",
+    "100_Goals_Projects/100_Goals_Projects.md"
   ]
 }

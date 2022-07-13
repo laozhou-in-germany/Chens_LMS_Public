@@ -17,7 +17,7 @@ let notes = tags
 dv.list(notes.file.link);
 ~~~
 
-# My first literature note - about knowledge management
-Hi, this is my first literature note.  It can be quickly created using the method in [[../900_Supporting_Files/991_Readme/QS_Add_the_first_note]].
+# QS1 - my first literature note
+Hi, this is my first literature note.  It can be quickly created using the method in [[QS1_Add_your_first_notes]].
 
 > Knowledge management (KM) is the collection of methods relating to creating, sharing, using and managing the knowledge and information of an organization. It refers to a multidisciplinary approach to achieve organisational objectives by making the best use of knowledge - [Knowledge management - Wikipedia](https://en.wikipedia.org/wiki/Knowledge_management)

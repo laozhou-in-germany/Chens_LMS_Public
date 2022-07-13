@@ -17,7 +17,7 @@ let notes = tags
 dv.list(notes.file.link);
 ~~~
 
-# My second literature note - about content management
+# QS1 - my second literature note
 
 >Content management (CM) is a set of processes and technologies that supports the collection, managing, and publishing of information in any form or medium. When stored and accessed via computers, this information may be more specifically referred to as digital content, or simply as content.
 >

@@ -2,7 +2,7 @@
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
 ## Quick Start
-[Add your first notes](900_Supporting_Files/991_Readme/QS_Add_the_first_note.md) *New*  
+[Add your first notes](900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md) *New*  
 
 ## Reference
 ### General

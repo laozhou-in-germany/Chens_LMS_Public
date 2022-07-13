@@ -18,7 +18,7 @@ let notes = tags
 dv.list(notes.file.link);
 ~~~
 
-# My first evergreen note - about knowledge management
-Hi, this is my first evergreen note.  It can be quickly created using the method in [[../900_Supporting_Files/991_Readme/QS_Add_the_first_note]].
+# QS1 - my first evergreen note
+Hi, this is my first evergreen note.  It can be quickly created using the method in [[QS1_Add_your_first_notes]].
 
 ==Creating a new note in Obsidian is really easy.== 

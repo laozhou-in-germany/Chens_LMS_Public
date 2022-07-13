@@ -10,6 +10,3 @@ The templates for plugin "Templater" are used for generating general notes in fo
 The templates for plugins "Periodic Notes" and "Calendar" use `{{  }}` to mark the replaceable text. e.g.`{{date+7d:gggg-[W]ww}}`And both plugins support also `<% %>`. 
 
 
-
-
-
