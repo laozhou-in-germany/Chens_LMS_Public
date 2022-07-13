@@ -4,7 +4,7 @@ alias:
 tags:
 - dashboard
 ---
-# 501_💡Home Node
+# 501_💡Home_Node
 
 ---
 ## To live (Physical)

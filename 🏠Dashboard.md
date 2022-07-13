@@ -59,9 +59,9 @@ switch( true ) {
 ~~~
 ---
 ## Workspace
-[[511_📔Literature Notes Workshop|📔Literature Notes Workshop]] 
-[[551_🌲Evergreen Notes Workshop|🌲Evergreen Notes Workshop]]
-[[571_🗩Topic Workshop|🗩Topic Workshop]]
+[[511_📔Literature_Notes_Workshop|📔Literature Notes Workshop]] 
+[[551_🌲Evergreen_Notes_Workshop|🌲Evergreen Notes Workshop]]
+[[571_🗩Topic_Workshop|🗩Topic Workshop]]
 
 ---
 ## Quick Navigation
