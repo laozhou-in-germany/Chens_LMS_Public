@@ -18,7 +18,7 @@ action Periodic Notes: Open yearly note
 
 ```dataviewjs
 
-let years = dv.pages();
+let years = dv.pages('-"900_Supporting_Files"');
 let sortedYears = years
     .where(p => p.file.name.length == 4 && p["fileClass"] == "year-note")
     .sort(p => p.file.name, 'desc');

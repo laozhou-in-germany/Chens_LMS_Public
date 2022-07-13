@@ -43,7 +43,7 @@ action New-Topic
 ~~~
 
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold") && p["fileClass"] == "value-goal")
     .sort(p => dv.page(p["Pillar"])["sorting-index"]);
 dv.table(
@@ -63,7 +63,7 @@ dv.table(
 );
 ```
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold") && p["fileClass"] == "value-goal")
     .sort(p => dv.page(p["Pillar"])["sorting-index"]);
 dv.table(
@@ -86,7 +86,7 @@ dv.table(
 
 ## Next Up
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🔜next-up") && p["fileClass"] == "value-goal" )
     .sort(p => dv.page(p["pillars"])["sorting-index"]);
 dv.table(
@@ -113,7 +113,7 @@ dv.table(
 
 ## Future
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "✨future") && p["fileClass"] == "value-goal")
     .sort(p => dv.page(p["pillars"])["sorting-index"]);
 dv.table(
@@ -140,7 +140,7 @@ dv.table(
 
 ## Completed & Abandon
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => ((p["status"] == "✅completed")||p["status"] == "️🗑️abandon") && p["fileClass"] == "value-goal" )
     .sort(p => dv.page(p["pillars"])["sorting-index"]);
 dv.table(
@@ -194,7 +194,7 @@ dv.table(
 
 ## Open - Compact (Active, On hold, Next up & Future)
 ```dataviewjs
-let valueGoals = dv.pages()
+let valueGoals = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold" ||p["status"] == "🔜next-up" ||p["status"] == "✨future") && p["fileClass"] == "value-goal")
     .sort(p => dv.page(p["pillar"])["sorting-index"]);
 dv.table(

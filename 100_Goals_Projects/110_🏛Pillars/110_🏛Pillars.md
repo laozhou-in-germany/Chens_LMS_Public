@@ -33,7 +33,7 @@ action New-Topic
 ## Pillar Overview
 ~~~dataviewjs
 
-let pillars = dv.pages()
+let pillars = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["pillar-category"] && p["fileClass"] == "pillar")
 	.sort(p => p["sorting-index"]);
 dv.table(
@@ -57,7 +57,7 @@ dv.table(
 ## Pillar Overview Compact
 ~~~dataviewjs
 
-let pillars = dv.pages()
+let pillars = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["pillar-category"] && p["fileClass"] == "pillar" )
 	.sort(p => p["sorting-index"]);
 dv.table(

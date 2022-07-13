@@ -17,7 +17,7 @@ action New-Routine
 ```
 
 ```dataviewjs
-let routines = dv.pages()
+let routines = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["status"] && p["fileClass"] == "routine"  )
 dv.table(
     [ "Routine", "Status", "Period", "Day Time", "Why", "Pillar","Value Goal"],

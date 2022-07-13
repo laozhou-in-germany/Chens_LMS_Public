@@ -15,7 +15,7 @@ No remaining unprocessed Notes.
 
 ## Recent topics
 ~~~dataviewjs
-let topics = dv.pages()
+let topics = dv.pages('-"900_Supporting_Files"')
 	.sort(p => p.file.mtime, "desc")
 	.where(p => p["fileClass"]=="topic")
 	.limit(20);

@@ -25,7 +25,7 @@ type note(100_Goals_Projects/170_💎Projects/New Project, split) template
 action New-Project
 ```
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold" ) && p["fileClass"]=="outcome")
     .sort(p => p["date"], 'desc');
 dv.table(
@@ -45,7 +45,7 @@ dv.table(
 
 ## Next Up
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🔜next-up") && p["fileClass"]=="outcome" )
     .sort(p => p["priority"], 'desc');
 dv.table(
@@ -65,7 +65,7 @@ dv.table(
 
 ## Future
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "✨future") && p["fileClass"]=="outcome" )
     .sort(p => p["priority"], 'desc');
 dv.table(
@@ -85,7 +85,7 @@ dv.table(
 
 ## Completed & Abandon
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "✅completed"||p["status"] == "️🗑️abandon") && p["fileClass"]=="outcome")
     .sort(p => p["priority"], 'desc');
 dv.table(
@@ -106,7 +106,7 @@ dv.table(
 ## Open (Active, On hold, Next up & Future)
 
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="outcome" )
     .sort(p => p["date"], 'desc');
 dv.table(
@@ -126,7 +126,7 @@ dv.table(
 
 ## Open - Compact (Active, On hold, Next up & Future)
 ```dataviewjs
-let outcomes = dv.pages()
+let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="outcome" )
     .sort(p => p["date"], 'desc');
 dv.table(

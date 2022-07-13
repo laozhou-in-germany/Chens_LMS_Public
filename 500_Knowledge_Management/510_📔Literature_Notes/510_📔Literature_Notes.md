@@ -8,33 +8,33 @@ tags:
 # 510_📔Literature_Notes
 ## Overview
 ~~~dataviewjs
-let notes1 = dv.pages()
+let notes1 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="x");
 let n1 = notes1.length
 let pb1 = n1
 let p1 = "◷"
 
 
-let notes2 = dv.pages()
+let notes2 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xx");
 let n2 = notes2.length
 let pb2 = n2
 let p2 = "◔"
 
 
-let notes3 = dv.pages()
+let notes3 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxx");
 let n3 = notes3.length
 let pb3 = n3
 let p3 = "◑"
 
-let notes4 = dv.pages()
+let notes4 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxxx");
 let n4 = notes4.length
 let pb4 = n4
 let p4 = "◕"
 
-let notes5 = dv.pages()
+let notes5 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="xxxxx");
 let n5 = notes5.length
 let pb5 =  n5

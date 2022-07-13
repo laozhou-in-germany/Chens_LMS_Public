@@ -18,7 +18,7 @@ type: WordCloud
 #-----------------#
 data: |
   dataviewjs:
-  return dv.pages()
+  return dv.pages('-"900_Supporting_Files"')
            .flatMap(p => p.file.etags)
            .groupBy(p => p)
            .map(p => ({tag: p.key, count: p.rows.length}))
@@ -41,7 +41,7 @@ options:
 
 ## Hot tags
 ~~~dataviewjs
-let tags = dv.pages().file.etags
+let tags = dv.pages('-"900_Supporting_Files"').file.etags
 	.distinct()
 		.where(t => dv.pages(t).length>10)
 		.sort(t => dv.pages(t).length, "desc");
@@ -60,7 +60,7 @@ dv.table(
 
 ## Middle tags
 ~~~dataviewjs
-let tags = dv.pages().file.etags
+let tags = dv.pages('-"900_Supporting_Files"').file.etags
 	.distinct()
 		.where(t => dv.pages(t).length<=10 && dv.pages(t).length>5)
 		.sort(t => dv.pages(t).length, "desc");
@@ -78,7 +78,7 @@ dv.table(
 
 ## Cold tags
 ~~~dataviewjs
-let tags = dv.pages().file.etags
+let tags = dv.pages('-"900_Supporting_Files"').file.etags
 	.distinct()
 		.where(t => dv.pages(t).length<=5 )
 		.sort(t => dv.pages(t).length, "desc");

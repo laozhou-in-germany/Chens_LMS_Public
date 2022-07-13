@@ -8,14 +8,14 @@ tags:
 # 530_⚛️Atomic_Notes
 ## Overview
 ~~~dataviewjs
-let notes1 = dv.pages()
+let notes1 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="atomic-note" && p["category-atomic-note"]=="story");
 let n1 = notes1.length
 let pb1 = n1
 let p1 = "Story"
 
 
-let notes2 = dv.pages()
+let notes2 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="atomic-note" && p["category-atomic-note"]=="aphorism");
 let n2 = notes2.length
 let pb2 = n2

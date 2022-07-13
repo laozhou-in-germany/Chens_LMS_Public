@@ -16,7 +16,7 @@ action Periodic Notes: Open quarterly note
 
 ```dataviewjs
 
-let quarters = dv.pages();
+let quarters = dv.pages('-"900_Supporting_Files"');
 let activeQuarters = quarters
     .where(p => p.file.name.startsWith(luxon.DateTime.now().toFormat("yyyy")) && p["fileClass"] == "quarter-note")
     .sort(p => p.file.name, 'asc');
