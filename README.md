@@ -14,10 +14,10 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 
 ## Reference
 ### General
-[Intro](900_Supporting_Files/991_Readme/01_Intro.md)  
-[Folder structure](900_Supporting_Files/991_Readme/02_Folder_structure.md)  
-[Templates](900_Supporting_Files/991_Readme/03_Templates.md)  
-[Plugins](900_Supporting_Files/991_Readme/04_Plugins.md)  
+[Intro](900_Supporting_Files/991_Readme/01_Intro.md)  *New*  
+[Folder structure](900_Supporting_Files/991_Readme/02_Folder_structure.md)  *New*  
+[Templates](900_Supporting_Files/991_Readme/03_Templates.md)  *New*  
+[Plugins](900_Supporting_Files/991_Readme/04_Plugins.md)  *New*  
 
 ### PKM  
 [Note types](900_Supporting_Files/991_Readme/PKM01_Note_types.md) *New*  

@@ -1,4 +1,6 @@
 # Plugins 
+[Back to README](../../README.md)
+
 ## Main
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)

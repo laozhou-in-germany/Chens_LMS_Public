@@ -1,4 +1,6 @@
 # Templates
+[Back to README](../../README.md)
+
 All templates are stored in the folder "900_Supporting_Files/910_Templates".  
 Two different kinds of templates:
 - Templates for plugin "Templater"
