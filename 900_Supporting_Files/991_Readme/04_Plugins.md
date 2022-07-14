@@ -1,5 +1,5 @@
-## Plugins 
-### Main
+# Plugins 
+## Main
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)

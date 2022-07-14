@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "900_Supporting_Files/991_Readme/01_Intro.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "900_Supporting_Files/991_Readme/01_Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "900_Supporting_Files/991_Readme/01_Intro.md"
               }
             }
           }
@@ -143,15 +143,15 @@
   },
   "active": "480db3f19351acfa",
   "lastOpenFiles": [
+    "900_Supporting_Files/991_Readme/02_Folder_structure.md",
+    "900_Supporting_Files/991_Readme/03_Templates.md",
+    "900_Supporting_Files/991_Readme/04_Plugins.md",
+    "900_Supporting_Files/991_Readme/PKM03_Literature_note.md",
+    "900_Supporting_Files/991_Readme/PKM02_Links_and_tags.md",
+    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
+    "README.md",
     "500_Knowledge_Management/510_📔Literature_Notes/QS - munich.md",
     "500_Knowledge_Management/510_📔Literature_Notes/QS - berlin.md",
-    "500_Knowledge_Management/530_⚛️Atomic_Notes/Ich bin ein Berliner - Kennedy.md",
-    "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - my first evergreen note.md",
-    "900_Supporting_Files/991_Readme/QS2_Use_tag_for_similar_notes.md",
-    "README.md",
-    "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - German cities are beautiful.md",
-    "500_Knowledge_Management/510_📔Literature_Notes/510_📔Literature_Notes.md",
-    "500_Knowledge_Management/510_📔Literature_Notes/QS - my first literature note.md",
-    "900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md"
+    "500_Knowledge_Management/530_⚛️Atomic_Notes/Ich bin ein Berliner - Kennedy.md"
   ]
 }

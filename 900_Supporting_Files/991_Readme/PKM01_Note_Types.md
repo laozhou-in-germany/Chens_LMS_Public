@@ -1,4 +1,4 @@
-### Note types ==>New<==
+# Note types
 [Back to README](../../README.md)
 
 I distinguish all the notes in the PKM into 4 types:
