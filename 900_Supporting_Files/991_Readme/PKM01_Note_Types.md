@@ -3,13 +3,10 @@
 
 I distinguish all the notes in the PKM into 4 types:
 
-\-     📔Literature Note
-
-\-     ⚛️Atomic Note
-
-\-     🌲Evergreen Note
-
-\-     🗩Topic
+- 📔Literature Note
+- ⚛️Atomic Note
+- 🌲Evergreen Note
+- 🗩Topic
 
 **The literature note** includes all notes from the external. E.g., Books, articles, tweets, and videos. It is normally a mixture of information pieces. E.g., facts, opinions, stories, and so on. These information pieces together create a medium, which I custom. 
 

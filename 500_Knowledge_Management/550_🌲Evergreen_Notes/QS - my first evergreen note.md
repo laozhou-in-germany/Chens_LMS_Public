@@ -6,10 +6,10 @@ score: x
 category-evergreen-note:  
 reviewed: x  
 cover: 
-date: <% tp.date.now("YYYY-MM-DD") %>  
-last-review: <% tp.date.now("YYYY-MM-DD") %>  
+date: 2022-07-13  
+last-review: 2022-07-13  
 ---
-Tags:: 
+Tags::  
 ~~~dataviewjs
 let tags = this.current().file.etags
 let notes = tags
@@ -17,4 +17,8 @@ let notes = tags
 dv.list(notes.file.link);
 ~~~
 
-# <% tp.file.title %>
+# QS - my first evergreen note
+==⚠This note is a demo file for "Quick Start" in "README". You can safely delete it if you want.⚠==
+
+Hi, this is my first evergreen note.  
+**Creating a new note in Obsidian is really easy.**

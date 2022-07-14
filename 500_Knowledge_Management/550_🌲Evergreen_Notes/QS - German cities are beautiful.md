@@ -6,10 +6,10 @@ score: x
 category-evergreen-note:  
 reviewed: x  
 cover: 
-date: <% tp.date.now("YYYY-MM-DD") %>  
-last-review: <% tp.date.now("YYYY-MM-DD") %>  
+date: 2022-07-14  
+last-review: 2022-07-14  
 ---
-Tags:: 
+Tags:: #city-in-germany 
 ~~~dataviewjs
 let tags = this.current().file.etags
 let notes = tags
@@ -17,4 +17,7 @@ let notes = tags
 dv.list(notes.file.link);
 ~~~
 
-# <% tp.file.title %>
+# QS - German cities are beautiful
+==⚠This note is a demo file for "Quick Start" in "README". You can safely delete it if you want.⚠==
+
+I visited a lots of the cities in German. They are beautiful.

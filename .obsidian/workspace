@@ -6,10 +6,25 @@
       {
         "id": "0479804cde36adeb",
         "type": "leaf",
+        "dimension": 33.19644079397673,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
+            "file": "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - my first evergreen note.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "480db3f19351acfa",
+        "type": "leaf",
+        "dimension": 66.80355920602327,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#gro",
+                "query": "tag:#note-creation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md"
+                "file": "README.md"
               }
             }
           }
@@ -126,17 +141,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0479804cde36adeb",
+  "active": "480db3f19351acfa",
   "lastOpenFiles": [
+    "500_Knowledge_Management/510_📔Literature_Notes/QS - munich.md",
+    "500_Knowledge_Management/510_📔Literature_Notes/QS - berlin.md",
+    "500_Knowledge_Management/530_⚛️Atomic_Notes/Ich bin ein Berliner - Kennedy.md",
+    "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - my first evergreen note.md",
+    "900_Supporting_Files/991_Readme/QS2_Use_tag_for_similar_notes.md",
+    "README.md",
+    "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - German cities are beautiful.md",
     "500_Knowledge_Management/510_📔Literature_Notes/510_📔Literature_Notes.md",
-    "500_Knowledge_Management/500_Knowledge_Management.md",
-    "000_Drafts/QS1 - my first evergreen note.md",
-    "000_Drafts/QS1 - my first literature note.md",
-    "🏠Dashboard.md",
-    "500_Knowledge_Management/550_🌲Evergreen_Notes/550_🌲Evergreen_Notes.md",
-    "500_Knowledge_Management/510_📔Literature_Notes/QS1 - my second literature note.md",
-    "900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md",
-    "900_Supporting_Files/991_Readme/01_Intro.md",
-    "100_Goals_Projects/100_Goals_Projects.md"
+    "500_Knowledge_Management/510_📔Literature_Notes/QS - my first literature note.md",
+    "900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md"
   ]
 }

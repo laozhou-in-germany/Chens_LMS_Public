@@ -3,6 +3,14 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 
 ## Quick Start
 [Add your first notes](900_Supporting_Files/991_Readme/QS1_Add_your_first_notes.md) *New*  
+[Use tag for similar notes](900_Supporting_Files/991_Readme/QS2_Use_tag_for_similar_notes.md) *New*  
+
+[Distill your first literature note](900_Supporting_Files/991_Readme/QS3_Distill_your_first_literature_note.md) Coming soon  
+[Garden the evergreen note](900_Supporting_Files/991_Readme/QS4_Garden_the_evergreen_note.md) Coming soon  
+[Develop a topic](900_Supporting_Files/991_Readme/QS5_Develop_a_topic.md) Coming soon  
+[Link topic to home node](900_Supporting_Files/991_Readme/QS6_Link_topic_to_home_node.md) Coming soon  
+
+
 
 ## Reference
 ### General
