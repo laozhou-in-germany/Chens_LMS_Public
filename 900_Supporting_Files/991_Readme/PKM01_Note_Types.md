@@ -116,7 +116,7 @@ last-review: 2022-05-27
 
 And I use [Supercharged links](https://github.com/mdelobelle/obsidian_supercharged_links) to display an emoji before the title of the notes automatically.  
 
-![image-20220712232441699](https://raw.githubusercontent.com/laozhou-in-germany/iss/main/image-20220712232441699.png)
+![image-20220714230424750](images/image-20220714230424750.png)
 
 #### How to use the note type information?
 
@@ -130,5 +130,4 @@ list
 where fileClass = "literature-note" and score="xxxxx"
 ```
 ~~~
-
 

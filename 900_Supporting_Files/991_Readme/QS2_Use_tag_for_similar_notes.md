@@ -34,7 +34,7 @@ You can also add this dataview code segment by using templater:
 
 
 ## Demo files in the vault
-- [[QS - berlin]]
+- [[../../500_Knowledge_Management/510_📔Literature_Notes/QS - berlin (wikipedia)]]
 - [[QS - munich]]
 - [[Ich bin ein Berliner - Kennedy]]
 - [[QS - German cities are beautiful]]
