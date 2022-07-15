@@ -6,11 +6,10 @@
       {
         "id": "0479804cde36adeb",
         "type": "leaf",
-        "dimension": 33.19644079397673,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "500_Knowledge_Management/550_🌲Evergreen_Notes/QS - my first evergreen note.md",
+            "file": "100_Goals_Projects/110_🏛Pillars/110_🏛Pillars.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -18,13 +17,12 @@
         }
       },
       {
-        "id": "480db3f19351acfa",
+        "id": "90ab4a9ad676af32",
         "type": "leaf",
-        "dimension": 66.80355920602327,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "900_Supporting_Files/991_Readme/QS3_Distill_your_first_literature_note.md",
+            "file": "300_Journal/310_🌄Daily/2022-07-13.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421
+    "width": 259
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/QS3_Distill_your_first_literature_note.md",
+                "file": "300_Journal/310_🌄Daily/2022-07-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,29 +127,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/QS3_Distill_your_first_literature_note.md"
+                "file": "300_Journal/310_🌄Daily/2022-07-13.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "480db3f19351acfa",
+  "active": "90ab4a9ad676af32",
   "lastOpenFiles": [
-    "900_Supporting_Files/991_Readme/QS2_Use_tag_for_similar_notes.md",
-    "900_Supporting_Files/991_Readme/PKM010_Put_it_together.md",
-    "900_Supporting_Files/991_Readme/PKM006_Topic.md",
-    "900_Supporting_Files/991_Readme/PKM005_Evergreen_note.md",
-    "900_Supporting_Files/991_Readme/PKM04_Atomic_note.md",
-    "900_Supporting_Files/991_Readme/PKM03_Literature_note.md",
-    "900_Supporting_Files/991_Readme/PKM02_Links_and_tags.md",
-    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
-    "900_Supporting_Files/991_Readme/04_Plugins.md",
-    "900_Supporting_Files/991_Readme/01_Intro.md"
+    "700_Plan_Review/710_🗓Weeks/2022-W28.md",
+    "700_Plan_Review/730_📅Months/2022-07.md",
+    "700_Plan_Review/750_⌛Quarters/2022-Q3.md",
+    "300_Journal/310_🌄Daily/2022-07-14.md",
+    "300_Journal/310_🌄Daily/2022-07-12.md",
+    "300_Journal/310_🌄Daily/2022-07-17.md",
+    "300_Journal/310_🌄Daily/2022-07-15.md",
+    "700_Plan_Review/710_🗓Weeks/2022-W26.md",
+    "700_Plan_Review/710_🗓Weeks/2022-W30.md",
+    "700_Plan_Review/710_🗓Weeks/2022-W29.md"
   ]
 }
