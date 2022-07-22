@@ -4,25 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "0479804cde36adeb",
+        "id": "3991dc99b6f33214",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100_Goals_Projects/110_🏛Pillars/110_🏛Pillars.md",
+            "file": "900_Supporting_Files/991_Readme/QS_GP_Create_Notes_for_Goals_Projects.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
-        "id": "90ab4a9ad676af32",
+        "id": "5d0a16033622eb51",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300_Journal/310_🌄Daily/2022-07-13.md",
+            "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -75,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259
+    "width": 418
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300_Journal/310_🌄Daily/2022-07-13.md",
+                "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300_Journal/310_🌄Daily/2022-07-13.md"
+                "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md"
               }
             }
           }
@@ -137,17 +139,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "90ab4a9ad676af32",
+  "active": "5d0a16033622eb51",
   "lastOpenFiles": [
-    "700_Plan_Review/710_🗓Weeks/2022-W28.md",
-    "700_Plan_Review/730_📅Months/2022-07.md",
-    "700_Plan_Review/750_⌛Quarters/2022-Q3.md",
-    "300_Journal/310_🌄Daily/2022-07-14.md",
-    "300_Journal/310_🌄Daily/2022-07-12.md",
-    "300_Journal/310_🌄Daily/2022-07-17.md",
-    "300_Journal/310_🌄Daily/2022-07-15.md",
-    "700_Plan_Review/710_🗓Weeks/2022-W26.md",
-    "700_Plan_Review/710_🗓Weeks/2022-W30.md",
-    "700_Plan_Review/710_🗓Weeks/2022-W29.md"
+    "900_Supporting_Files/991_Readme/QS_GP_Create_Notes_for_Goals_Projects.md",
+    "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
+    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
+    "900_Supporting_Files/991_Readme/QS_KM_Use_tag_for_similar_notes.md",
+    "900_Supporting_Files/991_Readme/QS_KM_Notetaking_Bottom_up.md",
+    "900_Supporting_Files/991_Readme/QS_KM_Link_topic_to_home_node.md",
+    "900_Supporting_Files/991_Readme/QS_KM_Develop_a_topic.md",
+    "900_Supporting_Files/991_Readme/QS_KM_Garden_the_evergreen_note.md",
+    "README.md",
+    "100_Goals_Projects/100_Goals_Projects.md"
   ]
 }

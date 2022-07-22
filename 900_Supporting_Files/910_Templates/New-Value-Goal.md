@@ -1,31 +1,18 @@
 ---
-fileClass: value-goal  
-priority: 3
-status: 
+fileClass: value-goal
+status: 🟢active
 date: <% tp.date.now("YYYY-MM-DD") %>  
-start: 
-finish: 
 ---
 
 # <% tp.file.title %>
-==> [[130_🌟Value_Goals]]
+More: [[130_🌟Value_Goals]]
 
-## Why?
-Pillars:: 
-> ？
-
->[!note]- All Pillars
->![[110_🏛Pillars#Pillar Overview Compact]]
-## When?
-Years:: [[2022]]  
+Pillar:: 
+Years:: [[<% tp.date.now("YYYY") %>]]  
 
 ## How?
-Challenges:: 
-> ?
-
-### Outcomes
 ```button
-name 🎯 New Outcome
+name 🎯New Outcome
 type note(100_Goals_Projects/150_🎯Outcomes/New Outcome, split) template
 action New-Outcome
 ```
@@ -34,19 +21,19 @@ let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
     .where(p => p["fileClass"] == "outcome");
 dv.table(
-    ["Outcome", "Priority",  "Quarters", "Status", "Progress"],
+    ["Outcome",   "Quarter",  "Progress", "Status"],
     outcomes.map(p => [
         p.file.link,
-        p["priority"],
         p["quarters"],
-        p["status"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
+        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
+        p["status"]
+	    ])
 );
 ```
-### Routines & Habits
+
+## Supporting
 ```button
-name 🔁 New Routine
+name 🔁New Routine
 type note(100_Goals_Projects/111_🔁Routines/New routine, split) template
 action New-Routine
 ```
@@ -55,19 +42,16 @@ let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
     .where(p => p["fileClass"] == "routine");
 dv.table(
-    ["Routine","Status", "Period",  "Day-time"],
+    ["Routine", "Why","Status"],
     outcomes.map(p => [
         p.file.link,
-        p["status"],
-        p["period"],
-        p["day-time"]
+        p["why"],
+        p["status-set2"]
     ])
 );
 ```
-## Supporting
-### Mindsets
 ```button
-name 🤯 New Mindset
+name 🤯New Mindset
 type note(100_Goals_Projects/112_🤯Mindsets/New Mindset, split) template
 action New-Mindset
 ```
@@ -76,18 +60,18 @@ let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
     .where(p => p["fileClass"] == "mindset");
 dv.table(
-    ["Mindset","Status", "Why"],
+    ["Mindset","Why","Status"],
     outcomes.map(p => [
         p.file.link,
-        p["mindset-status"],
         p["Why"],
+        p["status-set2"],
     ])
 );
 ```
 
-### Topics
+## Knowledge
 ```button
-name 🗩 New Topic
+name 🗩New Topic
 type note(500_Knowledge_Management/570_🗩Topics/New Topic, split) template
 action New-Topic
 ```
@@ -96,16 +80,12 @@ let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
     .where(p => p["fileClass"]=="topic");;
 dv.table(
-    ["Topic","Progress", "Evergreen"],
+    ["Topic","Last Review"],
     outcomes.map(p => [
         p.file.link,
-        "![pb|100](https://progress-bar.dev/"  + Math.round(
-	        Math.max((dv.pages('#atomic-note or #literature-note or #evergreen-note  or #meeting-minutes or #day and ' + p["Related-Tag"]).length - p["notes-last-consolidation"]),0)
-	        /p["notes-to-consolidate"]*100) + "/)",
-        dv.pages('#evergreen-note and ' + p["Related-Tag"]).file.link, //page with tag #evergreen-note and Related-Tag
+        p["last-review"],
     ])
 );
 ```
-
 
 ## Notes

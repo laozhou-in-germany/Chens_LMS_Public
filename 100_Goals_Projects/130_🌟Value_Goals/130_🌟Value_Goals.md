@@ -1,207 +1,54 @@
 ---
-alias:
-- 🌟Value Goals
-- 🌟Value Goals Dashboard
-tags:
-- dashboard
+alias: ["🌟Value Goals","🌟Value Goals Dashboard"]
 ---
+
 # 130_🌟Value_Goals
-[[100_Goals_Projects#流水线 Pipeline]]
 
-## Guide
-[[Guide - How to Use Value Goal Dashboard]]
+## Guiding Questions  
+> Result-oriented: What kind of outcomes do I need, to move me closer to the value goal? 
+> Process-oriented: What kind of routines or mindsets do I need, to move me closer to the value goal?
 
+### Definition of Done
+- [ ] **Outcomes** for the value goal are created(if needed), and the status is updated. 
+- [ ] **Routines & Mindsets** for the value goal are created(if needed), and the status is updated. 
 
-
-## Active & On Hold
-~~~col
+## All Value Goals
 ```button
-name 🌟 New Value Goals
+name 🌟New Value Goal
 type note(100_Goals_Projects/130_🌟Value_Goals/New Value Goal, split) template
 action New-Value-Goal
 ```
-```button
-name 🎯 New Outcome
-type note(100_Goals_Projects/150_🎯Outcomes/New Outcome, split) template
-action New-Outcome
+~~~dataview
+table WITHOUT ID file.link as "Value Goal", Years, status as Status
+from -"900_Supporting_Files"
+where fileClass="value-goal"
+~~~
+## Open Value Goals (including open outcomes) 
+*Open: Active, On hold, Next up & Future*
+```dataviewjs
+let outcomes = dv.pages('-"900_Supporting_Files"')
+    .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="value-goal" );
+dv.table(
+    ["Open Value Goals",  "Open Outcomes"],
+    outcomes.map(p => [
+        p.file.link,
+        p.file.inlinks //output: link of outcome page
+	        .map(l => dv.page(l)) //output: outcome page
+		        .where(pp => (pp["fileClass"]=="outcome") && (pp["status"] == "🟢active"||pp["status"] == "⏸on-hold"||pp["status"] == "🔜next-up"||pp["status"] == "✨future"))
+		        .map(pp => pp.file.link) //output: link of project page
+    ])
+);
 ```
-```button
-name 🔁 New Routine
-type note(100_Goals_Projects/111_🔁Routines/New routine, split) template
-action New-Routine
-```
-```button
-name 🤯 New Mindset
-type note(100_Goals_Projects/112_🤯Mindsets/New Mindset, split) template
-action New-Mindset
-```
-```button
-name 🗩 New Topic
-type note(500_Knowledge_Management/570_🗩Topics/New Topic, split) template
-action New-Topic
-```
+
+^0ec475
+
+
+## Closed Value Goals
+*Closed: Completed & Abandon*
+
+~~~dataview
+table WITHOUT ID file.link as "Value Goal", Years, status as Status
+from -"900_Supporting_Files"
+where fileClass="value-goal" and (status = "✅completed" or status = "🗑️abandon")
 ~~~
 
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold") && p["fileClass"] == "value-goal")
-    .sort(p => dv.page(p["Pillar"])["sorting-index"]);
-dv.table(
-    [ "Value Goals",  "Outcomes","Routine", "Pillars"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="outcome")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="routine")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p["Pillar"]
-    ])
-);
-```
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold") && p["fileClass"] == "value-goal")
-    .sort(p => dv.page(p["Pillar"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Challenges", "Mindset", "Topic"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p["Challenges"],
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="mindset")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="Topic")  
-			.map(pp => pp.file.link) //output: link of outcome page
-		
-    ])
-);
-```
-
-## Next Up
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "🔜next-up") && p["fileClass"] == "value-goal" )
-    .sort(p => dv.page(p["pillars"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Challenges", "Outcomes","Routine", "Mindset", "Pillars"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p["Challenges"],
-        p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="outcome")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="routine")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="mindset")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p["Pillar"]
-    ])
-);
-```
-
-## Future
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "✨future") && p["fileClass"] == "value-goal")
-    .sort(p => dv.page(p["pillars"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Challenges", "Outcomes","Routine", "Mindset", "Pillars"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p["Challenges"],
-        p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="outcome")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="routine")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="mindset")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p["Pillar"]
-    ])
-);
-```
-
-## Completed & Abandon
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => ((p["status"] == "✅completed")||p["status"] == "️🗑️abandon") && p["fileClass"] == "value-goal" )
-    .sort(p => dv.page(p["pillars"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Challenges", "Outcomes","Routine", "Mindset", "Pillars"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p["Challenges"],
-        p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="outcome")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="routine")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="mindset")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p["Pillar"]
-    ])
-);
-```
-
-## Open (Active, On hold, Next up & Future)
-```dataviewjs
-let valueGoals = dv.pages("#value-goal")
-    .where(p => (p["status"] == "🟢active")||p["status"] == "⏸on-hold" ||p["status"] == "🔜next-up" ||p["status"] == "✨future")
-    .sort(p => dv.page(p["pillar"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Challenges", "Outcomes","Routine", "Mindset", "Pillars"], //, 
-    valueGoals.map(p => [
-        p.file.link,
-        p["Challenges"],
-        p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="outcome")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="routine")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p.file.inlinks //output: link of value goal page  
-			.map(l => dv.page(l)) //output: value goal page  
-			.where(pp => pp["fileClass"]=="mindset")  
-			.map(pp => pp.file.link), //output: link of outcome page
-		p["Pillar"]
-    ])
-);
-```
-
-## Open - Compact (Active, On hold, Next up & Future)
-```dataviewjs
-let valueGoals = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold" ||p["status"] == "🔜next-up" ||p["status"] == "✨future") && p["fileClass"] == "value-goal")
-    .sort(p => dv.page(p["pillar"])["sorting-index"]);
-dv.table(
-    [ "Value Goals", "Pillars"],
-    valueGoals.map(p => [
-        p.file.link,
-        p["pillar"] 
-    ])
-);
-```

@@ -5,56 +5,60 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 [[<% tp.date.now("YYYY-MM", "P-1M") %>]] <=> [[<% tp.date.now("YYYY-MM", "P+1M") %>]]
 
 # <% tp.file.title %>
-==> [[730_📅Months|📅Months Dashboard]]
+More: [[730_📅Months|📅Months Dashboard]]
 
 Year:: [[<% tp.date.now("YYYY") %>]]  
 Quarter::  [[<% tp.date.now("YYYY-[Q]Q") %>]]  
 Last Month:: [[<% tp.date.now("YYYY-MM", "P-1M") %>]]
 
+## **Last Month Review**
+## I. Knowledge Management
+### Literature Notes 
+More: [[510_📔Literature_Notes|📔Literature Note Dashboard]]
+#### Captured
+![[510_📔Literature_Notes#^e4cf33]]
+#### Ready for Next Review
+![[510_📔Literature_Notes#^264851]]
 
-## Plan
+## II. Goals & Projects
+*Including task management out of the Obsidian vault*
+
+### Routine and mindset
+- [ ] Review weekly reflection of the last 4 weeks
+![[710_❇Weeks#Last 4 Weeks]]
+- [ ] Update the routines (active)
+![[111_🔁Routines#^fb9758]]
+- [ ] Update the following mindsets (active)
+![[112_🤯Mindsets#^3db19d]]
+
+---
+## **Coming Month Planning**
+## I. Goals & Projects
 ### Theme
 ```ad-info
 title: Themes
 My yearly theme is ==`=this.year.theme`== 
-
 In *<% tp.date.now("YYYY-MMM", "P-1M") %>*, my theme was ==`=this.last-month.theme`==  
 ```
-
 Theme:: ==...==
 
-### Outcomes 
-==> [[150_🎯Outcomes|🎯Outcomes]]
-
-**Active & On hold**
-- [ ] Add new projects in outcome pages
+### Project Planning 
+More: [[150_🎯Outcomes|🎯Outcomes Dashboard]]
+![[150_🎯Outcomes#^0592b0]]
+- [ ] Add new projects to outcome pages
 - [ ] Adjust strategy to achieve outcomes
-**Next Up & Future** 
-- [ ] Activate outcomes, if required
 
-## Review
-### Cleanup
-- [ ] Desktop & Download Folder (Re-Locate or Delete)
-- [ ] Process Physical Archive box
-
-### Review weekly reflections 
-
-![[710_🗓Weeks#Last 4 Weeks]]
-- [ ] add new routines
-
-![[111_🔁Routines#Overview]]
-- [ ] add new mindsets 
-![[112_🤯Mindsets#Overview]]
-
-### Review Notes
+---
+## Review & Plan Finished! 
+> [!hint] Congratulation!
+> Congratulation, Your milestones, and projects are well aligned with outcomes.
+> Move your **projects** forward in the next 4 weeks and reach the **milestones**.
 
 
 
-### Alignment review
-- [ ] Review  [[130_🌟Value_Goals|🌟Value Goals]]
-- [ ] Review [[150_🎯Outcomes|🎯Outcomes]]
-- [ ] Plan [[170_💎Projects|💎Projects]]
 
 
-#### Well done for finishing the Month strongly!
+
+
+
 

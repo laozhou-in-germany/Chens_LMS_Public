@@ -7,7 +7,7 @@ Supported format:
 Templater:
 - e.g  `<% tp.file.creation_date() %>`
 
-## Templates for plugin "Periodic Notes" and "Calender"
+## Templates for plugin "Periodic Notes"
 Purpose: Use for generating daily journal and periodic reviews
 
 Supported format: 

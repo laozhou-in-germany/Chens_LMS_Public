@@ -1,12 +1,13 @@
 ---
 alias:
-- 🌄 Days
-tags:
-- dashboard
+- 🌄Journal Notes
 ---
-
-# 310_🌄Daily
-
-
-
-
+```button
+name 🌄New Daily Note
+type command
+action Periodic Notes: Open daily note
+```
+## Last 14 days
+![[2022-07-21#^📝Note]]
+![[2022-07-20#^📝Note]]
+![[2022-07-19#^📝Note]]

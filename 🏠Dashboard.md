@@ -57,55 +57,40 @@ switch( true ) {
 }
 ```
 ~~~
----
-## Workspace
-[[511_📔Literature_Notes_Workshop|📔Literature Notes Workshop]] 
-[[551_🌲Evergreen_Notes_Workshop|🌲Evergreen Notes Workshop]]
-[[571_🗩Topic_Workshop|🗩Topic Workshop]]
 
----
 ## Quick Navigation
 ~~~col
 
-**Pilelines**
+**[[100_Goals_Projects|Goals & Projects]]**
 [[110_🏛Pillars|🏛Pillars]]
+[[111_🔁Routines|🔁Routines]]
+[[112_🤯Mindsets|🤯Mindsets]]
 [[130_🌟Value_Goals|🌟Value Goals]]
 [[150_🎯Outcomes|🎯Outcomes]]
 [[170_💎Projects|💎Projects]]
 [[171_📽Video_Projects|📽Video Projects]] 
-━━━━━━━━━━━━━━━━
-[[810 🚰Alignment Zone|🚰Alignment Zone]]
-[[818 ✅Task Backlog|✅Task Backlog]]
+[[109_Task_Backlog|✅Task Backlog]]
 
 
-**Support**
-[[111_🔁Routines|🔁Routines]]
-[[112_🤯Mindsets|🤯Mindsets]]
+**[[300_Journal|Journal]]**
+[[310_🌄Daily|🌄Daily Notes]]
+[[320_🎉Events|🎉Events]]
+[[340_🖥️Meetings|🖥Meetings]]
+[[391_👤Person|👤Person]]
+
+**[[500_Knowledge_Management|Knowledge]]**
+[[510_📔Literature_Notes|📔Literature Notes]]
+[[530_⚛️Atomic_Notes|⚛️Atomic Notes]]
+[[550_🌲Evergreen_Notes|🌲Evergreen Notes]]
+[[570_🗩Topics|🗩Topics]]
+[[501_💡Home_Node|💡Home Node]]
 
 
-
-**PKM**
-[[510_📔Literature_Notes|📔Literature Note]]
-[[630 ⚛️Atomic Notes|⚛️Atomic Note]]
-[[550_🌲Evergreen_Notes|🌲Evergreen Note]]
-[[570_🗩Topics|🗩Topic]]
-[[690 🏷Tags|🏷Tags]]
-[[601 💡Knowlege Home Node|💡Knowlege Home Node]]
-[[410 👤Person|👤Person]]
-
-
-**Cycles**
-[[770 🌏Years|🌏Years]]
+**[[700_Plans_Reviews|Plans & Reviews]]**
+[[770_🌏Years|🌏Years]]
 [[750_⌛Quarters|⌛Quarters]]
 [[730_📅Months|📅Months]]
-[[710_🗓Weeks|🗓Weeks]]
-[[830 🌄Journal Notes|🌄Journal Notes]]
-━━━━━━━━━━━━━━
-[[870 ⭕Cycle Zone|⭕Cycle Zone]]
+[[710_❇Weeks|❇Weeks]]
+[[310_🌄Daily|🌄Journal Notes]]
+
 ~~~
-
-
-
-
-
-

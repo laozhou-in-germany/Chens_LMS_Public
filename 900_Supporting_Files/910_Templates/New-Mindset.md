@@ -1,14 +1,14 @@
 ---
 fileClass: mindset  
-mindset-status: 
+status-set2: 🟢active
 date: <% tp.date.now("YYYY-MM-DD") %>  
 ---
 
 # <% tp.file.title %>
-==> [[112_🤯Mindsets|🤯Mindsets Dashboard]]
+More: [[112_🤯Mindsets|🤯Mindsets Dashboard]]
 
-Pillar:: 
 Value-Goal:: 
+Years:: [[<% tp.date.now("YYYY") %>]]  
 
 ## Why?
 Why:: 

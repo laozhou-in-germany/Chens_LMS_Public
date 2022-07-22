@@ -1,20 +1,18 @@
 ---
 fileClass: project  
-priority: 1  
-status: 
+status: 🟢active
 date: <% tp.date.now("YYYY-MM-DD") %>  
-start:
-finish: 
 total: 1
 completed: 0
 ---
 
 # <% tp.file.title %>
-==> [[170_💎Projects]]
+More: [[170_💎Projects]]
 
 Outcome:: 
-Months:: 
+Months:: [[<% tp.date.now("YYYY-MM") %>]]  
 
 ## Actions
+- [ ] action 1
 
 ## Notes

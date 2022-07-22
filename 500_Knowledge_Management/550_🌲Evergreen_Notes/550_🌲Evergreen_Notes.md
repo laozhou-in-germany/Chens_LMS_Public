@@ -1,12 +1,14 @@
 ---
-alias:
-- 🌲Evergreen Note
-- 🌲Evergreen Note Dashboard
-tags:
-- dashboard
+alias: ["🌲Evergreen Notes", "🌲Evergreen Note Dashboard"]
 ---
+
 # 550_🌲Evergreen_Notes
 ## Overview
+```button
+name 🌲New Evergreen Note
+type note(500_Knowledge_Management/550_🌲Evergreen_Notes/New Evergreen Note, split) template
+action New-Evergreen-Note
+```
 ~~~dataviewjs
 let notes1 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="evergreen-note" && p["score"]=="x");
@@ -53,6 +55,7 @@ where fileClass = "evergreen-note" and (!score or !reviewed)
 ## All Evergreen notes
 ### All Interim Reviewed
 ~~~ad-note
+title: Click to reveal the content
 collapse: closed
 ```dataview
 list
@@ -70,17 +73,29 @@ from -"900_Supporting_Files"
 where fileClass = "evergreen-note" and length(score)>=length(reviewed) and date(last-review)<(date(today) - dur(12 weeks))
 sort score
 ~~~
-### All Final Reviewed
 
+^24c5f0
+
+### All Final Reviewed
 ~~~dataview
 list
 from -"900_Supporting_Files"
 where fileClass = "evergreen-note" and length(score)<length(reviewed)
 sort score
 ~~~
+#### All Final Reviewed Highscore Notes
+~~~dataview
+list
+from -"900_Supporting_Files"
+where fileClass = "evergreen-note" and length(score)<length(reviewed) and (score="xxx" or score="xxxx" or score="xxxxx")
+sort score
+~~~
+
+^8362a3
 
 ## Score: ◷ 
 ~~~ad-note
+title: Click to reveal the content
 collapse: closed
 ```dataview
 list 
@@ -90,6 +105,7 @@ where fileClass = "evergreen-note" and score="x"
 ~~~
 ## Score: ◔
 ~~~ad-note
+title: Click to reveal the content
 collapse: closed
 ```dataview
 list 

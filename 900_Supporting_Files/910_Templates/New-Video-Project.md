@@ -1,19 +1,16 @@
 ---
 fileClass: video-project  
-priority: 1  
-status: 
+status-vp: 
 date: <% tp.date.now("YYYY-MM-DD") %>  
-start:
-finish: 
 total: 0
 completed: 0
 ---
 
 # <% tp.file.title %>
-==> [[171_📽Video_Projects]]
+More: [[171_📽Video_Projects]]
 
 Outcome:: 
-Month:: 
+Months:: [[<% tp.date.now("YYYY-MM") %>]]  
 
 
 ## ✍️ Notes

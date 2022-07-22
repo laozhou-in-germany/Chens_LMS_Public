@@ -1,72 +1,45 @@
 ---
-alias:
-- 🏛Pillars Dashboard
-- 🏛Pillars
-- Pillars
-tags:
-- dashboard
+alias: ["🏛Pillars", "🏛Pillars Dashboard"]
 ---
+
 # 110_🏛Pillars
 
-## Guide
-[[Guide - How to Use Pillar Dashboard]]
+## Guiding Questions  
+> What are the most important things in life (pillar, value goals)? 
 
-~~~col 
+### Definition of Done
+- [ ] **Pillars** reflecting my current life focus are completely created, and status updated.
+- [ ] **Value goals** for the pillar are created, and status updated. 
+
+## All Pillars
 ```button
-name 🏛 New Pillar
+name 🏛New Pillar
 type note(100_Goals_Projects/110_🏛Pillars/New Pillar, split) template
 action New-Pillar
 ```
-```button
-name 🌟 New Value Goals
-type note(100_Goals_Projects/130_🌟Value_Goals/New Value Goal, split) template
-action New-Value-Goal
-```
-```button
-name 🗩 New Topic
-type note(500_Knowledge_Management/570_🗩Topics/New Topic, split) template
-action New-Topic
-```
+~~~dataview
+table Without ID file.link as Pillar, pillar-category as Category, status-set2 as Status
+from -"900_Supporting_Files"
+where fileClass="pillar"
+sort sorting-index
 ~~~
-
-
-## Pillar Overview
-~~~dataviewjs
-
-let pillars = dv.pages('-"900_Supporting_Files"')
-	.where(p => p["pillar-category"] && p["fileClass"] == "pillar")
-	.sort(p => p["sorting-index"]);
+## Active Pillars (incl. open value goals)
+*Open: Active, On hold, Next up & Future*
+```dataviewjs
+let outcomes = dv.pages('-"900_Supporting_Files"')
+    .where(p => (p["status-set2"] == "🟢active") && p["fileClass"]=="pillar" )
+    .sort(p => p["sorting-index"]);
 dv.table(
-    ["Pillars", "Category", "Status", "Value Goal" ],
-    pillars.map(p => [
+    ["Active Pillars",  "Open Value Goals"],
+    outcomes.map(p => [
         p.file.link,
-        p["pillar-category"],
-        p["status"],
-        p.file.inlinks
-            .map(l => dv.page(l))
-	            .where(p => p["fileClass"]=="value-goal")
-	            .map(p => p.file.link),
-        
+        p.file.inlinks //output: link of outcome page
+	        .map(l => dv.page(l)) //output: outcome page
+		        .where(pp => (pp["fileClass"]=="value-goal") && (pp["status"] == "🟢active"||pp["status"] == "⏸on-hold"||pp["status"] == "🔜next-up"||pp["status"] == "✨future"))
+		        .map(pp => pp.file.link) //output: link of project page
     ])
 );
-~~~
+```
 
-**Related dashboard:**
-[[130_🌟Value_Goals]] 
+^0f1ad5
 
-## Pillar Overview Compact
-~~~dataviewjs
-
-let pillars = dv.pages('-"900_Supporting_Files"')
-	.where(p => p["pillar-category"] && p["fileClass"] == "pillar" )
-	.sort(p => p["sorting-index"]);
-dv.table(
-    ["Category", "Pillars" ],
-    pillars.map(p => [
-        p["pillar-category"],
-        p.file.link,
-    ])
-);
-~~~
-## Reference
-- [[First Things First - 3. to live, to love, to learn, to leave a legacy]]

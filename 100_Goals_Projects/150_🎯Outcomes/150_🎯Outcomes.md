@@ -1,139 +1,53 @@
 ---
-alias:
-- 🎯Outcomes
-- 🎯Outcomes Dashboard
-tags:
-- dashboard
+alias: ["🎯Outcomes","🎯Outcomes Dashboard"]
 ---
 
 # 150_🎯Outcomes
-[[100_Goals_Projects#流水线 Pipeline]]
 
-## Guide
-[[Guide - How to Use Outcome Dashboard]]
+## Guiding Questions  
+> How to achieve the outcomes?
 
+### Definition of Done
+- [ ] **Milestones** defined and finished milestones are checked.
+- [ ] **Projects** in the outcome are created (if needed), and the status is updated.
 
-## Active & On Hold
+## All Outcomes
 ```button
-name 🎯 New Outcome
+name 🎯New Outcome
 type note(100_Goals_Projects/150_🎯Outcomes/New Outcome, split) template
 action New-Outcome
 ```
-```button
-name 💎 New Project
-type note(100_Goals_Projects/170_💎Projects/New Project, split) template
-action New-Project
-```
-```dataviewjs
-let outcomes = dv.pages('-"900_Supporting_Files"')
-    .where(p => ((p["status"] == "🟢active")||p["status"] == "⏸on-hold" ) && p["fileClass"]=="outcome")
-    .sort(p => p["date"], 'desc');
-dv.table(
-    ["Outcome", "Priority",  "Quarters", "Progress", "Projects"],
-    outcomes.map(p => [
-        p.file.link,
-        p["priority"],
-        p["quarters"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
-        p.file.inlinks //output: link of outcome page
-	        .map(l => dv.page(l)) //output: outcome page
-		        .where(pp => pp.file.tags.includes("#project")||pp.file.tags.includes("#video-project"))
-		        .map(pp => pp.file.link) //output: link of project page
-    ])
-);
-```
-
-## Next Up
-```dataviewjs
-let outcomes = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "🔜next-up") && p["fileClass"]=="outcome" )
-    .sort(p => p["priority"], 'desc');
-dv.table(
-    ["Outcome", "Priority",  "Quarters", "Progress", "Projects"],
-    outcomes.map(p => [
-        p.file.link,
-        p["priority"],
-        p["quarters"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
-        p.file.inlinks //output: link of outcome page
-	        .map(l => dv.page(l)) //output: outcome page
-		        .where(pp => pp.file.tags.includes("#project")||pp.file.tags.includes("#video-project"))
-		        .map(pp => pp.file.link) //output: link of project page
-    ])
-);
-```
-
-## Future
-```dataviewjs
-let outcomes = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "✨future") && p["fileClass"]=="outcome" )
-    .sort(p => p["priority"], 'desc');
-dv.table(
-    ["Outcome", "Priority",  "Quarters", "Progress", "Projects"],
-    outcomes.map(p => [
-        p.file.link,
-        p["priority"],
-        p["quarters"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
-        p.file.inlinks //output: link of outcome page
-	        .map(l => dv.page(l)) //output: outcome page
-		        .where(pp => pp.file.tags.includes("#project")||pp.file.tags.includes("#video-project"))
-		        .map(pp => pp.file.link) //output: link of project page
-    ])
-);
-```
-
-## Completed & Abandon
-```dataviewjs
-let outcomes = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "✅completed"||p["status"] == "️🗑️abandon") && p["fileClass"]=="outcome")
-    .sort(p => p["priority"], 'desc');
-dv.table(
-    ["Outcome", "Priority",  "Quarters", "Progress", "Projects"],
-    outcomes.map(p => [
-        p.file.link,
-        p["priority"],
-        p["quarters"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
-        p.file.inlinks //output: link of outcome page
-	        .map(l => dv.page(l)) //output: outcome page
-		        .where(pp => pp.file.tags.includes("#project")||pp.file.tags.includes("#video-project"))
-		        .map(pp => pp.file.link) //output: link of project page
-    ])
-);
-```
-
-## Open (Active, On hold, Next up & Future)
-
+~~~dataview
+table WITHOUT ID file.link as "Outcome", Quarters, status as Status
+from -"900_Supporting_Files"
+where fileClass="outcome"
+~~~
+## Open Outcomes (including open projects) 
+*Open: Active, On hold, Next up & Future*
 ```dataviewjs
 let outcomes = dv.pages('-"900_Supporting_Files"')
     .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="outcome" )
     .sort(p => p["date"], 'desc');
 dv.table(
-    ["Outcome", "Priority",  "Quarters", "Progress", "Projects"],
+    ["Open Outcome",  "Progress", "Open Projects"],
     outcomes.map(p => [
         p.file.link,
-        p["priority"],
-        p["quarters"],
         "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
         p.file.inlinks //output: link of outcome page
 	        .map(l => dv.page(l)) //output: outcome page
-		        .where(pp => pp.file.tags.includes("#project")||pp.file.tags.includes("#video-project"))
+		        .where(pp => (pp["fileClass"]=="project"||pp["fileClass"]=="video-project") && (pp["status"] == "🟢active"||pp["status"] == "⏸on-hold"||pp["status"] == "🔜next-up"||pp["status"] == "✨future"))
 		        .map(pp => pp.file.link) //output: link of project page
     ])
 );
 ```
 
-## Open - Compact (Active, On hold, Next up & Future)
-```dataviewjs
-let outcomes = dv.pages('-"900_Supporting_Files"')
-    .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="outcome" )
-    .sort(p => p["date"], 'desc');
-dv.table(
-    ["Outcome",  "Progress"],
-    outcomes.map(p => [
-        p.file.link,
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
-    ])
-);
-```
+^0592b0
+
+## Closed Outcomes
+*Closed: Completed & Abandon*
+~~~dataview
+table WITHOUT ID file.link as "Outcome", Quarters, status as Status
+from -"900_Supporting_Files"
+where fileClass="outcome" and (status = "✅completed" or status = "🗑️abandon")
+~~~
+

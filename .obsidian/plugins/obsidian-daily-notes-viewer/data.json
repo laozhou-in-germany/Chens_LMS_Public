@@ -1,8 +1,8 @@
 {
-  "Filename": "830 🌄Journal Notes",
-  "Folder": "800 🧰Workspaces",
+  "Filename": "310_🌄Daily",
+  "Folder": "300_Journal/310_🌄Daily",
   "NewPane": true,
-  "Beginning": "---\nalias:\n- 🌄Journal Notes\ntags:\n- dashboard\n---",
+  "Beginning": "---\nalias:\n- 🌄Journal Notes\n---\n```button\nname 🌄New Daily Note\ntype command\naction Periodic Notes: Open daily note\n```\n## Last 14 days",
   "Heading": "📝Note",
   "Spacing": 0,
   "Filter": "recent",

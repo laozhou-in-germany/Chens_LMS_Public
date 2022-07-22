@@ -1,11 +1,9 @@
 ---
-author:  
 excerpt:  
 fileClass: evergreen-note
 score: x  
 category-evergreen-note:  
 reviewed: x  
-cover: 
 date: <% tp.date.now("YYYY-MM-DD") %>  
 last-review: <% tp.date.now("YYYY-MM-DD") %>  
 ---

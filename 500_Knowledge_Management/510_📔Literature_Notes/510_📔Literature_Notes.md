@@ -1,12 +1,14 @@
 ---
-alias:
-- 📔Literature Note
-- 📔Literature Note Dashboard
-tags:
-- dashboard
+alias: ["📔Literature Notes","📔Literature Note Dashboard"]
 ---
+
 # 510_📔Literature_Notes
 ## Overview
+```button
+name 📔New Literature Note
+type note(500_Knowledge_Management/510_📔Literature_Notes/New Literature Note, split) template
+action New-Literature-Note
+```
 ~~~dataviewjs
 let notes1 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="literature-note" && p["score"]=="x");
@@ -50,6 +52,9 @@ list
 from -"900_Supporting_Files"
 where fileClass = "literature-note" and !reviewed 
 ```
+
+^e4cf33
+
 ## All Literature Notes
 ### All Interim Reviewed
 ```dataview
@@ -58,7 +63,7 @@ from -"900_Supporting_Files"
 where fileClass = "literature-note" and length(score)>2 and length(score)>=(length(reviewed) + 2)
 sort score
 ```
-### All Ready for Next Review
+#### All Ready for Next Review
 > Reviewed 4 weeks ago, but no final review status reached.
 ```dataview
 list 
@@ -66,6 +71,9 @@ from -"900_Supporting_Files"
 where fileClass = "literature-note" and length(score)>2 and length(score)>=(length(reviewed) + 2) and date(last-review)<(date(today) - dur(4 weeks))
 sort score
 ```
+
+^264851
+
 ### All Final Reviewed
 ```dataview
 list 
@@ -73,9 +81,18 @@ from -"900_Supporting_Files"
 where fileClass = "literature-note" and length(score)>2 and length(score)<(length(reviewed) + 2)
 sort score
 ```
+#### All Final Reviewed Highscore Notes
+```dataview
+list 
+from -"900_Supporting_Files"
+where fileClass = "literature-note" and length(score)>2 and length(score)<(length(reviewed) + 2) and (score="xxxx" or score="xxxxx")
+sort score
+```
+^4a1e75
 
 ## Score: ◷ 
 ~~~ad-note
+title: Click to reveal the content
 collapse: closed
 ```dataview
 list 
@@ -85,6 +102,7 @@ where fileClass = "literature-note" and score="x"
 ~~~
 ## Score: ◔
 ~~~ad-note
+title: Click to reveal the content
 collapse: closed
 ```dataview
 list 
@@ -121,7 +139,6 @@ where fileClass = "literature-note" and score="xxxx"  and length(score)>=(length
 list 
 from -"900_Supporting_Files"
 where fileClass = "literature-note" and score="xxxx" and length(score)<(length(reviewed) + 2)
-
 ```
 ## Score: ●
 ### ● Interim Reviewed

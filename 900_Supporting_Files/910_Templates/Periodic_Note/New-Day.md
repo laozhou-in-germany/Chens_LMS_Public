@@ -14,28 +14,26 @@ Month:: [[{{date:YYYY-MM}}]]
 Week:: [[{{date:gggg-[W]ww}}]]  
 Yesterday:: [[{{date-1d:YYYY-MM-DD}}]]  
 
-
 ```ad-info
-title: My Promise
+title: My Commitment
 - Themes
 	- In *{{date:YYYY-MMM}}*, my theme is `=this.month.theme`  
 -  Improvements  
 	- *Last week* I wanted to `=this.week.last-week.to-improve-next-week`  
-	- *Yesterday* I wanted to `=this.yesterday.to-improve`  
 ```
 
 ---
 ## 🌅 Morning
-- [[🐸]]**That Frog**::  ==...==  
+*Not used currently* 
 
 ## 🌖 Evening
-> [Google Kalender](https://calendar.google.com/calendar/u/0/r)
+> [Google Calendar](https://calendar.google.com/calendar/u/0/r)
 - [[💖]]**Gratitude**::  ==...==  
 - [[🔆]]**Highlights**::  ==...==  
 - [[😞]]**Disappointments**::  ==...==  
+- [ ] Update Calendar tomorow and block time for the most impactful task
 
-[[40 prompts  for gratitude of Tim Ferris#Prompts]]
-- [ ] Define the frog for tomorrow.
+[[40 prompts  for gratitude of Tim Ferris|Gratitude Prompts]]
 
 ## 📝Note
 [[{{date:YYYY-MM-DD}}]]  {{date: dddd}}

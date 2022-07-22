@@ -1,34 +1,35 @@
 ---
-alias:
-- 🔁Routines Dashboard
-- 🔁Routines
-- Routines
-- 🔁Habits
-- Habits
-tags:
-- dashboard
+alias: ["🔁Routines","🔁Routines Dashboard"]
 ---
+
 # 111_🔁Routines
-## Overview
+## All Routines
 ```button
-name 🔁 New Routine
+name 🔁New Routine
 type note(100_Goals_Projects/111_🔁Routines/New routine, split) template
 action New-Routine
 ```
-
-```dataviewjs
-let routines = dv.pages('-"900_Supporting_Files"')
-	.where(p => p["status"] && p["fileClass"] == "routine"  )
-dv.table(
-    [ "Routine", "Status", "Period", "Day Time", "Why", "Pillar","Value Goal"],
-    routines.map(p => [
-        p.file.link,
-        p["status"],
-        p["period"],
-        p["day-time"],
-        p["Why"],
-        p["Pillar"],
-        p["Value-Goal"]
-    ])
-);
+```dataview
+TABLE WITHOUT ID
+    file.link as "Routine",
+    day-time as "Day Time",
+    Value-Goal as "Value Goal",
+    status-set2 as "Status"
+from -"900_Supporting_Files"
+where fileClass = "routine" 
+SORT Value-Goal desc
 ```
+## Active Routines
+```dataview
+TABLE WITHOUT ID
+    file.link as "Routine",
+    day-time as "Day Time",
+    Why as "Why",
+    Value-Goal as "Value Goal"
+from -"900_Supporting_Files" 
+where fileClass = "routine" and status-set2 = "🟢active"
+SORT Value-Goal desc
+```
+
+^fb9758
+

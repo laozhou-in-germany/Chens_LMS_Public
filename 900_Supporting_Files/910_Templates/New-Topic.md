@@ -9,7 +9,6 @@ cover:
 date: <% tp.date.now("YYYY-MM-DD") %>  
 last-review: <% tp.date.now("YYYY-MM-DD") %>  
 ---
-Pillar:: [[💦Others]] 
 Value-Goal::  
 Related-Tag:: #dummytopic
 

@@ -2,19 +2,16 @@
 fileClass: pillar  
 sorting-index: 100
 pillar-category: 
-status: 
+status-set2: 🟢active
 date: <% tp.date.now("YYYY-MM-DD") %>  
 ---
 
 # <% tp.file.title %>
-==>[[110_🏛Pillars]]
-
-## Guide
-[[Guide - How to Use Pillar Page]]
+More: [[110_🏛Pillars]]
 
 ## Value Goal  
 ```button
-name 🌟 New Value Goals
+name 🌟New Value Goal
 type note(100_Goals_Projects/130_🌟Value_Goals/New Value Goal, split) template
 action New-Value-Goal
 ```
@@ -23,7 +20,7 @@ let valueGoals = this.current().file.inlinks
 	.map(l => dv.page(l))
 	    .where(p => p["fileClass"]=="value-goal");
 dv.table(
-    ["Objective", "Priority",  "Years", "Status"],
+    ["Value Goal", "Priority",  "Years", "Status"],
     valueGoals
 		.map(p => [
 		        p.file.link,
@@ -35,24 +32,3 @@ dv.table(
 ```
 
 
-## Topics
-```button
-name 🗩 New Topic
-type note(500_Knowledge_Management/570_🗩Topics/New Topic, split) template
-action New-Topic
-```
-```dataviewjs
-let valueGoals
- = this.current().file.inlinks
-	.map(l => dv.page(l))
-    .where(p => p["fileClass"]=="topic");;
-dv.table(
-    ["Topic", "Status",  "Tags"],
-    valueGoals
-.map(p => [
-        p.file.link + ((p["to-research"]=="y")? '🔎':'') ,
-        p["topic"],
-        p["Related-Tag"]
-    ])
-);
-```

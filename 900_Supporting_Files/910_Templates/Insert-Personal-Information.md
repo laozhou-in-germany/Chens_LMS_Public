@@ -3,7 +3,7 @@ Birthday::
 Company-Department::  
 Live-in:: 
 Hometown::  
-Hobbys::     
+Hobbies::     
 Like::    
 Dislike::    
 Wish::     

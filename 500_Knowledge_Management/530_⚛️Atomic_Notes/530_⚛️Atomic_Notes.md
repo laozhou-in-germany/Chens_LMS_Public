@@ -1,12 +1,14 @@
 ---
-alias:
-- ⚛️Atomic Note  
-- ⚛️Atomic Note Dashboard  
-tags:
-- dashboard
+alias: ["⚛️Atomic Notes","⚛️Atomic Note Dashboard"]
 ---
+
 # 530_⚛️Atomic_Notes
 ## Overview
+```button
+name ⚛️New Atomic Note
+type note(500_Knowledge_Management/530_⚛️Atomic_Notes/New Atomic Note, split) template
+action New-Atomic-Note
+```
 ~~~dataviewjs
 let notes1 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="atomic-note" && p["category-atomic-note"]=="story");

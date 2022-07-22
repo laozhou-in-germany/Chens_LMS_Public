@@ -1,110 +1,50 @@
 ---
-alias:
-- 💎Projects
-- 💎Projects Dashboard
-tags:
-- dashboard
+alias: ["💎Projects", "💎Projects Dashboard"]
 ---
 
 # 170_💎Projects
-[[100_Goals_Projects#流水线 Pipeline]]
 
-## Active & On Hold
+## All Projects
 ```button
 name 💎 New Project
 type note(100_Goals_Projects/170_💎Projects/New Project, split) template
 action New-Project
 ```
+~~~dataview
+table WITHOUT ID file.link as "Project", Months, status as Status
+from -"900_Supporting_Files"
+where fileClass="project"
+~~~
+
+## Open Projects  
+*Open: Active, On hold, Next up & Future*
 ```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "🟢active")||p["status"] == "⏸on-hold")
-    .sort(p => p["priority"], 'asc');
+let projects = dv.pages('-"900_Supporting_Files"')
+    .where(p => (p["status"] == "🟢active"||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future") && p["fileClass"]=="project");
 dv.table(
-    ["Project", "Priority", "Months", "Progress"],
+    ["Project", "Months","Progress"],
     projects.map(p => [
         p.file.link,
-        p["priority"],
+        p["Months"],
+        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)",
+    ])
+);
+```
+
+^f3ab3d
+
+## Closed Outcomes
+*Closed: Completed & Abandon*
+```dataviewjs
+let projects = dv.pages()
+    .where(p => (p["status"] == "✅completed"||p["status"] == "🗑️abandon") && p["fileClass"]=="project");
+dv.table(
+    ["Project", "Months", "Status"],
+    projects.map(p => [
+        p.file.link,
         p["months"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
+        p["status"]
     ])
 );
 ```
 
-## Next Up
-```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "🔜next-up"))
-    .sort(p => p["priority"], 'asc');
-dv.table(
-    ["Project", "Priority", "Months", "Progress"],
-    projects.map(p => [
-        p.file.link,
-        p["priority"],
-        p["months"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
-);
-```
-
-
-## Future
-```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "✨future"))
-    .sort(p => p["priority"], 'asc');
-dv.table(
-    ["Project", "Priority", "Months", "Progress"],
-    projects.map(p => [
-        p.file.link,
-        p["priority"],
-        p["months"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
-);
-```
-
-
-## Completed & Abandon
-```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "✅completed")||p["status"] == "🗑️abandon")
-    .sort(p => p["priority"], 'asc');
-dv.table(
-    ["Project", "Priority", "Months", "Progress"],
-    projects.map(p => [
-        p.file.link,
-        p["priority"],
-        p["months"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
-);
-```
-## Open (Active, On hold, Next up & Future)
-```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "🟢active")||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future")
-    .sort(p => p["priority"], 'asc');
-dv.table(
-    ["Project", "Priority", "Months", "Progress"],
-    projects.map(p => [
-        p.file.link,
-        p["priority"],
-        p["months"],
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
-);
-```
-
-## Open - Compact (Active, On hold, Next up & Future)
-```dataviewjs
-let projects = dv.pages("#project")
-    .where(p => (p["status"] == "🟢active")||p["status"] == "⏸on-hold"||p["status"] == "🔜next-up"||p["status"] == "✨future")
-    .sort(p => p["priority"], 'asc');
-dv.table(
-    ["Project", "Progress"],
-    projects.map(p => [
-        p.file.link,
-        "![pb|100](https://progress-bar.dev/"  + Math.round(p["completed"]/p["total"]*100) + "/)"
-    ])
-);
-```
