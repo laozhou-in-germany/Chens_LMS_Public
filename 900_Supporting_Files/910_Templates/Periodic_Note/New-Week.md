@@ -30,7 +30,7 @@ Last Week:: [[{{date-7d:gggg-[W]ww}}]]
 [[❇😞⚙]]**Week Low Cause**:: ==...==  
 [[❇📈]]**To Improve Next Week**:: ==...==  
 ~~~dataview
-table week-day as "🌄Day", Gratitude as "💖Gratitude", that-frog as "🐸Frog",  Highlights as "🔆Highlights",  Disappointments as "😞Disappointments"
+table week-day as "🌄Day", Gratitude as "💖Gratitude",  Highlights as "🔆Highlights",  Disappointments as "😞Disappointments"
 where date >= date({{date:YYYY-MM-DD}}) and date <= date({{date+6d:YYYY-MM-DD}}) and fileClass = "day-note"
 sort date
 ~~~

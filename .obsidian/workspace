@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3991dc99b6f33214",
+        "id": "45a481505e436df9",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "900_Supporting_Files/991_Readme/QS_GP_Create_Notes_for_Goals_Projects.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "5d0a16033622eb51",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -77,7 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418
+    "width": 405
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -101,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -139,17 +126,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5d0a16033622eb51",
+  "active": "45a481505e436df9",
   "lastOpenFiles": [
-    "900_Supporting_Files/991_Readme/QS_GP_Create_Notes_for_Goals_Projects.md",
-    "900_Supporting_Files/991_Readme/QS_Add_your_first_notes.md",
-    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
-    "900_Supporting_Files/991_Readme/QS_KM_Use_tag_for_similar_notes.md",
-    "900_Supporting_Files/991_Readme/QS_KM_Notetaking_Bottom_up.md",
-    "900_Supporting_Files/991_Readme/QS_KM_Link_topic_to_home_node.md",
-    "900_Supporting_Files/991_Readme/QS_KM_Develop_a_topic.md",
-    "900_Supporting_Files/991_Readme/QS_KM_Garden_the_evergreen_note.md",
+    "README CN.md",
     "README.md",
-    "100_Goals_Projects/100_Goals_Projects.md"
+    "900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md",
+    "900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md",
+    "900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md",
+    "900_Supporting_Files/991_Readme/01_Intro.md",
+    "900_Supporting_Files/991_Readme/02_Folder_structure.md",
+    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
+    "900_Supporting_Files/991_Readme/PKM010_Put_it_together.md",
+    "900_Supporting_Files/991_Readme/PKM006_Topic.md"
   ]
 }

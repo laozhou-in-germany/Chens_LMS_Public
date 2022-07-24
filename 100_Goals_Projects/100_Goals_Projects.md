@@ -41,15 +41,15 @@ action New
 ```
 ~~~
 ## Top-Down Alignment
-### From Pillars To Value Goals
+### Active Pillars
 More: [[110_🏛Pillars|🏛Pillars Dashboard]]
 ![[110_🏛Pillars#^0f1ad5]]
 
-### From Value Goals To Outcomes
+### Open Value Goals
 More: [[130_🌟Value_Goals|🌟Value Goals Dashboard]]
 ![[130_🌟Value_Goals#^0ec475]]
 
-### From Outcomes To Projects
+### Open Outcomes
 More: [[150_🎯Outcomes|🎯Outcomes Dashboard]]
 ![[150_🎯Outcomes#^0592b0]]
 
@@ -60,10 +60,10 @@ More: [[170_💎Projects|💎Projects Dashboard]]
 More: [[171_📽Video_Projects|📽Video Projects Dashboard]]
 ![[171_📽Video_Projects#^3b9761]]
 
-### Routines
+### Active Routines
 More: [[111_🔁Routines|🔁Routines Dashboard]]
 ![[111_🔁Routines#^fb9758]]
 
-### Mindsets
+### Active Mindsets
 More: [[112_🤯Mindsets|🤯Mindsets]]
 ![[112_🤯Mindsets#^3db19d]]

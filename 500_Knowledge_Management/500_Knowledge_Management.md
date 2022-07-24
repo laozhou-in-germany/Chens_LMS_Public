@@ -1,6 +1,5 @@
 ---
 alias: ["Knowledge"]
-last-review: 2022-07-19
 ---
 # 500_Knowledge_Management
 ~~~col

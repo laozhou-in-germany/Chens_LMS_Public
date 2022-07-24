@@ -7,7 +7,7 @@ Default folder for notes, drafts of all possible note types, sorted later.
 - **100_Goals_Projects**: 
 Pillars, value goals, outcomes & projects, also routines and mindsets
 - **300_Journal**: 
-Daily routines , events, meetings and other journal elements
+Daily routines, events, meetings and other journal elements
 - **500_Knowledge_Management**: 
 Literature notes, atomic notes, evergreen notes, and topics
 - **700_Plan_Review**: 

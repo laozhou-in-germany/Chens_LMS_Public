@@ -2,22 +2,22 @@
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
 ## Quick Start
-[Add your first notes](QS_Add_your_first_notes.md) *New*  
-[Use tag for similar notes](QS_KM_Use_tag_for_similar_notes.md) *New*  
+[QS_a1_5_ways_to_create_new_notes](900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md) *New*  
+[QS_b1_Create_notes_for_goals_projects](900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md) *New*  
+[QS_c1_Create_notes_for_journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md) *New*  
+[QS_d1_Create_notes_for_knowledge_management](900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md) Coming soon
+[QS_d2_Linking the notes_with_links_and_tags](900_Supporting_Files/991_Readme/QS_d2_Linking%20the%20notes_with_links_and_tags.md) Coming soon
+[QS_d3_Develop_notes_for_knowledge_management](900_Supporting_Files/991_Readme/QS_d3_Develop_notes_for_knowledge_management.md) Coming soon
 
+## Showcase
 
-
-[Distill your first literature note](900_Supporting_Files/991_Readme/QS3_Distill_your_first_literature_note.md) Coming soon  
-[Garden the evergreen note](QS_KM_Garden_the_evergreen_note.md) Coming soon  
-[Develop a topic](QS_KM_Develop_a_topic.md) Coming soon  
-[Link topic to home node](QS_KM_Link_topic_to_home_node.md) Coming soon  
 
 ## Reference
 ### General
 [Intro](900_Supporting_Files/991_Readme/01_Intro.md)  *New*  
 [Folder structure](900_Supporting_Files/991_Readme/02_Folder_structure.md)  *New*  
 [Templates](900_Supporting_Files/991_Readme/03_Templates.md)  *New*  
-[Plugins](900_Supporting_Files/991_Readme/04_Plugins.md)  *New*  
+
 
 ### Konwledge Management  
 [Note types](900_Supporting_Files/991_Readme/PKM01_Note_types.md) *New*  

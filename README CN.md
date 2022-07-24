@@ -1,4 +1,7 @@
 # README
+==我将先完成英语的Readme之后开始中文的Readme。目前请使用英文版。==
+
+
 LMS(Life Management System). 一个基于Obsidian-md的个人知识管理和个人目标项目管理系统。
 
 ## 根目录文件夹

@@ -11,19 +11,19 @@
   "weekly": {
     "format": "gggg-[W]ww",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Week.md",
-    "folder": "700_Plan_Review/710_🗓Weeks",
+    "folder": "700_Plans_Reviews/710_❇Weeks",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Month.md",
-    "folder": "700_Plan_Review/730_📅Months",
+    "folder": "700_Plans_Reviews/750_⌛Quarters",
     "enabled": true
   },
   "quarterly": {
     "format": "YYYY-[Q]Q",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Quarter.md",
-    "folder": "700_Plan_Review/750_⌛Quarters",
+    "folder": "300_Journal/310_🌄Daily",
     "enabled": true
   },
   "yearly": {
