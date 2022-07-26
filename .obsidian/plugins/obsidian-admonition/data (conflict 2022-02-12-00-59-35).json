@@ -1,0 +1,15 @@
+{
+  "userAdmonitions": {},
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "6.10.1",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "syncLinks": false,
+  "enableMarkdownProcessor": false,
+  "injectColor": true,
+  "parseTitles": true,
+  "allowMSSyntax": true,
+  "livePreviewMS": true,
+  "dropShadow": true
+}

@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-daily-notes-viewer",
+	"name": "Daily Notes Viewer",
+	"version": "0.2.1",
+	"minAppVersion": "0.12.0",
+	"description": "Help you to view some recent daily notes on one page.",
+	"author": "Johnson0907",
+	"authorUrl": "https://github.com/Johnson0907",
+	"isDesktopOnly": false
+}

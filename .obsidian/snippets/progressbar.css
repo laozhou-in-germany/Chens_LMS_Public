@@ -1,0 +1,10 @@
+#bar {
+        width: 5%;
+        height: 4rem;
+        text-align: center;
+        color: white;
+        background-image: green;
+        -webkit-appearance: button
+        -moz-appearance: button
+        appearance: button
+    }

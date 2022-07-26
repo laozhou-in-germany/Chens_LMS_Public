@@ -1,0 +1,7 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "900_Supporting_Files",
+  "useFileOpenHook": false,
+  "useFileSaveHook": true
+}

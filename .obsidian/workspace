@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "24ac535378569f3b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3994a8a1c8455bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6efee1c71935b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "815327c3286132db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d669524f426ed5c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#berlin",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23c7e2b1c9374a5d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284
+  },
+  "right": {
+    "id": "f55ad70156be8b3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad0ab8a9794d118a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "852114cbb56a6279",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9a918f0d8c5c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ffccce8a5c2920a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "60a7117cd3ff3e9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "24ac535378569f3b",
+  "lastOpenFiles": [
+    "README.md",
+    "900_Supporting_Files/991_Readme/SC_c1_Knowledge_management.md",
+    "900_Supporting_Files/991_Readme/SC_b1_Journal.md",
+    "900_Supporting_Files/991_Readme/SC_a1_Goals_projects.md",
+    "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md",
+    "900_Supporting_Files/910_Templates/Periodic_Note/New-Day.md",
+    "900_Supporting_Files/990_Helper/40 prompts  for gratitude of Tim Ferris.md",
+    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
+    "900_Supporting_Files/991_Readme/01_Intro.md",
+    "🏠Dashboard.md"
+  ]
+}

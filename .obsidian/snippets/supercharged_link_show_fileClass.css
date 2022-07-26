@@ -1,0 +1,55 @@
+
+
+a.internal-link[data-link-fileClass$="literature-note"]::before{
+    content: "📔 "
+}
+a.internal-link[data-link-fileClass$="atomic-note"]::before{
+    content: "⚛️"
+}
+a.internal-link[data-link-fileClass$="evergreen-note"]::before{
+    content: "🌲"
+}
+a.internal-link[data-link-fileClass$="topic"]::before{
+    content: "🗩"
+}
+
+a.internal-link[data-link-fileClass$="routine"]::before{
+    content: "🔁"
+}
+a.internal-link[data-link-fileClass$="mindset"]::before{
+    content: "🤯"
+}
+a.internal-link[data-link-fileClass$="value-goal"]::before{
+    content: "🌟"
+}
+a.internal-link[data-link-fileClass$="outcome"]::before{
+    content: "🎯"
+}
+a.internal-link[data-link-fileClass$="project"]::before{
+    content: "💎"
+}
+a.internal-link[data-link-fileClass$="video-project"]::before{
+    content: "📽️"
+}
+
+a.internal-link[data-link-fileClass$="day-note"]::before{
+    content: "🌄"
+}
+a.internal-link[data-link-fileClass$="week-note"]::before{
+    content: "❇"
+}
+a.internal-link[data-link-fileClass$="month-note"]::before{
+    content: "📅"
+}
+a.internal-link[data-link-fileClass$="quarter-note"]::before{
+    content: "⌛️"
+}
+a.internal-link[data-link-fileClass$="year-note"]::before{
+    content: "🌏"
+}
+a.internal-link[data-link-fileClass$="meeting-minute"]::before{
+    content: "🖥️"
+}
+a.internal-link[data-link-fileClass$="event"]::before{
+    content: "🎉"
+}

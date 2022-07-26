@@ -1,0 +1,77 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "900_Supporting_Files/910_Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "100_Goals_Projects/110_🏛Pillars",
+      "template": "900_Supporting_Files/910_Templates/New-Pillar.md"
+    },
+    {
+      "folder": "100_Goals_Projects/111_🔁Routines",
+      "template": "900_Supporting_Files/910_Templates/New-Routine.md"
+    },
+    {
+      "folder": "100_Goals_Projects/112_🤯Mindsets",
+      "template": "900_Supporting_Files/910_Templates/New-Mindset.md"
+    },
+    {
+      "folder": "100_Goals_Projects/130_🌟Value_Goals",
+      "template": "900_Supporting_Files/910_Templates/New-Value-Goal.md"
+    },
+    {
+      "folder": "100_Goals_Projects/150_🎯Outcomes",
+      "template": "900_Supporting_Files/910_Templates/New-Outcome.md"
+    },
+    {
+      "folder": "100_Goals_Projects/170_💎Projects",
+      "template": "900_Supporting_Files/910_Templates/New-Project.md"
+    },
+    {
+      "folder": "500_Knowledge_Management/530_⚛️Atomic_Notes",
+      "template": "900_Supporting_Files/910_Templates/New-Atomic-Note.md"
+    },
+    {
+      "folder": "500_Knowledge_Management/510_📔Literature_Notes",
+      "template": "900_Supporting_Files/910_Templates/New-Literature-Note.md"
+    },
+    {
+      "folder": "500_Knowledge_Management/550_🌲Evergreen_Notes",
+      "template": "900_Supporting_Files/910_Templates/New-Evergreen-Note.md"
+    },
+    {
+      "folder": "500_Knowledge_Management/570_🗩Topics",
+      "template": "900_Supporting_Files/910_Templates/New-Topic.md"
+    },
+    {
+      "folder": "300_Journal/320_🎉Events",
+      "template": "900_Supporting_Files/910_Templates/New-Event.md"
+    },
+    {
+      "folder": "300_Journal/340_🖥️Meetings",
+      "template": "900_Supporting_Files/910_Templates/New-Meeting.md"
+    },
+    {
+      "folder": "300_Journal/390_🧺Journal_Elements/391_👤Person",
+      "template": "900_Supporting_Files/910_Templates/New-Person-Colleague.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
+}

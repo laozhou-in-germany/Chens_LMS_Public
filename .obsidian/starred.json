@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "00_Home Node",
+      "path": "pages/contents.md"
+    },
+    {
+      "type": "file",
+      "title": "Top Topics",
+      "path": "z_docs/Top Topics.md"
+    },
+    {
+      "type": "file",
+      "title": "My own PKM system topic",
+      "path": "41_Evergreen_topic/My PKM - System.md"
+    },
+    {
+      "type": "file",
+      "title": "Kanban_Topics",
+      "path": "00_Dashboard/🟦Kanban.md"
+    },
+    {
+      "type": "file",
+      "title": "🔲Tasks",
+      "path": "00_Dashboard/01_Tasks.md"
+    },
+    {
+      "type": "file",
+      "title": "02_Note Production Line",
+      "path": "00_Dashboard/03_Factory Literature Note.md"
+    },
+    {
+      "type": "file",
+      "title": "feeling",
+      "path": "docs/defs/feeling.md"
+    },
+    {
+      "type": "file",
+      "title": "Routine Section",
+      "path": "docs/defs/Routine Section.md"
+    },
+    {
+      "type": "file",
+      "title": "feeling",
+      "path": "z_docs/defs/feeling.md"
+    },
+    {
+      "type": "file",
+      "title": "Top Topics",
+      "path": "docs/Top Topics.md"
+    },
+    {
+      "type": "file",
+      "title": "note-status",
+      "path": "docs/defs/note-status.md"
+    },
+    {
+      "type": "file",
+      "title": "fileClass",
+      "path": "z_docs/defs/fileClass.md"
+    },
+    {
+      "type": "file",
+      "title": "note-status",
+      "path": "z_docs/defs/note-status.md"
+    },
+    {
+      "type": "file",
+      "title": "topic006 Leading change",
+      "path": "600 💡Knowledge/770 🗩Topic/Leading change topic.md"
+    },
+    {
+      "type": "file",
+      "title": "000 🏠 Dashboard",
+      "path": "🏠Dashboard.md"
+    },
+    {
+      "type": "file",
+      "title": "🚰Alignment Zone",
+      "path": "950 Workspaces/810 🚰Alignment Zone.md"
+    },
+    {
+      "type": "file",
+      "title": "✅Action Zone",
+      "path": "950 Workspaces/818 ✅Task Backlog.md"
+    },
+    {
+      "type": "file",
+      "title": "⭕Cycle Zone",
+      "path": "950 Workspaces/870 ⭕Cycle Zone.md"
+    },
+    {
+      "type": "file",
+      "title": "005 💡Knowlege Zone",
+      "path": "950 Workspaces/710 Literature Notes Workshop.md"
+    },
+    {
+      "type": "file",
+      "title": "601 💡Knowlege Home Node",
+      "path": "950 Workspaces/601 💡Knowlege Home Node.md"
+    },
+    {
+      "type": "file",
+      "title": "我的个人知识管理 topic",
+      "path": "600 💡Knowledge/770 🗩Topic/我的个人知识管理 topic.md"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+
+a.internal-link[data-link-status$="🟢active" ]::after{
+    content: "🟢"; 
+	font-size: 12px
+}
+a.internal-link[data-link-status$="⏸on-hold"]::after{
+    content: "⏸";
+	font-size: 12px
+}
+a.internal-link[data-link-status$="🔜next-up"]::after{
+    content: "🔜";
+	font-size: 12px
+}
+a.internal-link[data-link-status$="✨future"]::after{
+    content: "✨";
+	font-size: 12px
+}
+a.internal-link[data-link-status$="✅completed"]::after{
+    content: "✅️";
+	font-size: 12px
+}
+a.internal-link[data-link-status$="🗑️abandon"]::after{
+    content: "🗑️";
+	font-size: 12px
+}
+
+
+a.internal-link[data-link-status-set2$="🟢active" ]::after{
+    content: "🟢"; 
+	font-size: 12px
+}
+a.internal-link[data-link-status-set2$="⏸on-hold"]::after{
+    content: "⏸";
+	font-size: 12px
+}
+a.internal-link[data-link-status-set2$="✨future"]::after{
+    content: "✨";
+	font-size: 12px
+}
+a.internal-link[data-link-status-set2$="✅archived"]::after{
+    content: "✅️";
+	font-size: 12px
+}
+
+

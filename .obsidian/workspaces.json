@@ -1,0 +1,150 @@
+{
+  "workspaces": {
+    "General": {
+      "main": {
+        "id": "640dcf9556ec11a3",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ab1cad35fa3014e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "600 📝Drafts/Clipper/北京突发！重大消息.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6e6bc09427873f7d",
+        "type": "split",
+        "children": [
+          {
+            "id": "4a387458ef87456a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4745133036a6ed58",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "adecc0525b085a24",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d58e41bf7c6d460",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e003f8ae2ee284a0",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b7c819511d9167d6",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "b68dcebea38ed3e6",
+        "type": "split",
+        "children": [
+          {
+            "id": "76043ece3ec49710",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ae32e7a4b45640bc",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "9ff6a6e6a9460976",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "600 📝Drafts/Clipper/北京突发！重大消息.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "fb9b160da3e37f68",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "f5291e68fd43d4c8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "600 📝Drafts/Clipper/北京突发！重大消息.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "4ab1cad35fa3014e"
+    }
+  },
+  "active": "General"
+}
