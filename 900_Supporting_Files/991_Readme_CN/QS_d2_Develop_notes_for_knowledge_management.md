@@ -34,7 +34,8 @@
 
 ### 培育常青笔记
 
-**常青笔记**的成熟度随着外部知识（文献笔记）和自己的经验（来自日志和其他常青笔记）的增加而增加。**间隔重复**[^2] 和 **根据内容自动显示笔记** 这两个功能将辅助你在合适的时机培育**常青笔记**。
+**常青笔记**的成熟度随着外部知识（文献笔记）和自己的经验（来自日志和其他常青笔记）的增加而增加。  
+**间隔重复**[^2] 和 **根据内容自动显示笔记** 这两个功能将辅助你在合适的时机培育**常青笔记**。
 
 
 ### 发展主题笔记
@@ -50,7 +51,7 @@
 
 
 
-[^1]：渐进式总结：Tiago Forte 开发的一种记笔记方法。有关更多详细信息，请参阅 [渐进式总结：设计可发现笔记的实用技术 - Forte Labs](https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
+[^1]: 渐进式总结：Tiago Forte 开发的一种记笔记方法。有关更多详细信息，请参阅 [渐进式总结：设计可发现笔记的实用技术 - Forte Labs](https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
 
 
 

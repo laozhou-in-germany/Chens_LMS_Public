@@ -17,7 +17,7 @@
 
 **第1步：** 打开笔记“100_Goals_Projects”  
 **第2步：** 单击“**New🏛**”按钮，创建一个新的**支柱笔记**  
-其他创建方法，请参阅 [5种创建笔记的方法](QS_a1_5_Ways_to_create_new_notes.md)  
+其他创建方法，请参阅 [5种创建笔记的方法](QS_a1_5_ways_to_create_new_notes.md)  
 **第3步：** 重命名**支柱笔记** [^1]  
 在**支柱笔记**名称的开头使用Emoji来提高可识别性  
 **第4步：** 选择一个**支柱笔记类别**  
@@ -36,25 +36,25 @@
 - 🔵learn: 3xx  
 - 🟡legacy: 4xx  
 
-**完成：** 新的**支柱笔记**会自动显示在Dashboard上: (“110_🏛Pillars”, “100_Goals_Projects”)  
+**完成：** 新的**支柱笔记**会自动显示在Dashboard上 (“110_🏛Pillars”, “100_Goals_Projects”)  
 
 
 ## 创建价值目标笔记
 **第1步：** 打开笔记“100_Goals_Projects”并单击其上的一个**支柱笔记**  
 **第2步：** 点击**支柱笔记**页面上的“**🌟New Value Goal**”按钮，创建一个新的**价值目标笔记**  
-其他创建方法，请参阅 [5种创建新笔记的方法](QS_a1_5_Ways_to_create_new_notes.md)  
+其他创建方法，请参阅 [5种创建新笔记的方法](QS_a1_5_ways_to_create_new_notes.md)  
 **第3步：** 重命名**价值目标笔记** [^1]  
 **第4步：** 为它选择一个**支柱笔记**  
-**完成：** 新的**价值目标笔记**会自动显示在Dashboard(“130_🌟Value_Goals”, “100_Goals_Projects”)  
+**完成：** 新的**价值目标笔记**会自动显示在Dashboard上 (“130_🌟Value_Goals”, “100_Goals_Projects”)  
 
 ## 创建成果笔记
 **第1步：** 打开笔记“100_Goals_Projects”并单击一个**价值目标笔记**  
 **第2步：** 点击**价值目标笔记**上的“**🎯New Outcome**”按钮，创建一个新的**成果笔记**  
-其他创建方法，请参阅 [5种创建新笔记的方法 ](QS_a1_5_Ways_to_create_new_notes.md)  
+其他创建方法，请参阅 [5种创建新笔记的方法 ](QS_a1_5_ways_to_create_new_notes.md)  
 **第3步：** 重命名**成果笔记** [^1]  
 **第4步：** 为它选择一个**价值目标笔记**  
 **第5步（可选）：** 定义里程碑  
-**完成：** 新的**成果笔记**会自动显示在Dashboard上(“150_🎯Outcomes”, “100_Goals_Projects”)
+**完成：** 新的**成果笔记**会自动显示在Dashboard上 (“150_🎯Outcomes”, “100_Goals_Projects”)
 
 ## 创建习惯笔记
 类似于创建**成果笔记**。 
@@ -65,16 +65,16 @@
 ## 创建项目笔记
 **第1步：** 打开笔记“100_Goals_Projects”并单击其上的**成果笔记**  
 **第2步：** 单击**成果笔记**上的“**💎 New Project**”按钮，创建一个新**项目笔记**  
-其他创建方法，请参阅 [5种创建新笔记的方法](QS_a1_5_Ways_to_create_new_notes.md)  
+其他创建方法，请参阅 [5种创建新笔记的方法](QS_a1_5_ways_to_create_new_notes.md)  
 **第3步：** 重命名**项目笔记** [^1]  
 **第4步：** 为项目笔记选择**成果笔记**  
 **第5步（可选）：** 定义任务  
-**完成：** 新**项目笔记**会自动显示在Dashboard上(“170_💎Projects”, “100_Goals_Projects”)
+**完成：** 新**项目笔记**会自动显示在Dashboard上 (“170_💎Projects”, “100_Goals_Projects”)
 
 ## 创建视频项目笔记
 类似于创建**项目笔记** 。
 
 
 
-[^1]：重命名笔记后，所有Dataview代码块都会显示一条错误消息。 “Evaluation Error: ...”它不影响功能。下次重新加载笔记时，所有 dataview 代码块都应该可以正常工作。
+[^1]: 重命名笔记后，所有Dataview代码块都会显示一条错误消息。 “Evaluation Error: ...”它不影响功能。下次重新加载笔记时，所有 dataview 代码块都应该可以正常工作。
 
