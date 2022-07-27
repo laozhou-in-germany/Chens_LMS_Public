@@ -35,10 +35,10 @@ For alternative ways see [5 Ways to create new notes](QS_a1_5_Ways_to_create_new
 **Step 2:** Create an empty note by clicking on the wiki link and renaming the note  
 **Step 3:** Insert the template by pressing shortcut  **Alt + t** and selecting "**New-Atomic-Note**"
 For alternative ways see [5 Ways to create new notes](QS_a1_5_Ways_to_create_new_notes.md)   
-**Step 3:** Write the note below the level 1 header
-**Step 4:** Update the yalm frontmatter 
-**Step 5:** Add tags to the note  
-**Step 6:** Move the note to the folder "530_⚛️Atomic_Notes"  
+**Step 4:** Write the note below the level 1 header
+**Step 5:** Update the yalm frontmatter 
+**Step 6:** Add tags to the note  
+**Step 7:** Move the note to the folder "530_⚛️Atomic_Notes"  
 **Done:** The feature **context-aware resurfacing** [^3] is now enabled for this note.
 
 

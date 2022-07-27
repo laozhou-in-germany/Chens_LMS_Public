@@ -1,42 +1,42 @@
-# Show Case - Plans & Reviews
-[Back to README](../../README.md)
+# 展示 - 计划和回顾
+[返回读我](../../README_CN.md)
 
-## Dashboards
+## Dashboard
 
-Plans and Review Dashboard
+计划和回顾Dashboard
 
 ![image-20220725221848046](images/image-20220725221848046.png)
 
-Weekly review dashboard
+每周回顾Dashboard
 
 ![image-20220725221923685](images/image-20220725221923685.png)
 
-Monthly review dashboard
+每月回顾Dashboard
 
 ![image-20220725221940149](images/image-20220725221940149.png)
 
-Quarterly review dashboard
+季度回顾Dashboard
 
 ![image-20220725222022269](images/image-20220725222022269.png)
 
-Yearly review dashboard
+年度回顾Dashboard
 
 ![image-20220725222137434](images/image-20220725222137434.png)
 
-## Single note pages
+## 单个笔记页面
 
-Weekly review with automatically summarized content for review
+每周回顾 + 自动汇总内容
 
 ![image-20220725221656766](images/image-20220725221656766.png)
 
-Monthly review with automatically summarized content for review
+每月回顾 + 自动汇总内容
 
 ![image-20220725222254350](images/image-20220725222254350.png)
 
-Quarterly review with automatically summarized content for review
+季度回顾 + 自动汇总内容
 
 ![image-20220725223042367](images/image-20220725223042367.png)
 
-Yearöy review with guiding questions
+年度回顾
 
 ![image-20220725223138867](images/image-20220725223138867.png)

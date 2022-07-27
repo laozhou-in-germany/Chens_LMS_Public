@@ -6,10 +6,25 @@
       {
         "id": "24ac535378569f3b",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md",
+            "file": "README_CN.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "d2ec7437fddc9d65",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#berlin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,6 +86,7 @@
       {
         "id": "ad0ab8a9794d118a",
         "type": "tabs",
+        "dimension": 28.982898289828984,
         "children": [
           {
             "id": "852114cbb56a6279",
@@ -79,21 +95,21 @@
               "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a4a2a4c612aee0a4",
+        "type": "tabs",
+        "dimension": 43.114311431143115,
+        "children": [
           {
-            "id": "b9a918f0d8c5c0ea",
+            "id": "60a7117cd3ff3e9f",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md"
               }
             }
           },
@@ -107,35 +123,48 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "0af2e0571f7677f2",
+        "type": "tabs",
+        "dimension": 27.9027902790279,
+        "children": [
           {
-            "id": "60a7117cd3ff3e9f",
+            "id": "b9a918f0d8c5c0ea",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md"
+                "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "24ac535378569f3b",
+  "active": "d2ec7437fddc9d65",
   "lastOpenFiles": [
+    "README_CN.md",
+    "900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md",
+    "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
+    "900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md",
     "README.md",
-    "900_Supporting_Files/991_Readme/SC_c1_Knowledge_management.md",
-    "900_Supporting_Files/991_Readme/SC_b1_Journal.md",
-    "900_Supporting_Files/991_Readme/SC_a1_Goals_projects.md",
-    "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md",
-    "900_Supporting_Files/910_Templates/Periodic_Note/New-Day.md",
-    "900_Supporting_Files/990_Helper/40 prompts  for gratitude of Tim Ferris.md",
-    "900_Supporting_Files/991_Readme/PKM01_Note_types.md",
-    "900_Supporting_Files/991_Readme/01_Intro.md",
-    "🏠Dashboard.md"
+    "900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md",
+    "900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md",
+    "900_Supporting_Files/991_Readme_CN/QS_e1_Create_notes_for_plans_reviews.md",
+    "900_Supporting_Files/991_Readme_CN/QS_c1_Create_notes_for_journal.md",
+    "900_Supporting_Files/991_Readme_CN/SC_a1_Goals_projects.md"
   ]
 }

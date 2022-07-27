@@ -1,50 +1,50 @@
-# README
-[Chinese Readme](README_CN.md)
+# 简介
+[英文版Readme](README.md)
 
-LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
+LMS（Life Management System）是基于Obsidian.md的个人知识管理系统和目标&项目管理系统。
 
-## Quick Start
-[Install missing plugins](900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md)  
-[5 ways to create new notes](900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md)  
-[Create notes for goals projects](900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md)  
-[Create notes for journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md)  
-[Create notes for knowledge management](900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md)   
-[Develop notes for knowledge management](900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md)  
-[Create notes for plans reviews](900_Supporting_Files/991_Readme/QS_e1_Create_notes_for_plans_reviews.md)    
+## 快速开始
+[安装缺失插件](900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md)  
+[5种创建笔记的方法](900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md)  
+[为目标和项目创建笔记](900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md)  
+[为日志创建笔记](900_Supporting_Files/991_Readme_CN/QS_c1_Create_notes_for_journal.md)  
+[为知识管理创建笔记](900_Supporting_Files/991_Readme_CN/QS_d1_Create_notes_for_knowledge_management.md)   
+[发展知识管理中的笔记](900_Supporting_Files/991_Readme_CN/QS_d2_Develop_notes_for_knowledge_management.md)  
+[为计划和回顾创建笔记](900_Supporting_Files/991_Readme_CN/QS_e1_Create_notes_for_plans_reviews.md)    
 
-## Showcase
-[Goals projects](900_Supporting_Files/991_Readme/SC_a1_Goals_projects.md)   
-[Journal](900_Supporting_Files/991_Readme/SC_b1_Journal.md)   
-[Knowledge management](900_Supporting_Files/991_Readme/SC_c1_Knowledge_management.md)    
-[Plans Reviews](900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md)  
+## 展示
+[目标和项目](900_Supporting_Files/991_Readme_CN/SC_a1_Goals_projects.md)   
+[日志](900_Supporting_Files/991_Readme_CN/SC_b1_Journal.md)   
+[知识管理](900_Supporting_Files/991_Readme_CN/SC_c1_Knowledge_management.md)    
+[计划管理](900_Supporting_Files/991_Readme_CN/SC_d1_Plans_Reviews.md)  
 
-## Reference (Under construction)
-### General
-[Intro](900_Supporting_Files/991_Readme/01_Intro.md)  
-[Folder structure](900_Supporting_Files/991_Readme/02_Folder_structure.md)  
-[Templates](900_Supporting_Files/991_Readme/03_Templates.md)   
+## 手册 (创建中)
+### 概述
+[Intro](900_Supporting_Files/991_Readme_CN/01_Intro.md)  
+[Folder structure](900_Supporting_Files/991_Readme_CN/02_Folder_structure.md)  
+[Templates](900_Supporting_Files/991_Readme_CN/03_Templates.md)   
 
-### Goals and projects
+### 目标和项目
 *Place holder*  
 
-### Journal
+### 日志
 *Place holder*  
 
-### Knowledge Management  
-[Note types](900_Supporting_Files/991_Readme/PKM01_Note_types.md)   Coming soon  
-[Links and tags](900_Supporting_Files/991_Readme/PKM02_Links_and_tags.md) Coming soon  
-[Literature note](900_Supporting_Files/991_Readme/PKM03_Literature_note.md) Coming soon  
-[Atomic note](900_Supporting_Files/991_Readme/PKM04_Atomic_note.md) Coming soon  
-[Evergreen note](900_Supporting_Files/991_Readme/PKM005_Evergreen_note.md) Coming soon  
-[Topic](900_Supporting_Files/991_Readme/PKM006_Topic.md) Coming soon  
-[Put it together](900_Supporting_Files/991_Readme/PKM010_Put_it_together.md) Coming soon  
+### 知识管理
+[Note types](900_Supporting_Files/991_Readme_CN/PKM01_Note_types.md)   Coming soon  
+[Links and tags](900_Supporting_Files/991_Readme_CN/PKM02_Links_and_tags.md) Coming soon  
+[Literature note](900_Supporting_Files/991_Readme_CN/PKM03_Literature_note.md) Coming soon  
+[Atomic note](900_Supporting_Files/991_Readme_CN/PKM04_Atomic_note.md) Coming soon  
+[Evergreen note](900_Supporting_Files/991_Readme_CN/PKM005_Evergreen_note.md) Coming soon  
+[Topic](900_Supporting_Files/991_Readme_CN/PKM006_Topic.md) Coming soon  
+[Put it together](900_Supporting_Files/991_Readme_CN/PKM010_Put_it_together.md) Coming soon  
 
 
-### Plan & Review  
+### 计划和回顾
 *Place holder*  
 
 
-## Credit
+## 感谢
 - [Obsidian.md](https://obsidian.md/)
 - Progressive summarization from [Forte Labs](https://fortelabs.co/)
 - Zettelkasten from Niklas Luhmann
@@ -53,7 +53,7 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 - [tot0/ObsidianPPV: PPV implementation for Obsidian](https://github.com/tot0/ObsidianPPV)
 - [Blue-Topaz_Obsidian-css: A blue theme for Obsidian. ](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css)
 
-### Plugins (integrated)
+### 插件 (已整合)
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
@@ -68,11 +68,11 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 - [Supercharged links: obsidian plugin to add attributes and context menu options to internal links ](https://github.com/mdelobelle/obsidian_supercharged_links)
 - [Templater: A template plugin for obsidian ](https://github.com/SilentVoid13/Templater)
 
-### Plugins (To be installed manually by the user)
+### 插件 (需用户手动安装)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
 
 
-### Plugins (Optional)
+### 插件 (可选)
 - [Excalidraw plugin: A plugin to edit and view Excalidraw drawings in Obsidian ](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - [Tag-wrangler: Rename, merge, toggle, and search tags from the Obsidian tag pane ](https://github.com/pjeby/tag-wrangler)
