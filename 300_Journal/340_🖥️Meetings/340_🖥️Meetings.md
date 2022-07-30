@@ -18,3 +18,11 @@ limit 5
 
 ^031cb1
 
+## Last 25 Meetings
+~~~dataview
+table without ID file.link as Meeting, category-meeting as Category
+from -"900_Supporting_Files"
+where fileClass = "meeting-minute"
+Sort date DESC
+limit 25
+~~~

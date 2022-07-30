@@ -1,5 +1,5 @@
 # README
-[Chinese Readme](README_CN.md)
+[English](README.md) | [中文版](README_CN.md)
 
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
@@ -55,6 +55,7 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 
 ### Plugins (integrated)
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
+- [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
 - [Daily-notes-viewer ](https://github.com/Johnson0907/obsidian-daily-notes-viewer)
@@ -69,7 +70,6 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 - [Templater: A template plugin for obsidian ](https://github.com/SilentVoid13/Templater)
 
 ### Plugins (To be installed manually by the user)
-- [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
 
 

@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "d2ec7437fddc9d65",
+        "id": "06b8fcc4d644d29a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md"
+                "file": "README_CN.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
+                "file": "README_CN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,19 +152,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d2ec7437fddc9d65",
+  "active": "24ac535378569f3b",
   "lastOpenFiles": [
-    "README_CN.md",
-    "900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md",
-    "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
-    "900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md",
     "README.md",
-    "900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md",
-    "900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md",
-    "900_Supporting_Files/991_Readme_CN/QS_e1_Create_notes_for_plans_reviews.md",
-    "900_Supporting_Files/991_Readme_CN/QS_c1_Create_notes_for_journal.md",
-    "900_Supporting_Files/991_Readme_CN/SC_a1_Goals_projects.md"
+    "README_CN.md",
+    "900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md",
+    "900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md",
+    "README WIP.md",
+    "README_CN WIP.md",
+    "000_Drafts/2022-07-29 机电学会理事会.md",
+    "900_Supporting_Files/991_Readme/01_Intro.md",
+    "900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md",
+    "900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md"
   ]
 }

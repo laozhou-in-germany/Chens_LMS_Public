@@ -55,7 +55,6 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 
 ### 插件 (已整合)
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
-- [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
 - [Daily-notes-viewer ](https://github.com/Johnson0907/obsidian-daily-notes-viewer)
@@ -70,9 +69,10 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 - [Templater: A template plugin for obsidian ](https://github.com/SilentVoid13/Templater)
 
 ### 插件 (需用户手动安装)
+- [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
 
 
-### 其他推荐插件 
+### 插件 (可选)
 - [Excalidraw plugin: A plugin to edit and view Excalidraw drawings in Obsidian ](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - [Tag-wrangler: Rename, merge, toggle, and search tags from the Obsidian tag pane ](https://github.com/pjeby/tag-wrangler)
