@@ -3,11 +3,18 @@
 
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
+The LMS is a complex interactive system. To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
+
+[LMS as a medieval town](900_Supporting_Files/991_Readme/01_LMS_as_a_medieval_town.md)
+
+![LMS_poster_landscape](900_Supporting_Files/991_Readme/images/LMS_poster_landscape.png)
+
+
 ## Quick Start
 [Install missing plugins](900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md)  
 [5 ways to create new notes](900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md)  
 [Create notes for goals projects](900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md)  
-[Create notes for journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md)  
+[Create notes for the journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md)  
 [Create notes for knowledge management](900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md)   
 [Develop notes for knowledge management](900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md)  
 [Create notes for plans reviews](900_Supporting_Files/991_Readme/QS_e1_Create_notes_for_plans_reviews.md)    
@@ -60,7 +67,7 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
 - [Daily-notes-viewer ](https://github.com/Johnson0907/obsidian-daily-notes-viewer)
 - [Dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/. ](https://github.com/blacksmithgu/obsidian-dataview)
-- [Filename heading sync: Obisdian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
+- [Filename heading sync: Obsidian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
 - [MetaEdit: MetaEdit for Obsidian ](https://github.com/chhoumann/MetaEdit)
 - [Periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian ](https://github.com/liamcain/obsidian-periodic-notes)
 - [Obsidian-columns](https://github.com/tnichols217/obsidian-columns)

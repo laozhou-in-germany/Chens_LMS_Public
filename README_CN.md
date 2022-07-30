@@ -3,6 +3,10 @@
 
 LMS（Life Management System）是基于Obsidian.md的个人知识管理系统和目标&项目管理系统。
 
+
+![LMS_poster_landscape](900_Supporting_Files/991_Readme/images/LMS_poster_landscape.png)
+
+
 ## 快速开始
 [安装缺失插件](900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md)  
 [5种创建笔记的方法](900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md)  
