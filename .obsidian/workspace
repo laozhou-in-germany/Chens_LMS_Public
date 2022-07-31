@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README_CN.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README_CN.md"
+                "file": "README.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README_CN.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,15 +155,15 @@
   },
   "active": "24ac535378569f3b",
   "lastOpenFiles": [
-    "README.md",
     "README_CN.md",
-    "900_Supporting_Files/991_Readme/01_LMS_as_a_medieval_town.md",
-    "900_Supporting_Files/991_Readme/01_Intro.md",
-    "900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md",
-    "900_Supporting_Files/991_Readme_CN/QS_e1_Create_notes_for_plans_reviews.md",
-    "900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md",
-    "900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md",
+    "README.md",
     "900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md",
-    "900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md"
+    "900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md",
+    "100_Goals_Projects/100_Goals_Projects.md",
+    "300_Journal/300_Journal.md",
+    "500_Knowledge_Management/500_Knowledge_Management.md",
+    "700_Plans_Reviews/700_Plans_Reviews.md",
+    "900_Supporting_Files/991_Readme/01_LMS_as_a_medieval_town.md",
+    "900_Supporting_Files/991_Readme/01_Intro.md"
   ]
 }

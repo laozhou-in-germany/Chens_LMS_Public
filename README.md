@@ -11,7 +11,6 @@ The LMS is a complex interactive system. To make it easy to understand, I consid
 
 
 ## Quick Start
-[Install missing plugins](900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md)  
 [5 ways to create new notes](900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md)  
 [Create notes for goals projects](900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md)  
 [Create notes for the journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md)  
@@ -62,12 +61,14 @@ The LMS is a complex interactive system. To make it easy to understand, I consid
 
 ### Plugins (integrated)
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
+- [Alx-folder-note: Add description, summary, and more info to folders with folder notes. (github.com)](https://github.com/aidenlx/alx-folder-note)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
 - [Daily-notes-viewer ](https://github.com/Johnson0907/obsidian-daily-notes-viewer)
 - [Dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/. ](https://github.com/blacksmithgu/obsidian-dataview)
 - [Filename heading sync: Obsidian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
+- [Folder-note-core: Provide core features and API for folder notes in obsidian](https://github.com/aidenlx/folder-note-core)
 - [MetaEdit: MetaEdit for Obsidian ](https://github.com/chhoumann/MetaEdit)
 - [Periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian ](https://github.com/liamcain/obsidian-periodic-notes)
 - [Obsidian-columns](https://github.com/tnichols217/obsidian-columns)
@@ -75,10 +76,6 @@ The LMS is a complex interactive system. To make it easy to understand, I consid
 - [Outliner: Work with your lists like in Workflowy or RoamResearch](https://github.com/vslinko/obsidian-outliner)
 - [Supercharged links: obsidian plugin to add attributes and context menu options to internal links ](https://github.com/mdelobelle/obsidian_supercharged_links)
 - [Templater: A template plugin for obsidian ](https://github.com/SilentVoid13/Templater)
-
-### Plugins (To be installed manually by the user)
-- [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
-
 
 ### Plugins (Optional)
 - [Excalidraw plugin: A plugin to edit and view Excalidraw drawings in Obsidian ](https://github.com/zsviczian/obsidian-excalidraw-plugin)

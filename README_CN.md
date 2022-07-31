@@ -8,7 +8,6 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 
 
 ## 快速开始
-[安装缺失插件](900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md)  
 [5种创建笔记的方法](900_Supporting_Files/991_Readme_CN/QS_a1_5_ways_to_create_new_notes.md)  
 [为目标和项目创建笔记](900_Supporting_Files/991_Readme_CN/QS_b1_Create_notes_for_goals_projects.md)  
 [为日志创建笔记](900_Supporting_Files/991_Readme_CN/QS_c1_Create_notes_for_journal.md)  
@@ -59,12 +58,14 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 
 ### 插件 (已整合)
 - [Admonition: Adds admonition block-styled content to Obsidian.md ](https://github.com/valentine195/obsidian-admonition)
+- [Alx-folder-note: Add description, summary, and more info to folders with folder notes. (github.com)](https://github.com/aidenlx/alx-folder-note)
 - [Buttons: Buttons in Obsidian ](https://github.com/shabegom/buttons)
 - [Calendar: Simple calendar widget for Obsidian. ](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Completr: Auto-completion plugin for the obsidian editor. ](https://github.com/tth05/obsidian-completr)
 - [Daily-notes-viewer ](https://github.com/Johnson0907/obsidian-daily-notes-viewer)
 - [Dataview: A high-performance data index and query language over Markdown files, for https://obsidian.md/. ](https://github.com/blacksmithgu/obsidian-dataview)
-- [Filename heading sync: Obisdian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
+- [Filename heading sync: Obsidian.md plugin to keep the filename and the first header of the file in sync ](https://github.com/dvcrn/obsidian-filename-heading-sync)
+- [Folder-note-core: Provide core features and API for folder notes in obsidian](https://github.com/aidenlx/folder-note-core)
 - [MetaEdit: MetaEdit for Obsidian ](https://github.com/chhoumann/MetaEdit)
 - [Periodic-notes: Create/manage your daily, weekly, and monthly notes in Obsidian ](https://github.com/liamcain/obsidian-periodic-notes)
 - [Obsidian-columns](https://github.com/tnichols217/obsidian-columns)
@@ -72,9 +73,6 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 - [Outliner: Work with your lists like in Workflowy or RoamResearch](https://github.com/vslinko/obsidian-outliner)
 - [Supercharged links: obsidian plugin to add attributes and context menu options to internal links ](https://github.com/mdelobelle/obsidian_supercharged_links)
 - [Templater: A template plugin for obsidian ](https://github.com/SilentVoid13/Templater)
-
-### 插件 (需用户手动安装)
-- [Folder note: Plugin to add description note to a folder for Obsidian. ](https://github.com/xpgo/obsidian-folder-note-plugin)
 
 
 ### 其他推荐插件 

@@ -8,6 +8,7 @@ type command
 action Periodic Notes: Open daily note
 ```
 ## Last 14 days
+![[2022-07-31#^📝Note]]
 ![[2022-07-30#^📝Note]]
 ![[2022-07-29#^📝Note]]
 ![[2022-07-28#^📝Note]]
