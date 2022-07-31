@@ -1,1 +1,1 @@
-💡 [[Here is my insight as evergreen note.]]
+💡 [[My_insight]]
