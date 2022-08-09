@@ -26,7 +26,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
+            "file": "docs/docs/About.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md"
+                "file": "docs/docs/About.md"
               }
             }
           },
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
+                "file": "docs/docs/About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,9 +170,9 @@
   },
   "active": "c7e6021a47187223",
   "lastOpenFiles": [
-    "100_Goals_Projects/111_🔁Routines/111_🔁Routines.md",
-    "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
     "README.md",
+    "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
+    "100_Goals_Projects/111_🔁Routines/111_🔁Routines.md",
     "100_Goals_Projects/110_🏛Pillars/110_🏛Pillars.md",
     "100_Goals_Projects/170_💎Projects/170_💎Projects.md",
     "100_Goals_Projects/150_🎯Outcomes/150_🎯Outcomes.md",
