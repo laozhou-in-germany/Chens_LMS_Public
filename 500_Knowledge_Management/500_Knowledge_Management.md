@@ -38,7 +38,7 @@ let notes2 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="atomic-note");
 let n2 = notes2.length
 let pb2 = "<progress value='" + n2+ "' max='250'></progress>" + n2
-let p2 = dv.page("530_⚛️Atomic_Notes").file.link
+let p2 = dv.page("530_⚛Atomic_Notes").file.link
 
 let notes3 = dv.pages('-"900_Supporting_Files"')
 	.where(p => p["fileClass"]=="evergreen-note");

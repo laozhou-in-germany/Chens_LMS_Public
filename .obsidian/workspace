@@ -4,12 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "24ac535378569f3b",
+        "id": "22b55be6eaae27e1",
         "type": "leaf",
+        "dimension": 23.93584207279457,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "README.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "c7e6021a47187223",
+        "type": "leaf",
+        "dimension": 50.33929673041333,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,16 +34,14 @@
         }
       },
       {
-        "id": "06b8fcc4d644d29a",
+        "id": "7407929070a5b0ca",
         "type": "leaf",
+        "dimension": 25.724861196792105,
+        "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {},
+          "pinned": true
         }
       }
     ],
@@ -75,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417
+    "width": 261
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -107,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md"
               }
             }
           },
@@ -135,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,17 +168,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "24ac535378569f3b",
+  "active": "c7e6021a47187223",
   "lastOpenFiles": [
-    "README_CN.md",
+    "100_Goals_Projects/111_🔁Routines/111_🔁Routines.md",
+    "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md",
     "README.md",
-    "900_Supporting_Files/991_Readme_CN/QS_a0_Install_plugins.md",
-    "900_Supporting_Files/991_Readme/QS_a0_Install_plugins.md",
+    "100_Goals_Projects/110_🏛Pillars/110_🏛Pillars.md",
+    "100_Goals_Projects/170_💎Projects/170_💎Projects.md",
+    "100_Goals_Projects/150_🎯Outcomes/150_🎯Outcomes.md",
+    "100_Goals_Projects/130_🌟Value_Goals/130_🌟Value_Goals.md",
     "100_Goals_Projects/100_Goals_Projects.md",
-    "300_Journal/300_Journal.md",
-    "500_Knowledge_Management/500_Knowledge_Management.md",
-    "700_Plans_Reviews/700_Plans_Reviews.md",
-    "900_Supporting_Files/991_Readme/01_LMS_as_a_medieval_town.md",
-    "900_Supporting_Files/991_Readme/01_Intro.md"
+    "900_Supporting_Files/991_Readme/Journal01_General.md",
+    "300_Journal/310_🌄Daily/2022-07-26.md"
   ]
 }

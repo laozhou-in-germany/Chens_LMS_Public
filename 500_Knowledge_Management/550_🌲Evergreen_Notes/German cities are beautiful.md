@@ -1,11 +1,9 @@
 ---
-author:  
-excerpt:  
+excerpt: German cities are beautiful  
 fileClass: evergreen-note
 score: x  
 category-evergreen-note:  
 reviewed: x  
-cover: 
 date: 2022-01-14  
 last-review: 2022-01-14  
 ---
@@ -20,4 +18,4 @@ dv.list(notes.file.link);
 # German cities are beautiful
 ==⚠This note is a demo file. You can safely delete it if you want.⚠==
 
-I visited a lots of the cities in German. They are beautiful.
+I visited a lot of the cities in German. They are beautiful.

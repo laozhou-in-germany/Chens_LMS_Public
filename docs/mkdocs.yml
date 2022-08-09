@@ -1,0 +1,9 @@
+site_name: Chen's LMS
+
+nav:
+    - English: index.md
+    - 中文: index_cn.md
+    - About: about.md
+
+markdown_extensions:
+  - footnotes

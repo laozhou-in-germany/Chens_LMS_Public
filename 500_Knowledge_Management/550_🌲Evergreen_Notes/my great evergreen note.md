@@ -1,11 +1,9 @@
 ---
-author:  
 excerpt:  
 fileClass: evergreen-note
 score: xxxx  
 category-evergreen-note:  
 reviewed: xxxxx  
-cover: 
 date: 2022-07-13  
 last-review: 2022-07-13  
 ---

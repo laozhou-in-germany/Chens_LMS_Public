@@ -10,7 +10,7 @@ completed: 0
 More: [[150_🎯Outcomes]]
 
 Value Goal:: [[Create passive income to be financial indenpendent]]
-Quarters:: [[../../700_Plans_Reviews/750_⌛Quarters/2022-Q3]]  
+Quarters:: [[2022-Q3]]  
 
 ## What? (Mile Stones)
 - [ ] Milestone 1

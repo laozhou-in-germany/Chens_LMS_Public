@@ -10,7 +10,7 @@ completed: 0
 ==>[[150_🎯Outcomes]]
 
 Value Goal:: [[Have healthy life style]]
-Quarters:: [[../../700_Plans_Reviews/750_⌛Quarters/2022-Q3]]  
+Quarters:: [[2022-Q3]]  
 
 ## What? (Mile Stones)
 - [ ] Trip 1

@@ -4,7 +4,7 @@ excerpt:
 fileClass: atomic-note  
 score: xx 
 category-atomic-note: aphorism  
-status-atomic-note:   
+reviewed:   
 date: <% tp.date.now("YYYY-MM-DD") %>  
 last-review: <% tp.date.now("YYYY-MM-DD") %>  
 ---

@@ -5,49 +5,10 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 
 The LMS is a complex interactive system. To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
 
-[LMS as a medieval town](900_Supporting_Files/991_Readme/01_LMS_as_a_medieval_town.md)
+[Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/)
+[帮助文档](https://laozhou-in-germany.github.io/Chens_LMS_Public/index_cn/)
 
-![LMS_poster_landscape](900_Supporting_Files/991_Readme/images/LMS_poster_landscape.png)
-
-
-## Quick Start
-[5 ways to create new notes](900_Supporting_Files/991_Readme/QS_a1_5_ways_to_create_new_notes.md)  
-[Create notes for goals projects](900_Supporting_Files/991_Readme/QS_b1_Create_notes_for_goals_projects.md)  
-[Create notes for the journal](900_Supporting_Files/991_Readme/QS_c1_Create_notes_for_journal.md)  
-[Create notes for knowledge management](900_Supporting_Files/991_Readme/QS_d1_Create_notes_for_knowledge_management.md)   
-[Develop notes for knowledge management](900_Supporting_Files/991_Readme/QS_d2_Develop_notes_for_knowledge_management.md)  
-[Create notes for plans reviews](900_Supporting_Files/991_Readme/QS_e1_Create_notes_for_plans_reviews.md)    
-
-## Showcase
-[Goals projects](900_Supporting_Files/991_Readme/SC_a1_Goals_projects.md)   
-[Journal](900_Supporting_Files/991_Readme/SC_b1_Journal.md)   
-[Knowledge management](900_Supporting_Files/991_Readme/SC_c1_Knowledge_management.md)    
-[Plans Reviews](900_Supporting_Files/991_Readme/SC_d1_Plans_Reviews.md)  
-
-## Reference (Under construction)
-### General
-[Intro](900_Supporting_Files/991_Readme/01_Intro.md)  
-[Folder structure](900_Supporting_Files/991_Readme/02_Folder_structure.md)  
-[Templates](900_Supporting_Files/991_Readme/03_Templates.md)   
-
-### Goals and projects
-*Place holder*  
-
-### Journal
-*Place holder*  
-
-### Knowledge Management  
-[Note types](900_Supporting_Files/991_Readme/PKM01_Note_types.md)   Coming soon  
-[Links and tags](900_Supporting_Files/991_Readme/PKM02_Links_and_tags.md) Coming soon  
-[Literature note](900_Supporting_Files/991_Readme/PKM03_Literature_note.md) Coming soon  
-[Atomic note](900_Supporting_Files/991_Readme/PKM04_Atomic_note.md) Coming soon  
-[Evergreen note](900_Supporting_Files/991_Readme/PKM005_Evergreen_note.md) Coming soon  
-[Topic](900_Supporting_Files/991_Readme/PKM006_Topic.md) Coming soon  
-[Put it together](900_Supporting_Files/991_Readme/PKM010_Put_it_together.md) Coming soon  
-
-
-### Plan & Review  
-*Place holder*  
+![LMS_poster_landscape](docs/docs/subpages_en/images/LMS_poster_landscape.png)
 
 
 ## Credit

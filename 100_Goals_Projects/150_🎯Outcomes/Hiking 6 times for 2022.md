@@ -13,7 +13,7 @@ completed: 1
 Value Goal:: [[Have healthy life style]]
 
 ## Wenn?
-Quarters:: [[../../700_Plans_Reviews/750_⌛Quarters/2022-Q3]]  
+Quarters:: [[2022-Q3]]  
 
 ## What? (Mile Stones)
 - [x] hiking 1
