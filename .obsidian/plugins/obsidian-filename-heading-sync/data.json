@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "900_Supporting_Files|README|README_CN",
+  "ignoreRegex": "900_Supporting_Files|README|docs/docs",
   "useFileOpenHook": false,
   "useFileSaveHook": true
 }

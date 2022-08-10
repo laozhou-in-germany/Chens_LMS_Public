@@ -16,3 +16,5 @@ dv.list(notes.file.link);
 ~~~
 
 # <% tp.file.title %>
+
+<% tp.file.cursor(1) %>

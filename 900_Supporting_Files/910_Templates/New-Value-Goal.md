@@ -7,7 +7,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 # <% tp.file.title %>
 More: [[130_🌟Value_Goals]]
 
-Pillar:: 
+Pillar::  
 Years:: [[<% tp.date.now("YYYY") %>]]  
 
 ## How?

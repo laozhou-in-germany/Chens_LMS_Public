@@ -11,3 +11,5 @@ last-review: <% tp.date.now("YYYY-MM-DD") %>
 Tags:: 
 
 # <% tp.file.title %>
+
+<% tp.file.cursor(1) %>

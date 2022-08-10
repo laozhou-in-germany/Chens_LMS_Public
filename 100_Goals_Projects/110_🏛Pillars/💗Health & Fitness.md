@@ -15,6 +15,7 @@ name 🌟New Value Goal
 type note(100_Goals_Projects/130_🌟Value_Goals/New Value Goal, split) template
 action New-Value-Goal
 ```
+
 ```dataviewjs
 let valueGoals = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -29,3 +30,5 @@ dv.table(
     ])
 );
 ```
+
+

@@ -9,7 +9,7 @@ completed: 0
 # <% tp.file.title %>
 More: [[150_🎯Outcomes]]
 
-Value Goal:: 
+Value Goal::  
 Quarters:: [[<% tp.date.now("YYYY-[Q]Q") %>]]  
 
 ## What? (Mile Stones)

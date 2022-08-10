@@ -26,3 +26,4 @@ if (tagRel != "#dummytopic") {
 
 # <% tp.file.title %>
 
+<% tp.file.cursor(1) %>

@@ -1,4 +1,4 @@
-# README
+# Intro
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
 The LMS is a complex interactive system. To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
@@ -8,49 +8,6 @@ The LMS is a complex interactive system. To make it easy to understand, I consid
 ![LMS_poster_landscape](subpages_en/images/LMS_poster_landscape.png)
 
 
-## Quick Start
-[5 ways to create new notes](subpages_en/QS_a1_5_ways_to_create_new_notes.md)  
-[Create notes for goals projects](subpages_en/QS_b1_Create_notes_for_goals_projects.md)  
-[Create notes for the journal](subpages_en/QS_c1_Create_notes_for_journal.md)  
-[Create notes for knowledge management](subpages_en/QS_d1_Create_notes_for_knowledge_management.md)   
-[Develop notes for knowledge management](subpages_en/QS_d2_Develop_notes_for_knowledge_management.md)  
-[Create notes for plans reviews](subpages_en/QS_e1_Create_notes_for_plans_reviews.md)    
-
-## Showcase
-[Goals projects](subpages_en/SC_a1_Goals_projects.md)   
-[Journal](subpages_en/SC_b1_Journal.md)   
-[Knowledge management](subpages_en/SC_c1_Knowledge_management.md)    
-[Plans Reviews](subpages_en/SC_d1_Plans_Reviews.md)  
-
-## Reference (Under construction)
-### General
-[Intro](subpages_en/01_Intro.md)  
-[Folder structure & Note Types](subpages_en/02_Folder_structure_note_types.md)  
-[Templates](subpages_en/03_Templates.md)   
-[Symbols](subpages_en/04_Symbols.md)
-
-### Goals & projects
-[Goals & Projects](subpages_en/Goal01_General.md)
-
-### Projects Implementation
-[Projects_Implementation](subpages_en/Implement01_General.md)
-
-### Journal
-[Journal](subpages_en/Journal01_General.md)
-
-### Knowledge Management  
-[Knowledge Management](subpages_en/PKM01_General.md)      
-[Literature note](subpages_en/PKM03_Literature_note.md)    
-[Atomic note](subpages_en/PKM04_Atomic_note.md)    
-[Evergreen note](subpages_en/PKM005_Evergreen_note.md)    
-[Topic](subpages_en/PKM006_Topic.md)    
-[Put it together](subpages_en/PKM010_Put_it_together.md)    
-
-### Communication with Outside World
-[Communication with outside world](subpages_en/Outside01_General.md)
-
-### Plans & Reviews 
-[Plans & Reviews](subpages_en/Review01_General.md)
 
 ## Credit
 - [Obsidian.md](https://obsidian.md/)

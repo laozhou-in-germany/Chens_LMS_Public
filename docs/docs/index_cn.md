@@ -6,45 +6,6 @@ LMS（Life Management System）是基于Obsidian.md的个人知识管理系统�
 ![LMS_poster_landscape](subpages_en/images/LMS_poster_landscape.png)
 
 
-## 快速开始
-[5种创建笔记的方法](subpages_cn/QS_a1_5_ways_to_create_new_notes.md)  
-[为目标和项目创建笔记](subpages_cn/QS_b1_Create_notes_for_goals_projects.md)  
-[为日志创建笔记](subpages_cn/QS_c1_Create_notes_for_journal.md)  
-[为知识管理创建笔记](subpages_cn/QS_d1_Create_notes_for_knowledge_management.md)   
-[发展知识管理中的笔记](subpages_cn/QS_d2_Develop_notes_for_knowledge_management.md)  
-[为计划和回顾创建笔记](subpages_cn/QS_e1_Create_notes_for_plans_reviews.md)    
-
-## 展示
-[目标和项目](subpages_cn/SC_a1_Goals_projects.md)   
-[日志](subpages_cn/SC_b1_Journal.md)   
-[知识管理](subpages_cn/SC_c1_Knowledge_management.md)    
-[计划管理](subpages_cn/SC_d1_Plans_Reviews.md)  
-
-## 手册 (创建中)
-### 概述
-[Intro](subpages_cn/01_Intro.md)  
-[Folder structure](subpages_cn/02_Folder_structure.md)  
-[Templates](subpages_cn/03_Templates.md)   
-
-### 目标和项目
-*Place holder*  
-
-### 日志
-*Place holder*  
-
-### 知识管理
-[Note types](subpages_cn/PKM01_Note_types.md)   Coming soon  
-[Literature note](subpages_cn/PKM03_Literature_note.md) Coming soon  
-[Atomic note](subpages_cn/PKM04_Atomic_note.md) Coming soon  
-[Evergreen note](subpages_cn/PKM005_Evergreen_note.md) Coming soon  
-[Topic](subpages_cn/PKM006_Topic.md) Coming soon  
-
-
-
-### 计划和回顾
-*Place holder*  
-
-
 ## 感谢
 - [Obsidian.md](https://obsidian.md/)
 - Progressive summarization from [Forte Labs](https://fortelabs.co/)
