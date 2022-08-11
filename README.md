@@ -3,7 +3,7 @@ LMS (Life Management System) is a personal knowledge management system and goal 
 
 The LMS is a complex interactive system. To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
 
-[Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/)|[帮助文档](https://laozhou-in-germany.github.io/Chens_LMS_Public/index_cn/)
+[Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/)|[帮助文档](https://laozhou-in-germany.github.io/Chens_LMS_Public_CN/)
 
 ![LMS_poster_landscape](docs/docs/subpages/images/LMS_poster_landscape.png)
 

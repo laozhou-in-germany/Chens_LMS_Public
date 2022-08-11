@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/docs/index.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docs/index.md"
+                "file": "README.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docs/index.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,8 +145,8 @@
   },
   "active": "4639405cae01a7cb",
   "lastOpenFiles": [
-    "docs/docs/quick_start.md",
     "docs/docs/index.md",
+    "docs/docs/quick_start.md",
     "docs/docs/about.md",
     "README.md",
     "docs/docs/subpages_en/05_Hotkeys.md",

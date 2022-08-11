@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "index",
       "path": "docs/docs/index.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "about",
       "path": "docs/docs/about.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "showcase",
