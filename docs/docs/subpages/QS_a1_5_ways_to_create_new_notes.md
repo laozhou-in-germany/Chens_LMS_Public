@@ -44,4 +44,3 @@ Depending on the note type, there are several ways to add new notes
 - Expand the right sidebar and active the **calendar** panel, if not yet
 - Click on the day or on the week to create a new note
 
-

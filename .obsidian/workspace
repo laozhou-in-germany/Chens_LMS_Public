@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4639405cae01a7cb",
+        "id": "6bce786efef33712",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "🏠Dashboard.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -71,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 570
+    "width": 226
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "🏠Dashboard.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "🏠Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,17 +143,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4639405cae01a7cb",
+  "active": "6bce786efef33712",
   "lastOpenFiles": [
+    "README.md",
+    "🏠Dashboard.md",
+    "300_Journal/310_🌄Daily/310_🌄Daily.md",
+    "docs/docs/en_cn.md",
     "docs/docs/index.md",
     "docs/docs/quick_start.md",
     "docs/docs/about.md",
-    "README.md",
     "docs/docs/subpages_en/05_Hotkeys.md",
     "docs/docs/showcase.md",
-    "docs/docs/about_cn.md",
-    "docs/docs/index_cn.md",
-    "docs/docs/subpages_en/01_Intro.md",
-    "docs/docs/reference.md"
+    "docs/docs/about_cn.md"
   ]
 }

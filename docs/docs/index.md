@@ -1,7 +1,8 @@
-# Intro
+# Overview
 LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
 
-The LMS is a complex interactive system. To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
+The LMS is a complex interactive system. 
+To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
 
 [LMS as a medieval town](subpages/01_LMS_as_a_medieval_town.md)
 
