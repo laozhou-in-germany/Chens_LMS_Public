@@ -113,32 +113,97 @@
       "openFileInMode": "default"
     },
     {
-      "id": "6078dd15-5539-4bc9-937e-4171de983ea5",
-      "name": "Add person here with link",
-      "type": "Template",
+      "id": "1155b049-9f2c-4168-a8c1-1b196a1bd27a",
+      "name": "Add restrict note⛔ with link",
+      "type": "Multi",
       "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Person-Colleague.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "300_Journal/390_🧺Journal_Elements/391_👤Person"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
+      "choices": [
+        {
+          "id": "0ae4c208-7d3d-4a13-8744-e3c95fe9fbf6",
+          "name": "Add topic⛔ here",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Topic.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}⛔"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/570_🗩Topics"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "f72d7e5f-c95f-4690-aea0-a6b5b6b8e041",
+          "name": "Add evergreen⛔ here with link",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Evergreen-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}⛔"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/550_🌲Evergreen_Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "d82570e2-f642-4794-abb0-7e8ee851f2f5",
+          "name": "Add literature⛔here with link",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Literature-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}⛔"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/510_📔Literature_Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
     }
   ],
   "macros": [],

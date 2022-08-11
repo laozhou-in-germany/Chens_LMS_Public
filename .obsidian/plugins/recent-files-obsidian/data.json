@@ -1,0 +1,26 @@
+{
+  "recentFiles": [
+    {
+      "basename": "index",
+      "path": "docs/docs/index.md"
+    },
+    {
+      "basename": "quick_start",
+      "path": "docs/docs/quick_start.md"
+    },
+    {
+      "basename": "about",
+      "path": "docs/docs/about.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "showcase",
+      "path": "docs/docs/showcase.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

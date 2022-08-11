@@ -28,6 +28,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "20e3c5843d3803fc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
             "id": "815327c3286132db",
             "type": "leaf",
             "state": {
@@ -58,11 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 261
+    "width": 570
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -71,22 +80,7 @@
       {
         "id": "ad0ab8a9794d118a",
         "type": "tabs",
-        "dimension": 28.982898289828984,
-        "children": [
-          {
-            "id": "852114cbb56a6279",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "a4a2a4c612aee0a4",
-        "type": "tabs",
-        "dimension": 43.114311431143115,
+        "dimension": 50.9493670886076,
         "children": [
           {
             "id": "60a7117cd3ff3e9f",
@@ -99,22 +93,20 @@
             }
           },
           {
-            "id": "2ffccce8a5c2920a",
+            "id": "852114cbb56a6279",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
+              "type": "calendar",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0af2e0571f7677f2",
         "type": "tabs",
-        "dimension": 27.9027902790279,
+        "dimension": 49.0506329113924,
         "children": [
           {
             "id": "b9a918f0d8c5c0ea",
@@ -132,25 +124,36 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "2ffccce8a5c2920a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "4639405cae01a7cb",
   "lastOpenFiles": [
-    "docs/docs/reference.md",
-    "docs/docs/index.md",
-    "docs/docs/showcase.md",
     "docs/docs/quick_start.md",
-    "docs/docs/index_cn.md",
+    "docs/docs/index.md",
     "docs/docs/about.md",
-    "docs/docs/features.md",
     "README.md",
-    "docs/docs/About.md",
-    "100_Goals_Projects/112_🤯Mindsets/112_🤯Mindsets.md"
+    "docs/docs/subpages_en/05_Hotkeys.md",
+    "docs/docs/showcase.md",
+    "docs/docs/about_cn.md",
+    "docs/docs/index_cn.md",
+    "docs/docs/subpages_en/01_Intro.md",
+    "docs/docs/reference.md"
   ]
 }

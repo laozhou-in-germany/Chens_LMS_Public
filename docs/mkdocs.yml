@@ -1,21 +1,13 @@
 site_name: Chen's LMS
 repo_url: https://github.com/laozhou-in-germany/Chens_LMS_Public/
-edit_uri: edit/master/docs/docs/
+edit_uri: blob/main/docs/docs/
 
 nav:
-    - English:
-      - Intro: index.md
-      - Quick Start: quick_start.md
-      - Showcase: showcase.md
-      - Reference: reference.md
-      - About: about.md
-    - 中文:
-      - 简介: index_cn.md
-      - 快速开始: quick_start_cn.md
-      - 示例展示: showcase_cn.md
-      - 帮助文档: reference_cn.md
-      - 关于: about_cn.md
-
-
+    - Intro: index.md
+    - Quick Start: quick_start.md
+    - Showcase: showcase.md
+    - Reference: reference.md
+    - About: about.md
+    - 中文帮助:  en_cn.md
 markdown_extensions:
   - footnotes

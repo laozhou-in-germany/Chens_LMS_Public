@@ -49,6 +49,7 @@ var __async = (__this, __arguments, generator) => {
 
 // main.ts
 __export(exports, {
+  ColumnInsertModal: () => ColumnInsertModal,
   default: () => ObsidianColumns
 });
 var import_obsidian2 = __toModule(require("obsidian"));
@@ -69,24 +70,28 @@ var parseObject = (value, typ) => {
     return parseFloat(value);
   }
 };
+function createSetting(containerEl, keyval, currentValue, onChange) {
+  let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
+  if (typeof keyval[1].value == "boolean") {
+    setting.addToggle((toggle) => toggle.setValue(currentValue).onChange((bool) => {
+      onChange(bool, keyval[0]);
+    }));
+  } else {
+    setting.addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(currentValue)).onChange((value) => {
+      onChange(parseObject(value, typeof keyval[1].value), keyval[0]);
+    }));
+  }
+}
 function display(obj, DEFAULT_SETTINGS2, name) {
   const { containerEl } = obj;
   containerEl.empty();
   containerEl.createEl("h2", { text: "Settings for " + name });
   let keyvals = Object.entries(DEFAULT_SETTINGS2);
   for (let keyval of keyvals) {
-    let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
-    if (typeof keyval[1].value == "boolean") {
-      setting.addToggle((toggle) => toggle.setValue(obj.plugin.settings[keyval[0]].value).onChange((bool) => {
-        obj.plugin.settings[keyval[0]].value = bool;
-        obj.plugin.saveSettings();
-      }));
-    } else {
-      setting.addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(obj.plugin.settings[keyval[0]].value)).onChange((value) => {
-        obj.plugin.settings[keyval[0]].value = parseObject(value, typeof keyval[1].value);
-        obj.plugin.saveSettings();
-      }));
-    }
+    createSetting(containerEl, keyval, obj.plugin.settings[keyval[0]].value, (value, key) => {
+      obj.plugin.settings[key].value = value;
+      obj.plugin.saveSettings();
+    });
   }
 }
 function loadSettings(obj, DEFAULT_SETTINGS2) {
@@ -213,6 +218,28 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
           this.processChild(c);
         });
       });
+      this.addCommand({
+        id: "insert-column-wrapper",
+        name: "Insert column wrapper",
+        editorCallback: (editor, view) => {
+          new ColumnInsertModal(this.app, (result) => {
+            let num = result.numberOfColumns.value;
+            let outString = "````col\n";
+            for (let i = 0; i < num; i++) {
+              outString += "```col-md\nflexGrow=1\n===\n# Column " + i + "\n```\n";
+            }
+            outString += "````\n";
+            editor.replaceSelection(outString);
+          }).open();
+        }
+      });
+      this.addCommand({
+        id: "insert-column",
+        name: "Insert column",
+        editorCallback: (editor, view) => {
+          editor.replaceSelection("```col-md\nflexGrow=1\n===\n# New Column\n```");
+        }
+      });
       let processList = (element, context) => {
         for (let child of Array.from(element.children)) {
           if (child == null) {
@@ -277,6 +304,34 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       yield saveSettings(this, DEFAULT_SETTINGS);
     });
+  }
+};
+var DEFAULT_MODAL_SETTINGS = {
+  numberOfColumns: { value: 2, name: "Number of Columns", desc: "Number of Columns to be made" }
+};
+var ColumnInsertModal = class extends import_obsidian2.Modal {
+  constructor(app, onSubmit) {
+    super(app);
+    this.onSubmit = onSubmit;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h1", { text: "Create a Column Wrapper" });
+    let modalSettings = DEFAULT_MODAL_SETTINGS;
+    let keyvals = Object.entries(DEFAULT_MODAL_SETTINGS);
+    for (let keyval of keyvals) {
+      createSetting(contentEl, keyval, "", (value, key) => {
+        modalSettings[key].value = value;
+      });
+    }
+    new import_obsidian2.Setting(contentEl).addButton((btn) => btn.setButtonText("Submit").setCta().onClick(() => {
+      this.close();
+      this.onSubmit(modalSettings);
+    }));
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
   }
 };
 var ObsidianColumnsSettings = class extends import_obsidian2.PluginSettingTab {

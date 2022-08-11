@@ -117,7 +117,7 @@ function getFrontMatterBounds(editor) {
   if (startLine === -1)
     return null;
   let endLine = -1;
-  for (let i = startLine + 1; i < Math.min(50, editor.lastLine()); i++) {
+  for (let i = startLine + 1; i <= Math.min(50, editor.lastLine()); i++) {
     if (editor.getLine(i) !== "---")
       continue;
     endLine = i;
