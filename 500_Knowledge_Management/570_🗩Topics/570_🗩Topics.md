@@ -12,7 +12,7 @@ action New-Topic
 ## Guiding questions  
 > What kind of insight can I consolidate the knowledge from all related notes?
 ### Definition of Done
-No remaining unprocessed Notes. 
+No remaining Not processed Notes. 
 
 ## Recent topics
 ~~~dataviewjs

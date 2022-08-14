@@ -53,3 +53,6 @@ a.internal-link[data-link-fileClass$="meeting-minute"]::before{
 a.internal-link[data-link-fileClass$="event"]::before{
     content: "🎉"
 }
+a.internal-link[data-link-fileClass$="person"]::before{
+    content: "👤"
+}

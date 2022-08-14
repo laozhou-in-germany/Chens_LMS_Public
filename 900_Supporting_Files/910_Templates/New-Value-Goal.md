@@ -7,15 +7,11 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 # <% tp.file.title %>
 More: [[130_🌟Value_Goals]]
 
-Pillar::  
+Pillar:: {{LINKCURRENT}} 
 Years:: [[<% tp.date.now("YYYY") %>]]  
-
+<% tp.file.cursor(1) %>
 ## How?
-```button
-name 🎯New Outcome
-type note(100_Goals_Projects/150_🎯Outcomes/New Outcome, split) template
-action New-Outcome
-```
+> Press `Ctrl + Q`  to add **🎯Outcome** for this value goal  
 ```dataviewjs
 let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -32,11 +28,7 @@ dv.table(
 ```
 
 ## Supporting
-```button
-name 🔁New Routine
-type note(100_Goals_Projects/111_🔁Routines/New routine, split) template
-action New-Routine
-```
+> Press `Ctrl + Q`  to add **🔁Routine** for this value goal  
 ```dataviewjs
 let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -50,11 +42,7 @@ dv.table(
     ])
 );
 ```
-```button
-name 🤯New Mindset
-type note(100_Goals_Projects/112_🤯Mindsets/New Mindset, split) template
-action New-Mindset
-```
+> Press `Ctrl + Q`  to add **🤯Mindset** for this value goal  
 ```dataviewjs
 let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -84,8 +72,4 @@ dv.table(
     outcomes.map(p => [
         p.file.link,
         p["last-review"],
-    ])
-);
-```
-
-## Notes
+ 

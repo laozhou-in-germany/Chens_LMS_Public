@@ -6,7 +6,7 @@ date: {{date:YYYY-MM-DD}}
 [[{{date-7d:gggg-[W]ww}}]] <=> [[{{date+7d:gggg-[W]ww}}]]
 
 # <% tp.file.title %>
-More: [[710_❇Weeks|❇Weeks Dashboard]]
+More: [[../../../700_Periodic_Review/710_❇Weeks/710_❇Weeks|❇Weeks Dashboard]]
 
 Days: [[{{date:YYYY-MM-DD}}]] => [[{{date+6d:YYYY-MM-DD}}]]
 
@@ -55,7 +55,7 @@ sort date
 ![[170_💎Projects#^f3ab3d]]
 
 ## IV. Review Finished! 
-- [ ] Create a new week in [[710_❇Weeks|❇Weeks]] 
+- [ ] Create a new week in [[../../../700_Periodic_Review/710_❇Weeks/710_❇Weeks|❇Weeks]] 
 
 > [!hint] Congratulation!
 > Congratulation, Your tasks for the next week are well planned.

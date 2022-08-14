@@ -6,7 +6,7 @@ alias: ["⚛️Atomic Notes","⚛️Atomic Note Dashboard"]
 ## Overview
 ```button
 name ⚛️New Atomic Note
-type note(500_Knowledge_Management/530_⚛️Atomic_Notes/New Atomic Note, split) template
+type note(500_Knowledge_Management/530_⚛Atomic_Notes/New Atomic Note, split) template
 action New-Atomic-Note
 ```
 ~~~dataviewjs

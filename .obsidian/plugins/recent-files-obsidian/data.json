@@ -1,36 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "🏠Dashboard",
-      "path": "🏠Dashboard.md"
+      "basename": "770_🌏Years",
+      "path": "700_Periodic_Review/770_🌏Years/770_🌏Years.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "750_⌛Quarters",
+      "path": "700_Periodic_Review/750_⌛Quarters/750_⌛Quarters.md"
+    },
+    {
+      "basename": "2022-Q3",
+      "path": "700_Periodic_Review/750_⌛Quarters/2022-Q3.md"
+    },
+    {
+      "basename": "2022-08",
+      "path": "700_Periodic_Review/730_📅Months/2022-08.md"
+    },
+    {
+      "basename": "730_📅Months",
+      "path": "700_Periodic_Review/730_📅Months/730_📅Months.md"
+    },
+    {
+      "basename": "2022-W32",
+      "path": "700_Periodic_Review/710_❇Weeks/2022-W32.md"
+    },
+    {
+      "basename": "710_❇Weeks",
+      "path": "700_Periodic_Review/710_❇Weeks/710_❇Weeks.md"
+    },
+    {
+      "basename": "2022",
+      "path": "700_Periodic_Review/770_🌏Years/2022.md"
+    },
+    {
+      "basename": "700_Periodic_Review",
+      "path": "700_Periodic_Review/700_Periodic_Review.md"
+    },
+    {
+      "basename": "500_Knowledge_Management",
+      "path": "500_Knowledge_Management/500_Knowledge_Management.md"
+    },
+    {
+      "basename": "510_📔Literature_Notes",
+      "path": "500_Knowledge_Management/510_📔Literature_Notes/510_📔Literature_Notes.md"
+    },
+    {
+      "basename": "570_🗩Topics",
+      "path": "500_Knowledge_Management/570_🗩Topics/570_🗩Topics.md"
+    },
+    {
+      "basename": "530_⚛Atomic_Notes",
+      "path": "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md"
+    },
+    {
+      "basename": "550_🌲Evergreen_Notes",
+      "path": "500_Knowledge_Management/550_🌲Evergreen_Notes/550_🌲Evergreen_Notes.md"
+    },
+    {
+      "basename": "300_Journal",
+      "path": "300_Journal/300_Journal.md"
+    },
+    {
+      "basename": "2022-08-14",
+      "path": "300_Journal/310_🌄Daily/2022-08-14.md"
+    },
+    {
+      "basename": "320_🎉Events",
+      "path": "300_Journal/320_🎉Events/320_🎉Events.md"
+    },
+    {
+      "basename": "340_🖥️Meetings",
+      "path": "300_Journal/340_🖥️Meetings/340_🖥️Meetings.md"
+    },
+    {
+      "basename": "391_👤Person",
+      "path": "300_Journal/391_👤Person/391_👤Person.md"
     },
     {
       "basename": "310_🌄Daily",
       "path": "300_Journal/310_🌄Daily/310_🌄Daily.md"
     },
     {
-      "basename": "en_cn",
-      "path": "docs/docs/en_cn.md"
+      "basename": "171_📽Video_Projects",
+      "path": "100_Goal_Management/171_📽Video_Projects/171_📽Video_Projects.md"
+    },
+    {
+      "basename": "Yalm property Definition",
+      "path": "900_Supporting_Files/920_Config/Yalm property Definition.md"
+    },
+    {
+      "basename": "Picking 3 stocks",
+      "path": "100_Goal_Management/170_💎Projects/Picking 3 stocks.md"
+    },
+    {
+      "basename": "170_💎Projects",
+      "path": "100_Goal_Management/170_💎Projects/170_💎Projects.md"
+    },
+    {
+      "basename": "150_🎯Outcomes",
+      "path": "100_Goal_Management/150_🎯Outcomes/150_🎯Outcomes.md"
+    },
+    {
+      "basename": "130_🌟Value_Goals",
+      "path": "100_Goal_Management/130_🌟Value_Goals/130_🌟Value_Goals.md"
+    },
+    {
+      "basename": "112_🤯Mindsets",
+      "path": "100_Goal_Management/112_🤯Mindsets/112_🤯Mindsets.md"
+    },
+    {
+      "basename": "111_🔁Routines",
+      "path": "100_Goal_Management/111_🔁Routines/111_🔁Routines.md"
+    },
+    {
+      "basename": "110_🏛Pillars",
+      "path": "100_Goal_Management/110_🏛Pillars/110_🏛Pillars.md"
+    },
+    {
+      "basename": "100_Goal_Management",
+      "path": "100_Goal_Management/100_Goal_Management.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "ref_journal",
+      "path": "docs/docs/ref_journal.md"
+    },
+    {
+      "basename": "01_Intro",
+      "path": "docs/docs/subpages/01_Intro.md"
+    },
+    {
+      "basename": "ref0_general",
+      "path": "docs/docs/ref0_general.md"
+    },
+    {
+      "basename": "ref1_templates",
+      "path": "docs/docs/ref1_templates.md"
+    },
+    {
+      "basename": "ref1_shortcuts",
+      "path": "docs/docs/ref1_shortcuts.md"
+    },
+    {
+      "basename": "ref1_folder_structure",
+      "path": "docs/docs/ref1_folder_structure.md"
+    },
+    {
+      "basename": "ref_periodic_review",
+      "path": "docs/docs/ref_periodic_review.md"
+    },
+    {
+      "basename": "ref_knowledge_management",
+      "path": "docs/docs/ref_knowledge_management.md"
+    },
+    {
+      "basename": "910_Templates",
+      "path": "900_Supporting_Files/910_Templates/910_Templates.md"
+    },
+    {
+      "basename": "qs_c1_Create_notes_for_journal",
+      "path": "docs/docs/subpages/qs_c1_Create_notes_for_journal.md"
+    },
+    {
+      "basename": "qs_b1_Create_notes_for_goals_projects",
+      "path": "docs/docs/subpages/qs_b1_Create_notes_for_goals_projects.md"
+    },
+    {
+      "basename": "qs_a1_5_ways_to_create_new_notes",
+      "path": "docs/docs/subpages/qs_a1_5_ways_to_create_new_notes.md"
+    },
+    {
+      "basename": "Outside01_General",
+      "path": "docs/docs/subpages/Outside01_General.md"
+    },
+    {
+      "basename": "01_LMS_as_a_medieval_town",
+      "path": "docs/docs/subpages/01_LMS_as_a_medieval_town.md"
     },
     {
       "basename": "index",
       "path": "docs/docs/index.md"
     },
     {
-      "basename": "quick_start",
-      "path": "docs/docs/quick_start.md"
+      "basename": "en_cn",
+      "path": "docs/docs/en_cn.md"
     },
     {
       "basename": "about",
       "path": "docs/docs/about.md"
     },
     {
-      "basename": "showcase",
-      "path": "docs/docs/showcase.md"
+      "basename": "ref_goal_management",
+      "path": "docs/docs/ref_goal_management.md"
+    },
+    {
+      "basename": "quick_start",
+      "path": "docs/docs/quick_start.md"
     }
   ],
   "omittedPaths": [],

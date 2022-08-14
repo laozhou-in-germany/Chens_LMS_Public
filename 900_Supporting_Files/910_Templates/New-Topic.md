@@ -12,7 +12,7 @@ last-review: <% tp.date.now("YYYY-MM-DD") %>
 Value-Goal::  
 Related-Tag:: #dummytopic
 
-**Unprocessed Notes**
+**Not processed Notes**
 ~~~dataviewjs
 let currentPage = this.current()
 let tagRel = currentPage["Related-Tag"]

@@ -18,14 +18,6 @@
       "key": "O"
     }
   ],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
@@ -44,15 +36,6 @@
       "key": "D"
     }
   ],
-  "editor:toggle-highlight": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
-  "editor:open-search-replace": [],
   "file-explorer:move-file": [
     {
       "modifiers": [
@@ -67,24 +50,6 @@
         "Alt"
       ],
       "key": "E"
-    }
-  ],
-  "obsidian-outliner:move-list-item-down": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "obsidian-outliner:move-list-item-up": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "ArrowUp"
     }
   ],
   "file-explorer:reveal-active-file": [
@@ -137,12 +102,54 @@
       "key": "Q"
     }
   ],
-  "obsidian-fullscreen-plugin:fullscreen-focus": [
+  "editor:toggle-highlight": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "F"
+      "key": "G"
+    }
+  ],
+  "obsidian-fullscreen-plugin:fullscreen-focus": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
     }
   ]
 }

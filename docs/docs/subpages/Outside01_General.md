@@ -1,9 +1,6 @@
-# Communication with the Outside World
+# Communication 
 
-
-
-
-![LMS_River](images/LMS_River.PNG)
+![LMS_River](../images/LMS_River.PNG)
 
 Information from the outside world is an important source of knowledge. Nowadays obtaining information is easier than each epoche in history.  But this doesn't means, that it's easier to get the right information. It's an important skill to consume the information in a correct way, including filtering the irrelevant information and evaluating information quality...... 
 

@@ -32,7 +32,7 @@ Describe what my life will be like in 12 months, visualize it, and feel it.
 ### Implementation in Obsidian LMS
 Theme:: ==...==
 
-Open [[100_Goals_Projects|Goals & Projects Dashboard]] and complete the following tasks:
+Open [[100_Goal_Management|Goals & Projects Dashboard]] and complete the following tasks:
 - [ ] Review Pillars - Any modification to your pillars
 	- What were my pillars' highs and lows over the past 12 months?
 	

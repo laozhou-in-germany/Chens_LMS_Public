@@ -9,18 +9,14 @@ completed: 0
 # <% tp.file.title %>
 More: [[150_🎯Outcomes]]
 
-Value Goal::  
+Value Goal:: {{LINKCURRENT}}  
 Quarters:: [[<% tp.date.now("YYYY-[Q]Q") %>]]  
 
 ## What? (Mile Stones)
 - [ ] Milestone 1
 
 ## How?
-```button
-name 💎 New Project
-type note(100_Goals_Projects/170_💎Projects/New Project, split) template
-action New-Project
-```
+> Press `Ctrl + Q`  to add **💎Project** or **📽Video Project** for this outcome  
 ```dataviewjs
 let projects = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -35,6 +31,3 @@ dv.table(
     ])
 );
 ```
-
-## Notes
-

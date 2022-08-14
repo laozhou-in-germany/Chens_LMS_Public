@@ -15,31 +15,35 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "100_Goals_Projects/110_🏛Pillars",
+      "folder": "100_Goal_Management/110_🏛Pillars",
       "template": "900_Supporting_Files/910_Templates/New-Pillar.md"
     },
     {
-      "folder": "100_Goals_Projects/111_🔁Routines",
+      "folder": "100_Goal_Management/111_🔁Routines",
       "template": "900_Supporting_Files/910_Templates/New-Routine.md"
     },
     {
-      "folder": "100_Goals_Projects/112_🤯Mindsets",
+      "folder": "100_Goal_Management/112_🤯Mindsets",
       "template": "900_Supporting_Files/910_Templates/New-Mindset.md"
     },
     {
-      "folder": "100_Goals_Projects/130_🌟Value_Goals",
+      "folder": "100_Goal_Management/130_🌟Value_Goals",
       "template": "900_Supporting_Files/910_Templates/New-Value-Goal.md"
     },
     {
-      "folder": "100_Goals_Projects/150_🎯Outcomes",
+      "folder": "100_Goal_Management/150_🎯Outcomes",
       "template": "900_Supporting_Files/910_Templates/New-Outcome.md"
     },
     {
-      "folder": "100_Goals_Projects/170_💎Projects",
+      "folder": "100_Goal_Management/170_💎Projects",
       "template": "900_Supporting_Files/910_Templates/New-Project.md"
     },
     {
-      "folder": "500_Knowledge_Management/530_⚛️Atomic_Notes",
+      "folder": "100_Goal_Management/171_📽Video_Projects",
+      "template": "900_Supporting_Files/910_Templates/New-Video-Project.md"
+    },
+    {
+      "folder": "500_Knowledge_Management/530_⚛Atomic_Notes",
       "template": "900_Supporting_Files/910_Templates/New-Atomic-Note.md"
     },
     {
@@ -63,8 +67,8 @@
       "template": "900_Supporting_Files/910_Templates/New-Meeting.md"
     },
     {
-      "folder": "300_Journal/390_🧺Journal_Elements/391_👤Person",
-      "template": "900_Supporting_Files/910_Templates/New-Person-Colleague.md"
+      "folder": "300_Journal/391_👤Person",
+      "template": "900_Supporting_Files/910_Templates/New-Person.md"
     }
   ],
   "syntax_highlighting": true,

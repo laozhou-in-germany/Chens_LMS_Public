@@ -1,144 +1,329 @@
 {
   "choices": [
     {
-      "id": "44f513c6-85a1-477d-9103-7ef23e824a44",
-      "name": "Add topic here with link",
-      "type": "Template",
+      "id": "baefe532-1701-4c7c-85e9-ae65934b0efc",
+      "name": "Add new note and Add 🔗in the current note (Journal & PKM)",
+      "type": "Multi",
       "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Topic.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "500_Knowledge_Management/570_🗩Topics"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
+      "choices": [
+        {
+          "id": "44f513c6-85a1-477d-9103-7ef23e824a44",
+          "name": "Add 🗩Topic",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Topic.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/570_🗩Topics"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "ac7881e4-7ea6-4ba7-a980-6ae14b722824",
+          "name": "Add 🌲Evergreen",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Evergreen-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/550_🌲Evergreen_Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "9c11152f-2426-4967-973c-3efc152cddc7",
+          "name": "Add ⚛Atomic note",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Atomic-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/530_⚛Atomic_Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "8a7c3d41-9b57-457d-b7cd-03cb6df3be4d",
+          "name": "Add 📔Literature",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Literature-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500_Knowledge_Management/510_📔Literature_Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "6078dd15-5539-4bc9-937e-4171de983ea5",
+          "name": "Add 👤Person",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Person.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300_Journal/391_👤Person"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ]
     },
     {
-      "id": "ac7881e4-7ea6-4ba7-a980-6ae14b722824",
-      "name": "Add evergreen here with link",
-      "type": "Template",
+      "id": "cf450503-cf0b-4499-9ea4-5665c00bb125",
+      "name": "Add new note and Add 🔗 there (Goals & Projects)",
+      "type": "Multi",
       "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Evergreen-Note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "500_Knowledge_Management/550_🌲Evergreen_Notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "8a7c3d41-9b57-457d-b7cd-03cb6df3be4d",
-      "name": "Add literature here with link",
-      "type": "Template",
-      "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Literature-Note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "500_Knowledge_Management/510_📔Literature_Notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "9c11152f-2426-4967-973c-3efc152cddc7",
-      "name": "Add atomic here with link",
-      "type": "Template",
-      "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Atomic-Note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "500_Knowledge_Management/530_⚛Atomic_Notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "6078dd15-5539-4bc9-937e-4171de983ea5",
-      "name": "Add person here with link",
-      "type": "Template",
-      "command": false,
-      "templatePath": "900_Supporting_Files/910_Templates/New-Person-Colleague.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{NAME}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "300_Journal/390_🧺Journal_Elements/391_👤Person"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
+      "choices": [
+        {
+          "id": "b3bc0e56-22e6-4739-a60f-d2104fb19fad",
+          "name": "Add 🌟Value goal",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Value-Goal.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/130_🌟Value_Goals"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "e4f5205a-34de-4ef3-bece-b0299ba0a9ba",
+          "name": "Add 🎯Outcome",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Outcome.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/150_🎯Outcomes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "3688174c-baea-4d46-88c9-e3ca21a2ff9c",
+          "name": "Add 🔁Routine",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Routine.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/111_🔁Routines"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "f6f5a503-8fb2-48c0-9c22-c51454953635",
+          "name": "Add 🤯Mindset",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Mindset.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/112_🤯Mindsets"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "1f3b55fb-edc9-4a64-8cd8-36c9f37eed69",
+          "name": "Add 💎Project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/170_💎Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "3fb9e47c-c0d5-44a1-9e29-74afa5c7a14a",
+          "name": "Add 📽Video Project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900_Supporting_Files/910_Templates/New-Video-Project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100_Goal_Management/171_📽Video_Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
     }
   ],
   "macros": [],

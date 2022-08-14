@@ -26,7 +26,7 @@ Tags::  #city-in-germany #berlin
 ## Show notes with the same tags.
 The literature notes and evergreen notes have a dataview code segment to show the notes with the same tags, in case you add them using a template. it's between the tags and the title.
 
-![image-20220714221950388](images/image-20220714221950388.png)
+![image-20220714221950388](../images/image-20220714221950388.png)
 
 
 

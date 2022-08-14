@@ -61,7 +61,7 @@ switch( true ) {
 ## Quick Navigation
 ~~~col
 
-**[[100_Goals_Projects|Goals & Projects]]**
+**[[100_Goal_Management|Goals & Projects]]**
 [[110_🏛Pillars|🏛Pillars]]
 [[111_🔁Routines|🔁Routines]]
 [[112_🤯Mindsets|🤯Mindsets]]
@@ -79,14 +79,14 @@ switch( true ) {
 [[391_👤Person|👤Person]]
 
 **[[500_Knowledge_Management|Knowledge]]**
-[[510_📔Literature_Notes|📔Literature Notes]]
-[[530_⚛️Atomic_Notes|⚛️Atomic Notes]]
-[[550_🌲Evergreen_Notes|🌲Evergreen Notes]]
-[[570_🗩Topics|🗩Topics]]
 [[501_💡Home_Node|💡Home Node]]
+[[570_🗩Topics|🗩Topics]]
+[[550_🌲Evergreen_Notes|🌲Evergreen Notes]]
+[[530_⚛️Atomic_Notes|⚛️Atomic Notes]]
+[[510_📔Literature_Notes|📔Literature Notes]]
 
 
-**[[700_Plans_Reviews|Plans & Reviews]]**
+**[[700_Periodical_Review|Plans & Reviews]]**
 [[770_🌏Years|🌏Years]]
 [[750_⌛Quarters|⌛Quarters]]
 [[730_📅Months|📅Months]]

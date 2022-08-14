@@ -2,7 +2,7 @@
 fileClass: [literature-note, atomic-note, evergreen-note, topic]
 status-set2: [🟢active,⏸on-hold,✨future,✅archived]
 status: [🟢active,⏸on-hold,🔜next-up,✨future,✅completed,🗑️abandon]
-workflow: [✍️writing, 📜script-done, 🎬filmed, 🖥️edting, 🌐ready-to-publish]
+status-vp: [✍️writing, 📜script-done, 🎬filmed, 🖥️edting, 🌐ready-to-publish]
 
 score: [x, xx, xxx, xxxx,xxxxx]
 reviewed: [x, xx, xxx, xxxx, xxxxx]

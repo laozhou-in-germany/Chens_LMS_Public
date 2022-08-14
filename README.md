@@ -5,7 +5,7 @@ The LMS is a complex interactive system. To make it easy to understand, I consid
 
 [Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/)|[帮助文档](https://laozhou-in-germany.github.io/Chens_LMS_Public_CN/)
 
-![LMS_poster_landscape](docs/docs/subpages/images/LMS_poster_landscape.png)
+![LMS_poster_landscape](docs/docs/images/LMS_poster_landscape.png)
 
 
 ## Credit

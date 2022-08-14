@@ -9,12 +9,8 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 # <% tp.file.title %>
 More: [[110_🏛Pillars]]
 
-## Value Goal  
-```button
-name 🌟New Value Goal
-type note(100_Goals_Projects/130_🌟Value_Goals/New Value Goal, split) template
-action New-Value-Goal
-```
+## Value Goals
+> Press `Ctrl + Q`  to add **🌟Value Goal** for this pillar  
 ```dataviewjs
 let valueGoals = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -31,4 +27,4 @@ dv.table(
 );
 ```
 
-
+#

@@ -13,7 +13,7 @@ directory_topic = os.path.join("..", "..", "500_Knowledge_Management", "570_🗩
 
 directory_event = os.path.join("..", "..", "300_Journal", "320_🎉Events")
 directory_meeting = os.path.join("..", "..", "300_Journal", "340_🖥️Meetings")
-directory_person = os.path.join("..", "..", "300_Journal", "390_🧺Journal_Elements", "391_👤Person")
+directory_person = os.path.join("..", "..", "300_Journal",  "391_👤Person")
 
 directories = [directory1, directory2, directory_literature, directory_atomic, directory_evergreen, directory_topic, directory_meeting]
 directories_draft = [directory1, directory2]

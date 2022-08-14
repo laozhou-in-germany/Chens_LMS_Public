@@ -1,5 +1,5 @@
 ---
-alias: ["Knowledge"]
+alias: ["Knowledge Management", "Knowledge Management Dashboard"]
 ---
 # 500_Knowledge_Management
 ~~~col
@@ -10,7 +10,7 @@ action New-Literature-Note
 ```
 ```button
 name New⚛️
-type note(500_Knowledge_Management/530_⚛️Atomic_Notes/New Atomic Note, split) template
+type note(500_Knowledge_Management/530_⚛Atomic_Notes/New Atomic Note, split) template
 action New-Atomic-Note
 ```
 ```button

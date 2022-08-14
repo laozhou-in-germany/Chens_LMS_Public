@@ -1,12 +1,21 @@
 # Overview
-LMS (Life Management System) is a personal knowledge management system and goal & project management system based on Obsidian.md. 
+The Chen's LMS (Life Management System) is a tool for personal knowledge management and goal management based on Obsidian.md. 
 
-The LMS is a complex interactive system. 
+It consists of 4 areas.
+
+- Goal Management
+- Journal
+- Knowledge Management
+- Periodic Review
+
+add link here #todo   
+update poster #todo 
+
 To make it easy to understand, I consider the LMS as a medieval town.  This town has 6 main districts. For more explanation about LMS as a medieval town see:
 
 [LMS as a medieval town](subpages/01_LMS_as_a_medieval_town.md)
 
-![LMS_poster_landscape](subpages/images/LMS_poster_landscape.png)
+![LMS_poster_landscape](images/LMS_poster_landscape.png)
 
 
 

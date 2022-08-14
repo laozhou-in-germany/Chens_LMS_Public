@@ -22,8 +22,8 @@ action New-Meeting
 ```
 ```button
 name New👤
-type note(300_Journal/390_🧺Journal_Elements/391_👤Person/New Person, split) template
-action New-Person-Colleague
+type note(300_Journal/391_👤Person/New Person, split) template
+action New-Person
 ```
 ~~~
  ![[310_🌄Daily#Last 14 days]]

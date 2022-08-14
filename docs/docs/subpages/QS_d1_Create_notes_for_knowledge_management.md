@@ -20,7 +20,7 @@ The 4 note types are linked with each other. In short, the connections are the f
 
 ## Create a literature note
 **Step 1:** Create a new literature note by pressing shortcut **Alt + n** and selecting "**New-Literature-Note**"  
-For alternative ways see [5 Ways to create new notes](QS_a1_5_ways_to_create_new_notes.md)   
+For alternative ways see [5 Ways to create new notes](qs_a1_5_ways_to_create_new_notes.md)   
 **Step 2:** Rename the note [^1]  
 **Step 3:** Write the note below the level 1 header  
 **Step 4:** Update the yalm frontmatter  
@@ -33,7 +33,7 @@ For alternative ways see [5 Ways to create new notes](QS_a1_5_ways_to_create_new
 **Step 1:** Use "**[[title]]**" to create a wiki link to the new atomic note within the literature note  
 **Step 2:** Create an empty note by clicking on the wiki link and renaming the note  
 **Step 3:** Insert the template by pressing shortcut  **Alt + t** and selecting "**New-Atomic-Note**"
-For alternative ways see [5 Ways to create new notes](QS_a1_5_ways_to_create_new_notes.md)   
+For alternative ways see [5 Ways to create new notes](qs_a1_5_ways_to_create_new_notes.md)   
 **Step 4:** Write the note below the level 1 header
 **Step 5:** Update the yalm frontmatter 
 **Step 6:** Add tags to the note  
@@ -48,7 +48,7 @@ Steps similar to extracting an atomic note from the literature note
 ## Create a topic note
 
 **Step 1:** Create a new topic note by pressing shortcut **Alt + n** and selecting "**New-Topic**"  
-For alternative ways see [5 Ways to create new notes](QS_a1_5_ways_to_create_new_notes.md)   
+For alternative ways see [5 Ways to create new notes](qs_a1_5_ways_to_create_new_notes.md)   
 **Step 2:** Rename the note [^1]  
 **Step 3:** Write the note below the level 1 header  
 **Step 4:** Update the yalm frontmatter  
@@ -65,4 +65,4 @@ For alternative ways see [5 Ways to create new notes](QS_a1_5_ways_to_create_new
 
 [^3]: **Context-aware resurfacing:** The note will be resurfaced automatically while editing literature notes, evergreen notes, or topic notes with the same tag. 
 
-[^4]: **Consolidation helper:** All notes with the **related tag** are listed below **unprocessed**. The notes will disappear, as soon as they are referenced within the topic (using outlink).
+[^4]: **Consolidation helper:** All notes with the **related tag** are listed below **Not Processed **. The notes will disappear, as soon as they are referenced within the topic (using outlink).

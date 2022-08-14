@@ -1,6 +1,6 @@
 # LMS as a medieval town 
 
-![LMS_poster_landscape](images/LMS_poster_landscape.png)
+![LMS_poster_landscape](../images/LMS_poster_landscape.png)
 
 The LMS is a complex interactive system. It works like a town. The town has different districts. Each district fulfills a certain function. There is the business district, where people go shopping and make business. There is an industrial district, where products are produced and so on. But these districts alone don't create a living town. The goods and information are exchanged between them. One district relies on the services of other districts. 
 
@@ -25,4 +25,4 @@ The **tower of knowledge** is a place, where we consume the external information
 
 It's quite complicated to make each part work correctly and keep them interactive with each other smoothly, isn't it? It's important, that we from time to time step back and review each part and the complete system. In the **tower of review**, we review them periodically, clean out each part and keep the system running. 
 
-For a poster with more detailed information about each district see [LMS_poster_portrait](images/LMS_poster_portrait.png)
+For a poster with more detailed information about each district see [LMS_poster_portrait](../images/LMS_poster_portrait.png)

@@ -12,7 +12,7 @@ last-review: 2022-07-14
 Value-Goal::  
 Related-Tag:: #berlin 
 
-**Unprocessed Notes**
+**Not Processed Notes**
 ~~~dataviewjs
 let currentPage = this.current()
 let tagRel = currentPage["Related-Tag"]

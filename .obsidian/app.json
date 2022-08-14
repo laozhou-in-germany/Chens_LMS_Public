@@ -20,5 +20,6 @@
   "fileSortOrder": "alphabetical",
   "showFrontmatter": false,
   "showLineNumber": true,
-  "mobilePullAction": "switcher:open"
+  "mobilePullAction": "switcher:open",
+  "trashOption": "local"
 }

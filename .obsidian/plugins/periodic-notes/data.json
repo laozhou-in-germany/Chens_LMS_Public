@@ -11,25 +11,25 @@
   "weekly": {
     "format": "gggg-[W]ww",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Week.md",
-    "folder": "700_Plans_Reviews/710_❇Weeks",
+    "folder": "700_Periodic_Review/710_❇Weeks",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Month.md",
-    "folder": "700_Plans_Reviews/730_📅Months",
+    "folder": "700_Periodic_Review/730_📅Months",
     "enabled": true
   },
   "quarterly": {
     "format": "YYYY-[Q]Q",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Quarter.md",
-    "folder": "700_Plans_Reviews/750_⌛Quarters",
+    "folder": "700_Periodic_Review/750_⌛Quarters",
     "enabled": true
   },
   "yearly": {
     "format": "YYYY",
     "template": "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md",
-    "folder": "700_Plans_Reviews/770_🌏Years",
+    "folder": "700_Periodic_Review/770_🌏Years",
     "enabled": true
   }
 }

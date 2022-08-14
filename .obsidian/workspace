@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6bce786efef33712",
+        "id": "f971b82c2a8cd9f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🏠Dashboard.md",
+            "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:template",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226
+    "width": 461
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠Dashboard.md"
+                "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md"
               }
             }
           },
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0af2e0571f7677f2",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠Dashboard.md",
+                "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,24 +135,23 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 245
   },
-  "active": "6bce786efef33712",
+  "active": "f971b82c2a8cd9f0",
   "lastOpenFiles": [
-    "README.md",
-    "🏠Dashboard.md",
-    "300_Journal/310_🌄Daily/310_🌄Daily.md",
-    "docs/docs/en_cn.md",
-    "docs/docs/index.md",
-    "docs/docs/quick_start.md",
-    "docs/docs/about.md",
-    "docs/docs/subpages_en/05_Hotkeys.md",
-    "docs/docs/showcase.md",
-    "docs/docs/about_cn.md"
+    "700_Periodic_Review/750_⌛Quarters/750_⌛Quarters.md",
+    "700_Periodic_Review/750_⌛Quarters/2022-Q3.md",
+    "700_Periodic_Review/730_📅Months/2022-08.md",
+    "700_Periodic_Review/730_📅Months/730_📅Months.md",
+    "700_Periodic_Review/710_❇Weeks/2022-W32.md",
+    "700_Periodic_Review/710_❇Weeks/710_❇Weeks.md",
+    "700_Periodic_Review/770_🌏Years/2022.md",
+    "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
+    "700_Periodic_Review/700_Periodic_Review.md",
+    "500_Knowledge_Management/500_Knowledge_Management.md"
   ]
 }

@@ -15,7 +15,7 @@ There are 4 note types for plans & reviews
 
 ## Create a weekly review note
 
-**Step 1:** Open the note "700_Plans_Reviews"  
+**Step 1:** Open the note "700_Periodic_Review"  
 **Step 2:** Create a new weekly review note by clicking on the button "New❇"  
 The alternative way using the calendar panel see [5 Ways to create new notes](QS_a1_5_ways_to_create_new_notes.md)   
 **Step 3:** Complete the tasks within the note

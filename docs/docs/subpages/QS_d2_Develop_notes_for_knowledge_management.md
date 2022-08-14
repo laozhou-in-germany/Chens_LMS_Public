@@ -37,7 +37,7 @@ The maturity level of the evergreen notes increases with additional external kno
 
 ### Develop topics 
 
-All knowledge notes with the same tag are collected in a topic note. Use the topic note as a workspace to sort, structure and unify the notes. The contradiction between the notes should be solved. The consolidation helper supports you to identify unprocessed notes. 
+All knowledge notes with the same tag are collected in a topic note. Use the topic note as a workspace to sort, structure and unify the notes. The contradiction between the notes should be solved. The consolidation helper supports you to identify Not Processed  notes. 
 
 > See demo topic note [Berlin](../../500_Knowledge_Management/570_🗩Topics/Berlin.md)
 
