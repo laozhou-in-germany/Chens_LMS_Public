@@ -30,7 +30,6 @@ if (tagRel != "#dummytopic") {
 ## General
 Berlin is the capital of Germany, has a long history and is a city of culture. 
 
-
 ## History
 The **history of Berlin** starts with its foundation in the 13th century.
 more see: [[History of Berlin]]

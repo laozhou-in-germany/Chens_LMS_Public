@@ -10,7 +10,7 @@ completed: 2
 More: [[150_🎯Outcomes]]
 
 Value Goal:: [Have healthy life style](100_Goal_Management/130_🌟Value_Goals/Have%20healthy%20life%20style.md)  
-Quarters:: [[../../700_Periodic_Review/750_⌛Quarters/2022-Q3]]  
+Quarters:: [[2022-Q3]]  
 
 ## What? (Mile Stones)
 - [x] 1

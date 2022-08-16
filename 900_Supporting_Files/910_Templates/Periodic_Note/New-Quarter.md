@@ -30,7 +30,7 @@ More: [[550_🌲Evergreen_Notes|🌲Evergreen Note Dashboard]]
 ![[550_🌲Evergreen_Notes#^24c5f0]]
 
 ## **Coming Quarter Planning**
-## I. Goals & Projects
+## I. Goal Management
 *Including task management out of the Obsidian vault*
 
 ### Outcome, Routine & Mindset Planning

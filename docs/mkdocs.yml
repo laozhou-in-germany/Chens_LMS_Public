@@ -3,24 +3,20 @@ repo_url: https://github.com/laozhou-in-germany/Chens_LMS_Public/
 edit_uri: blob/main/docs/docs/
 
 nav:
-    - Intro: index.md
-    - Quick Start: quick_start.md
+    - Quick Start:
+        - User Interface: qs01_ui.md
+        - Use Goal Management: qs11_use_goal_management.md
+        - Use Journal: qs12_use_journal.md
+        - Use Knowledge Management: qs13_use_knowledge_management.md
+        - Use Periodic Review: qs14_use_periodic_review.md
     - Showcase:
         - Goal Management: sc_goal_management.md
         - Journal: sc_journal.md
         - Knowledge Management: sc_knowledge_management.md
         - Periodic Reviews: sc_periodic_review.md
-    - Reference:
-        - General: ref0_general.md
-        - Folder structure, Note Types & Symbols: ref1_folder_structure.md
-        - Shortcuts: ref1_shortcuts.md
-        - Templates: ref1_templates.md
-        - Goal Management: ref_goal_management.md
-        - Journal: ref_journal.md
-        - Knowledge Management: ref_knowledge_management.md
-        - Periodic Reviews: ref_periodic_review.md
-
+    - Reference: ref0_general.md
     - About: about.md
     - 中文帮助:  en_cn.md
 markdown_extensions:
   - footnotes
+  - admonition

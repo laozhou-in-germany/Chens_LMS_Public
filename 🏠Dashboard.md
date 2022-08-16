@@ -61,7 +61,7 @@ switch( true ) {
 ## Quick Navigation
 ~~~col
 
-**[[100_Goal_Management|Goals & Projects]]**
+**[[100_Goal_Management|Goal Management]]**
 [[110_🏛Pillars|🏛Pillars]]
 [[111_🔁Routines|🔁Routines]]
 [[112_🤯Mindsets|🤯Mindsets]]
@@ -86,7 +86,7 @@ switch( true ) {
 [[510_📔Literature_Notes|📔Literature Notes]]
 
 
-**[[700_Periodical_Review|Plans & Reviews]]**
+**[[700_Periodical_Review|Periodic Review]]**
 [[770_🌏Years|🌏Years]]
 [[750_⌛Quarters|⌛Quarters]]
 [[730_📅Months|📅Months]]

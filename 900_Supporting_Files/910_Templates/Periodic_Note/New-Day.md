@@ -33,6 +33,7 @@ title: My Commitment
 - [[😞]]**Disappointments**::  ==...==  
 - [ ] Update Calendar tomorow and block time for the most impactful task
 
+
 ## 📝Note
 [[{{date:YYYY-MM-DD}}]]  {{date: dddd}}
   

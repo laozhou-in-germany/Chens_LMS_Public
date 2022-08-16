@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "baefe532-1701-4c7c-85e9-ae65934b0efc",
-      "name": "Add new note and Add 🔗in the current note (Journal & PKM)",
+      "name": "Add a new note and add 🔗in the current note (Journal & PKM)",
       "type": "Multi",
       "command": false,
       "choices": [
@@ -150,7 +150,7 @@
     },
     {
       "id": "cf450503-cf0b-4499-9ea4-5665c00bb125",
-      "name": "Add new note and Add 🔗 there (Goals & Projects)",
+      "name": "Add a new note and add 🔗 there (Goal Management)",
       "type": "Multi",
       "command": false,
       "choices": [
@@ -175,7 +175,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -203,7 +203,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -231,7 +231,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -259,7 +259,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -287,7 +287,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -315,7 +315,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },

@@ -6,7 +6,7 @@ date: {{date:YYYY-MM-DD}}
 [[{{date-7d:gggg-[W]ww}}]] <=> [[{{date+7d:gggg-[W]ww}}]]
 
 # <% tp.file.title %>
-More: [[../../../700_Periodic_Review/710_❇Weeks/710_❇Weeks|❇Weeks Dashboard]]
+More: [[710_❇Weeks|❇Weeks Dashboard]]
 
 Days: [[{{date:YYYY-MM-DD}}]] => [[{{date+6d:YYYY-MM-DD}}]]
 
@@ -43,19 +43,19 @@ sort date
 - [ ] Create or update evergreen note for them
 
 
-## III. Goals & Projects
+## III. Goal Management
 *Including task management out of the Obsidian vault*
 
 ### Task planning 
-[Google Calendar](https://calendar.google.com/calendar/u/0/r/month?tab=kc)
 - [ ] Review the last two weeks, Does anything need follow-up?
 - [ ] Review the upcoming 3 weeks, Need to prepare for anything?
+- [ ] Review "Waiting" Actions in Todoist
 - [ ] Blocking time for next week: at least 5 hours for first things.
 - [ ] Review Open  [[170_💎Projects|💎Projects]], and plan tasks in Calendar. 
 ![[170_💎Projects#^f3ab3d]]
 
 ## IV. Review Finished! 
-- [ ] Create a new week in [[../../../700_Periodic_Review/710_❇Weeks/710_❇Weeks|❇Weeks]] 
+- [ ] Create a new week in [[710_❇Weeks|❇Weeks]] 
 
 > [!hint] Congratulation!
 > Congratulation, Your tasks for the next week are well planned.

@@ -4,12 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f971b82c2a8cd9f0",
+        "id": "e133f5131f524283",
         "type": "leaf",
+        "dimension": 65.44,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
+            "file": "README.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4dcb4f9160d92725",
+        "type": "leaf",
+        "dimension": 34.56,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:template",
+                "query": "Goals & Projects",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461
+    "width": 291
   },
   "right": {
     "id": "f55ad70156be8b3d",
@@ -88,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md"
+                "file": "README.md"
               }
             }
           },
@@ -100,7 +115,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0af2e0571f7677f2",
@@ -113,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,19 +155,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245
+    "width": 341
   },
-  "active": "f971b82c2a8cd9f0",
+  "active": "e133f5131f524283",
   "lastOpenFiles": [
-    "700_Periodic_Review/750_⌛Quarters/750_⌛Quarters.md",
-    "700_Periodic_Review/750_⌛Quarters/2022-Q3.md",
-    "700_Periodic_Review/730_📅Months/2022-08.md",
-    "700_Periodic_Review/730_📅Months/730_📅Months.md",
-    "700_Periodic_Review/710_❇Weeks/2022-W32.md",
-    "700_Periodic_Review/710_❇Weeks/710_❇Weeks.md",
+    "docs/docs/qs11_use_goal_management.md",
+    "docs/docs/qs01_ui.md",
+    "docs/docs/en_cn.md",
+    "docs/docs/about.md",
+    "100_Goal_Management/130_🌟Value_Goals/Have healthy life style.md",
     "700_Periodic_Review/770_🌏Years/2022.md",
-    "700_Periodic_Review/770_🌏Years/770_🌏Years.md",
-    "700_Periodic_Review/700_Periodic_Review.md",
-    "500_Knowledge_Management/500_Knowledge_Management.md"
+    "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md",
+    "100_Goal_Management/100_Goal_Management.md",
+    "700_Periodic_Review/750_⌛Quarters/2022-Q3.md",
+    "700_Periodic_Review/730_📅Months/2022-08.md"
   ]
 }

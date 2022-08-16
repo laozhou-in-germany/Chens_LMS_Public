@@ -8,7 +8,7 @@ date: 2022-08-12
 More: [[130_🌟Value_Goals]]
 
 Pillar:: [🌈Mind Expansion](100_Goal_Management/110_🏛Pillars/🌈Mind%20Expansion.md) 
-Years:: [[../../700_Periodic_Review/770_🌏Years/2022]]  
+Years:: [[2022]]  
 
 ## How?
 > Press `Ctrl + Q`  to add **🎯Outcome** for this value goal  
@@ -72,4 +72,6 @@ dv.table(
     outcomes.map(p => [
         p.file.link,
         p["last-review"],
- 
+    ])
+);
+```

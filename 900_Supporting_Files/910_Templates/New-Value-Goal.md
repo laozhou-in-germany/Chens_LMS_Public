@@ -1,6 +1,6 @@
 ---
-fileClass: value-goal
-status: 🟢active
+fileClass: value-goal  
+status: 🟢active  
 date: <% tp.date.now("YYYY-MM-DD") %>  
 ---
 
@@ -72,4 +72,8 @@ dv.table(
     outcomes.map(p => [
         p.file.link,
         p["last-review"],
- 
+        ])
+);
+```
+
+## Note

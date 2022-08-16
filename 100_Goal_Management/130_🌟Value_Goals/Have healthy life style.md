@@ -8,7 +8,7 @@ date: 2022-08-12
 More: [[130_🌟Value_Goals]]
 
 Pillar:: [💗Health & Fitness](100_Goal_Management/110_🏛Pillars/💗Health%20&%20Fitness.md) 
-Years:: [[../../700_Periodic_Review/770_🌏Years/2022]]  
+Years:: [[2022]]  
 
 ## How?
 > Press `Ctrl + Q`  to add **🎯Outcome** for this value goal  
@@ -63,6 +63,7 @@ name 🗩New Topic
 type note(500_Knowledge_Management/570_🗩Topics/New Topic, split) template
 action New-Topic
 ```
+
 ```dataviewjs
 let outcomes = this.current().file.inlinks
 	.map(l => dv.page(l))
@@ -72,4 +73,6 @@ dv.table(
     outcomes.map(p => [
         p.file.link,
         p["last-review"],
- 
+    ])
+);
+```

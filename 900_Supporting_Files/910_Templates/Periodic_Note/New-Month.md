@@ -20,7 +20,7 @@ More: [[510_📔Literature_Notes|📔Literature Note Dashboard]]
 #### Ready for Next Review
 ![[510_📔Literature_Notes#^264851]]
 
-## II. Goals & Projects
+## II. Goal Management
 *Including task management out of the Obsidian vault*
 
 ### Routine and mindset
@@ -33,7 +33,7 @@ More: [[510_📔Literature_Notes|📔Literature Note Dashboard]]
 
 ---
 ## **Coming Month Planning**
-## I. Goals & Projects
+## I. Goal Management
 ### Theme
 ```ad-info
 title: Themes

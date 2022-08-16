@@ -10,7 +10,7 @@ date: 2022-08-12
 More: [[111_🔁Routines]]
 
 Value-Goal:: [Have healthy life style](100_Goal_Management/130_🌟Value_Goals/Have%20healthy%20life%20style.md)  
-Years:: [[../../700_Periodic_Review/770_🌏Years/2022]]  
+Years:: [[2022]]  
 
 ## Why?
 Why::  
