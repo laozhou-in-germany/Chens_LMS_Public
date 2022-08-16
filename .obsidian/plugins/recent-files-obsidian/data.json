@@ -5,6 +5,14 @@
       "path": "README.md"
     },
     {
+      "basename": "New-Year",
+      "path": "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md"
+    },
+    {
+      "basename": "ref1_create_new_notes",
+      "path": "docs/docs/ref1_create_new_notes.md"
+    },
+    {
       "basename": "qs11_use_goal_management",
       "path": "docs/docs/qs11_use_goal_management.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "2022",
       "path": "700_Periodic_Review/770_🌏Years/2022.md"
-    },
-    {
-      "basename": "New-Year",
-      "path": "900_Supporting_Files/910_Templates/Periodic_Note/New-Year.md"
     },
     {
       "basename": "100_Goal_Management",
@@ -191,14 +195,6 @@
     {
       "basename": "530_⚛Atomic_Notes",
       "path": "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md"
-    },
-    {
-      "basename": "510_📔Literature_Notes",
-      "path": "500_Knowledge_Management/510_📔Literature_Notes/510_📔Literature_Notes.md"
-    },
-    {
-      "basename": "my great literature note",
-      "path": "500_Knowledge_Management/510_📔Literature_Notes/my great literature note.md"
     }
   ],
   "omittedPaths": [],
