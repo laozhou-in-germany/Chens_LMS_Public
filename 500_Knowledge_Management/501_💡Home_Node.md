@@ -25,7 +25,6 @@ alias: "💡Knowlege Home Node"
 ### [[🍻Friends & Social]]
 
 ### [[🔥Interest]]
-- [[Social Economy]]
 - [[Berlin]]
 
 ### [[🎮Entertainment]]
@@ -34,7 +33,7 @@ alias: "💡Knowlege Home Node"
 ## To learn (mental)
 ### [[☯️Mental Clarity]]
 - [[Mindsets and behavior]]
-- [[PPV]]
+
 
 
 ### [[🌈Mind Expansion]]
@@ -50,19 +49,6 @@ alias: "💡Knowlege Home Node"
 ### [[💼Engineer]]
 - [[Leading change]]
 - [[Building positive relationships]]
-- [[Building power and influence]]
-- [[Conducting meeting]]
-- [[Leadership]]
-- [[Leading change]]
-- [[Managing conflict]]
-- [[Projekt Managements]]
 
-
-### [[📽Content Creator]]
-[[Content creator business]]
-[[Videomaking workflow]]
-	[[Scripting]]
-	[[Video editing]]
-	[[Video maker technique topic]]
 
 

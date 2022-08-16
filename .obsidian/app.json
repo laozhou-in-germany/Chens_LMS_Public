@@ -21,5 +21,9 @@
   "showFrontmatter": false,
   "showLineNumber": true,
   "mobilePullAction": "switcher:open",
-  "trashOption": "local"
+  "trashOption": "local",
+  "userIgnoreFilters": [
+    "900_Supporting_Files/",
+    "docs/"
+  ]
 }

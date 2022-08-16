@@ -82,11 +82,11 @@ switch( true ) {
 [[501_💡Home_Node|💡Home Node]]
 [[570_🗩Topics|🗩Topics]]
 [[550_🌲Evergreen_Notes|🌲Evergreen Notes]]
-[[530_⚛️Atomic_Notes|⚛️Atomic Notes]]
+[[530_⚛Atomic_Notes|⚛️Atomic Notes]]
 [[510_📔Literature_Notes|📔Literature Notes]]
 
 
-**[[700_Periodical_Review|Periodic Review]]**
+**[[700_Periodic_Review|Periodic Review]]**
 [[770_🌏Years|🌏Years]]
 [[750_⌛Quarters|⌛Quarters]]
 [[730_📅Months|📅Months]]
