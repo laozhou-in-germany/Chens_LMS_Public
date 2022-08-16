@@ -13,7 +13,7 @@ This goal management uses 7 note types.
 
 1. **🏛Pillar**: Important life area, e.g. finance, health, family. 
 2. **🌟Value goal**: Goal or vision in a life area (pillar), normally not concrete, not quantified, but a clear statement about our dreams. e.g. "I want to have a healthy lifestyle".
-3. **🎯Outcome**: Quantified deliverable to achieve the value goal. They must be quantified, terminable and actionable. e.g. " Go swimming 10 times this year". Make sure, that the outcomes really serve to achieve the value goals and also sufficiently. 
+3. **🎯Outcome**: Quantified deliverable to achieve the value goal. They must be quantified, terminable and actionable. e.g. " Go swimming 10 times this year". Make sure, that the outcomes really serve to achieve the value goals. 
 4. **💎Project**: A series of actions to achieve a milestone in the outcome.
 5. **Video project**: Similar to the project, but optimized for creating videos.
 6. **🔁Routine**: Repeated activities to achieve a certain value goal.
@@ -28,8 +28,8 @@ This goal management uses 7 note types.
 3. Plan **projects** to achieve the outcomes
 4. Derive required **routines** and **mindsets** to support the value goals. 
 
-Input: Self-awareness  
-Output: Projects plan, routine and mindset
+Input: Self-awareness.  
+Output: Projects plan, routine and mindset.
 
 ## Pillar note
 
@@ -86,8 +86,8 @@ date: 2022-08-12
 
 ### Section Inline Field
 
-`Pillar::`  Parent pillar of the current value goal.
-`Years::` Years, in which the current value goal is active.
+`Pillar::`  Parent pillar of the current value goal  
+`Years::` Years, in which the current value goal is active
 
 ### Section How
 
@@ -131,8 +131,8 @@ completed: 2
 
 ### Section Inline Field
 
-`Value Goal::`  Parent value goal of the current outcome.
-`Quarters::` Quarters, in which the current outcome is active.
+`Value Goal::`  Parent value goal of the current outcome  
+`Quarters::` Quarters, in which the current outcome is active 
 
 ### Section How
 
@@ -164,8 +164,8 @@ completed: 0
 
 ### Section Inline Field
 
-`Outcome::`  Parent outcome of the current project.
-`Months::` Months, in which the current project is active.
+`Outcome::`  Parent outcome of the current project  
+`Months::` Months, in which the current project is active  
 
 
 
@@ -182,6 +182,3 @@ Similar to the outcome note.
 Similar to the outcome note.
 
 
-
-
-[^1]: After the renaming of the note, an error message is shown for all dataview code blocks. "Evaluation Error: ..." It doesn't impact the function. By the next reload of the note, all dataview code blocks should work. 

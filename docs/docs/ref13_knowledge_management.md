@@ -12,8 +12,8 @@ The part **Knowledge Management** is designed to
 
 There are 4 note types for knowledge management:
 
-1. **📔Literature note**: records of external information.  E.g., books, articles, tweets, and videos. It is normally a mixture of information pieces. E.g., facts, opinions, stories, and so on. These information pieces together create a medium, which I custom. 
-2. **⚛️Atomic note**: a small piece of reusable external information.E.g., a story, an aphorism. They are the extracted highlights from the literature note and can be cited later in my articles. 
+1. **📔Literature note**: records of external information,  e.g., books, articles, tweets, and videos. It is normally a mixture of information pieces like facts, opinions, stories, and so on. 
+2. **⚛️Atomic note**: a small piece of reusable external information, e.g., a story, an aphorism. They are extracted from the literature note and can be cited later in my articles. 
 3. **🌲Evergreen note**: note for my insight. its maturity level grows with my new knowledge and experience. It is a single information piece within one topic. 
 4. **🗩Topic note**: a collection of literature notes, atomic notes, and evergreen notes, which handle the same issue. The maturity level of the topics grows as the number of his child notes increases. 
 
@@ -26,7 +26,7 @@ The 4 note types are linked with each other:
 - **Literature notes** are records of external information, they should be distilled to other note types.  
 - **Atomic notes** are extracted from literature notes and are linked to evergreen notes.
 - **Evergreen notes** are generated from literature notes.
-- **Topic notes** are consolidated results of the three note types above and sub-topic notes. All top-level topic notes are connected to the home node. 
+- **Topic notes** are consolidated results of the other three note types, also sub-topic notes. All top-level topic notes are connected to the home node. 
 
 Input: Knowledge from outside, own experience and insight  
 Output: Wisdom, that's true and works in the real world  
@@ -74,7 +74,7 @@ dv.list(notes.file.link);
 ~~~
 ```
 `Tags::` for defining the context with tag.  
-You can also tag in other note lines.  This line is only a suggestion to keep notes having a similar structure.
+You can also use tags in other note lines.  This line is only a suggestion to keep notes having a similar structure.
 
 Dataview code block, for resurfacing related notes.  
 All notes with the same tags as the current note will be displayed here, except the note itself. 
@@ -105,7 +105,7 @@ The text is displayed in the reading mode like the picture below.
 
 #### Progressive summarization
 
-It's suggested to use progressive summarization by Tiago Forte to read the literature note. It's a technology to consume the information step by step, and at the meanwhile compressing it by need. This technology contains the following steps.
+It's suggested to use progressive summarization by Tiago Forte to read the literature note. It's a technology to consume the information step by step, and in the meanwhile compressing it by need. This technology contains the following steps.
 
 1.  Note
 2.  Bold passage using "** **"
@@ -164,7 +164,7 @@ Tags:: #berlin
 ```
 
 `Tags::` for defining the context with tag.  
-You can also tag in other note lines.  This line is only a suggestion to keep notes having a similar structure.
+You can also use tags in other note lines.  This line is only a suggestion to keep notes having a similar structure.
 
 In the atomic note, resurfacing other notes is not intended. So there is no similar dataview code block like the literature note. 
 
@@ -231,7 +231,7 @@ dv.list(notes.file.link);
 ```
 
 `Tags::` for defining the context with tag.  
-You can also tag in other note lines.  This line is only a suggestion to keep notes having a similar structure.
+You can also use tags in other note lines.  This line is only a suggestion to keep notes having a similar structure.
 
 Dataview code block for resurfacing related notes.  
 All notes with the same tags as the current note will be displayed here, except the note itself. 

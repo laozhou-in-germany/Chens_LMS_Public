@@ -4,7 +4,7 @@
 
 | Command                        | Shortcut         | Remark     |
 | ------------------------------ | ---------------- | ---------- |
-| Create a new note              | Ctrl + N         |            |
+| Add new note                   | Ctrl + N         |            |
 | Add new note using Templater   | Alt + N          | Templater  |
 | Add new note using QuickAdd    | Ctrl + Q         | QuickAdd   |
 | Open the Quick Switcher        | Ctrl + O         |            |

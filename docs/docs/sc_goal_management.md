@@ -4,7 +4,7 @@
 
 ## Pillar
 
-Goal management dashboard (left panel, pinned) with a pillar note (right panel).  
+Goal management dashboard (left pane, pinned) with a pillar note (right pane).  
 **Dashboard**: All active pillars are shown here in a table.  
 **Pillar note**: All value goals of the pillar are shown in a table.  
 
@@ -12,7 +12,7 @@ Goal management dashboard (left panel, pinned) with a pillar note (right panel).
 
 ## Value Goal
 
-Goal management dashboard (left panel, pinned) with a value goal note (right panel).  
+Goal management dashboard (left pane, pinned) with a value goal note (right pane).  
 **Dashboard**: All open value goals are shown here in a table.  
 **Value goal note**: All outcomes of the value goal are shown in a table, also all routines and mindsets for the value goal.
 
@@ -22,7 +22,7 @@ Goal management dashboard (left panel, pinned) with a value goal note (right pan
 
 ## Outcome
 
-Goal management dashboard (left panel, pinned) with an outcome note (right panel).  
+Goal management dashboard (left pane, pinned) with an outcome note (right pane).  
 **Dashboard**: All open outcomes are shown here in a table.  
 **Outcome**: All projects of the outcome are shown in a table, with a progress bar for each project.  
 
@@ -30,7 +30,7 @@ Goal management dashboard (left panel, pinned) with an outcome note (right panel
 
 ## Project
 
-Goal management dashboard (left panel, pinned) with a project note (right panel).  
+Goal management dashboard (left pane, pinned) with a project note (right pane).  
 **Dashboard**: All open projects are shown here in a table.  
 **Project**: Actions are defined here. and done actions are automatically counted.   
 
@@ -38,7 +38,7 @@ Goal management dashboard (left panel, pinned) with a project note (right panel)
 
 ## Routine
 
-Goal management dashboard (left panel, pinned) with a routine note (right panel).  
+Goal management dashboard (left pane, pinned) with a routine note (right pane).  
 **Dashboard**: All active routines are shown here in a table.  
 **Routine**: Purpose, progress, and reflections of the routine are written here.  
 
@@ -46,7 +46,7 @@ Goal management dashboard (left panel, pinned) with a routine note (right panel)
 
 ## Mindset
 
-Goal management dashboard (left panel, pinned) with a mindset note (right panel).  
+Goal management dashboard (left pane, pinned) with a mindset note (right pane).  
 **Dashboard**: All active mindsets are shown here in a table.  
 **Mindset**: Purpose, progress, and reflections of the mindset are written here.  
 

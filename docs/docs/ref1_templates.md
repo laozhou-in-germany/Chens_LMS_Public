@@ -1,7 +1,7 @@
 # Templates
 
 All templates are stored in the folder "900_Supporting_Files/910_Templates".  
-Two different kinds of templates have been used the vault:
+Two different kinds of templates have been used in the vault:
 
 - Templates for plugin "Templater"
 - Templates for plugin "Periodic Notes" and "Calendar"

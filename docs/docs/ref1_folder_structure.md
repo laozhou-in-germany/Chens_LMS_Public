@@ -22,7 +22,7 @@ This vault has the following folder structure:
   - 530_⚛️Atomic_Notes
   - 550_🌲Evergreen_Notes
   - 570_🗩Topics
-###### **700_Periodic_Review**: All notes for the periodical review
+###### **700_Periodic_Review**: All notes for the periodic review
   - 710_❇Weeks  
   - 730_📅Months  
   - 750_⌛Quarters  
@@ -30,7 +30,7 @@ This vault has the following folder structure:
 ###### **900_Supporting_Files**: All supporting files for this vault
 
 ## Note types
-The folder structure is based on the note types in different areas. Each folder stores the notes of the same note type.
+The folder structure is based on the note types. Each folder stores notes of one note type.
 
 The yalm front matter is used to document the note type. 
 
@@ -40,15 +40,15 @@ fileClass: literature-note
 ---
 ~~~
 
-The property name is `fileClass`. It is chosen for better compatibility with the plugin [Supercharged links](https://github.com/mdelobelle/obsidian_supercharged_links). 
+The property name `fileClass` is chosen for better compatibility with the plugin [Supercharged links](https://github.com/mdelobelle/obsidian_supercharged_links). 
 
-This vault provides a lot of dashboards and other features for automation. These features are supported by the plugin Data [Dataview,](https://github.com/blacksmithgu/obsidian-dataview) by querying the note type and other meta information.  Here is an example of the query result. 
+This vault provides a lot of dashboards and features for automation. They are supported by the plugin [Dataview](https://github.com/blacksmithgu/obsidian-dataview) by querying the note type and other meta information.  Here is an example of the query result. 
 
 ![image-20220803212723887](images/image-20220803212723887.png)
 
 ## Symbols
 
-Each note type is represented by a symbol. For the definition of the symbol see the folder structure.  Additionally, the scores are also represented by symbols:
+Each note type is represented by a symbol. For the definition of the symbol see the folder structure.  Additionally, the scores are also represented with symbols:
 
 - ◷: x
 - ◔: xx
@@ -56,4 +56,4 @@ Each note type is represented by a symbol. For the definition of the symbol see 
 - ◕: xxxx
 - ●: xxxxx
 
-The symbols are automatically displayed before or after the title of the note. They are visible in the reading mode, or in the dataview query result, and even in the Live Preview mode. This feature is supported by the plugin [Supercharged links](https://github.com/mdelobelle/obsidian_supercharged_links). 
+The symbols are automatically displayed before or after the note title. They are visible in the reading mode, or in the dataview query result (Live Preview mode). This feature is supported by the plugin [Supercharged links](https://github.com/mdelobelle/obsidian_supercharged_links). 

@@ -9,32 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "500_Knowledge_Management/500_Knowledge_Management.md",
+            "file": "docs/docs/index.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           }
-        }
-      },
-      {
-        "id": "f9db2f967c5f5190",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "c52672454a7626d0",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -108,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/docs/index.md"
+              }
             }
           },
           {
@@ -133,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,11 +142,11 @@
     "direction": "horizontal",
     "width": 341
   },
-  "active": "c52672454a7626d0",
+  "active": "eb47d76bc98c952a",
   "lastOpenFiles": [
-    "500_Knowledge_Management/530_⚛Atomic_Notes/New Atomic Note.md",
-    "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md",
     "500_Knowledge_Management/500_Knowledge_Management.md",
+    "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md",
+    "500_Knowledge_Management/530_⚛Atomic_Notes/New Atomic Note.md",
     "100_Goal_Management/100_Goal_Management.md",
     "100_Goal_Management/109_Task_Backlog.md",
     "300_Journal/340_🖥️Meetings/2022-07-22 Review of knowledge management system.md",

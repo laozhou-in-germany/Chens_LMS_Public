@@ -12,8 +12,8 @@ The part **Journal** is designed to
 There are 3 note types for journals:
 
 1. **🌄Daily note**: daily routine and random daily notes.  
-2. **🎉Event note**: important event, for both private and working events. e.g. Parties, trips and conferences.   
-3. **🖥Meeting note**: meeting minutes 
+2. **🎉Event note**: important event, for both private and working events. e.g. parties, trips and conferences.   
+3. **🖥Meeting note**: meeting minutes. 
 
 ## Workflow
 
@@ -21,7 +21,7 @@ There are 3 note types for journals:
 
 
 
-Journaling is one of the ways to know ourselves. Make journaling to record our daily activities, review them, and reflect on them. This is going to increase self-awareness, and support us to find our dream and life goals. 
+Journaling is one of the ways to know ourselves. Take journaling to record our daily activities, review them, and reflect on them. This would increase our self-awareness, and support us to find our dream and life goals. 
 
 Input: Daily activities.  
 Output: Experience, insight and self-awareness. 

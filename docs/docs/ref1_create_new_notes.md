@@ -1,13 +1,13 @@
 # 5 ways to create new notes
 
-Depending on the note type, there are several ways to add new notes
+Depending on the note type, there are several ways to add new notes:
 
 1. Use shortcut `Ctrl + N` or ``New Note`` Button
 2. Use shortcut `Alt + N` [^1]
 3. Use shortcut `Ctrl + Q` [^1] [^4]
-4. Use buttons on the dashboards or the notes [^1] [^2] [^3]
+4. Use buttons on the dashboards or on the notes [^1] [^2] [^3]
 5. Right-click the note folder [^1]
-6. Click on the days or weeks on the Calendar panel [^3]
+6. Click on the day or week on the Calendar panel [^3]
 
 
 [^1]: Plugin Templater required
@@ -22,9 +22,9 @@ Depending on the note type, there are several ways to add new notes
 
 - Create an empty note by pressing the shortcut `Ctrl + N` or the ``New Note`` button on the **File explorer** panel  
   ![image-20220814141836327](images/image-20220814143406015.png)
-- Change the file name, start writing the note
-- later: Insert the template by pressing the shortcut `Alt + N` 
-- later: Move the note to the corresponding folder according to the note type (e.g. "110_🏛Pillars" for pillar note)
+- Change the file name, start the writing
+- later: Insert the template by pressing the shortcut `Alt + T` 
+- later: Move the note to the corresponding folder of the note type (e.g. "110_🏛Pillars" for pillar note)
 
 ## Use shortcut `Alt + N` 
 
@@ -37,9 +37,9 @@ Depending on the note type, there are several ways to add new notes
 
 ## Use shortcut `Ctrl + Q`
 
-*Use case: Add a note for a certain note type quickly, and automatically insert the link*
+*Use case: Add a note for a certain note type quickly, and insert the link at the same time*
 
-- press the shortcut `Ctrl + Q` and select the desired note type  
+- press the shortcut `Ctrl + Q` and select the note type  
   ![image-20220814142129416](images/image-20220814142129416.png)
   ![image-20220814142156057](images/image-20220814142156057.png)
 - Input the note title  
@@ -52,7 +52,7 @@ Depending on the note type, there are several ways to add new notes
 
 - Open a dashboard note (e.g. Goal Management Dashboard)
 - Click on the button on it
-- A new note is created in the corresponding folder
+- A new note is created in the correct folder
 - Change the file name  
 ![image-20220814142746273](images/image-20220814142746273.png)
 
@@ -61,12 +61,12 @@ Depending on the note type, there are several ways to add new notes
 *Use case: Add a note for a certain note type, without moving the note later*
 
 - Expand the left sidebar and active the **File explorer** panel, if not yet
-- Navigate to the corresponding note folder  
+- Navigate to the note folder  
 - Right-click the note folder and create a **new note** using the context menu
 - Change the file name  
 ![image-20220814142854247](images/image-20220814142854247.png)
 
-## Click on the days or weeks on the Calendar panel
+## Click on the day or week on the Calendar panel
 
 - Expand the right sidebar and active the **calendar** panel, if not yet
 - Click on the day or on the week to create a new note  

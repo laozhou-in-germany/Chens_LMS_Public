@@ -6,7 +6,7 @@ It consists of 4 parts.
 - [Goal Management](qs11_use_goal_management.md): align the projects and outcomes with the personal vision, keep an overview of the important high-level activities.
 - [Journal](qs12_use_journal.md): record the personal feeling, thinking and doing, and create self-awareness and know myself better.
 - [Knowledge Management](qs13_use_knowledge_management.md): remember important information, generate my own thought (critical thinking), and obtain the relevant knowledge to achieve life goals.
-- [Periodic Review](qs14_use_periodic_review.md): keep parts above running, and review, reflect and improve the system.
+- [Periodic Review](qs14_use_periodic_review.md): keep parts above running, review, reflect and improve the system.
 
 The 4 parts interact with each other. I compare them with districts in a medieval town.  This town has 6 main districts.   
 
@@ -16,14 +16,15 @@ The 4 parts interact with each other. I compare them with districts in a medieva
 - Tower of Review (Periodic Review)  
 - Place of Doing (Project Implementation)  
 - River of Knowledge (Outside Would)  
+The purpose of each district is described in the figure below. 
 
 ![image-20220815232044684](images/image-20220815232044684.png)
 More see [LMS as a medieval town](ref10_lms_as_a_medieval_town.md)
 
-I hope, the LMS provides you an easy access to start with Obsidian.md and the purposeful usage of it, and inspired you to create your own workflow to manage goals, write journal and manage the knowledge. 
+I hope, the LMS provides you easy access to start with Obsidian.md and the purposeful usage of it, and inspired you to create your own workflow to manage goals, write journals, and manage your knowledge. 
 
 ## Github
-The LMS is hosted on GitHub. [laozhou-in-germany/Chens_LMS_Public](https://github.com/laozhou-in-germany/Chens_LMS_Public)
+The LMS is hosted on GitHub: [laozhou-in-germany/Chens_LMS_Public](https://github.com/laozhou-in-germany/Chens_LMS_Public)
 
 ## Credit
 - [Obsidian.md](https://obsidian.md/)

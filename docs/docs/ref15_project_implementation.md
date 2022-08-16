@@ -14,9 +14,9 @@ The part **Project Implementation** is designed to
 
 
 
-It's not easy to keep our commitment to ourselves. Sometimes we don't have sufficient time, Sometimes we don't have the willpower to do some boring tasks. Sometimes we just lost our priority due to a large number of tasks. Find the right productivity method for yourself and finish the tasks effectively. This part is supported by other tools, e.g. Todoist. 
+After the project plan is done, the next step is the project implementation. It's not easy to keep our commitment to ourselves. Sometimes we don't have sufficient time, Sometimes we don't have the willpower to do some boring tasks. Sometimes we just lost our priority due to a large number of tasks. Find the right productivity method for yourself and finish the tasks effectively. 
 
-After the project plan is done, the next step is the project implementation. There are a lot of productivity methods. They may support us to complete the tasks in the project effectively. If a productivity method works for someone, depends on a lot of factors: the personal character, the tasks, and the implementation of the method. Everyone should find the productivity methods, which work for him. Here are the methods, which work for me:
+There are a lot of productivity methods. If a productivity method works for someone, depends on a lot of factors: the personal character, the tasks, and the implementation of the method. Everyone should find the productivity methods, which work for him. Here are the popular methods:
 
 1. Eat the frog
 2. Time blocking
