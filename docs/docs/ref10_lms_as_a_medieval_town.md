@@ -23,7 +23,7 @@ The **tower of knowledge** is a place, where we consume the external information
 
 It's quite complicated to make each part work correctly and keep them interacting with each other smoothly. It's important, that we step back from time to time and review each part and the complete system. In the **tower of review**, we review them periodically and keep the system running. 
 
-You can download the poster with the workflow of each part.  [LMS_poster_portrait](images/LMS_poster_portrait.png)
+You can download the poster with the workflow of each part.  [LMS poster portrait](images/LMS_poster_portrait.png)
 
 
 

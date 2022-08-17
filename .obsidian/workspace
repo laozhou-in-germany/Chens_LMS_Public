@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/docs/index.md",
+            "file": "docs/docs/ref11_goal_management.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Goals & Projects",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docs/index.md"
+                "file": "docs/docs/ref11_goal_management.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docs/index.md",
+                "file": "docs/docs/ref11_goal_management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +144,15 @@
   },
   "active": "eb47d76bc98c952a",
   "lastOpenFiles": [
-    "500_Knowledge_Management/500_Knowledge_Management.md",
-    "500_Knowledge_Management/530_⚛Atomic_Notes/530_⚛Atomic_Notes.md",
-    "500_Knowledge_Management/530_⚛Atomic_Notes/New Atomic Note.md",
-    "100_Goal_Management/100_Goal_Management.md",
-    "100_Goal_Management/109_Task_Backlog.md",
-    "300_Journal/340_🖥️Meetings/2022-07-22 Review of knowledge management system.md",
-    "🏠Dashboard.md",
-    "500_Knowledge_Management/530_⚛️Atomic_Notes/530_⚛️Atomic_Notes.md",
-    "900_Supporting_Files/910_Templates/910_Templates.md",
-    "700_Periodic_Review/700_Periodic_Review.md"
+    "100_Goal_Management/171_📽Video_Projects/171_📽Video_Projects.md",
+    "docs/docs/ref11_goal_management.md",
+    "README.md",
+    "docs/docs/ref10_lms_as_a_medieval_town.md",
+    "docs/docs/ref1_templates.md",
+    "docs/docs/ref1_shortcuts.md",
+    "docs/docs/ref1_folder_structure.md",
+    "docs/docs/ref1_create_new_notes.md",
+    "docs/docs/ref0_general.md",
+    "docs/docs/qs14_use_periodic_review.md"
   ]
 }

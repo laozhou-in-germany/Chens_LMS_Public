@@ -1,11 +1,12 @@
 # Use Knowledge Management
-With this tutorial, you'll learn to extract an evergreen note from a literature note, and consolidate it in a topic note.
+With this tutorial, you'll learn to extract an evergreen note from a literature note, and consolidate it in a topic note.  
 **Literature Note**: **``Berlin (Wikipedia)``**   
 **Evergreen Note**:  **``Berlin is a world city of culture``**   
 **Topic Note**: **``Berlin``**  
 
 
 ## Generate an evergreen note from the literature note
+
 - Open the literature note **``Berlin (Wikipedia)``**   
 - There are already two extract notes on lines 28 and 29. Click on line 30,  input ``💡 `` by using ``WIN + .`` or plugins
 - Pressing ``CTRL + Q``, in the dialog select `Add a new note and add 🔗 in the current note (Journal & PKM)`, then select `Add 🌲Evergreen note` 

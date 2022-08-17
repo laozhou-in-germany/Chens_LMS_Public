@@ -15,7 +15,7 @@ This goal management uses 7 note types.
 2. **🌟Value goal**: Goal or vision in a life area (pillar), normally not concrete, not quantified, but a clear statement about our dreams. e.g. "I want to have a healthy lifestyle".
 3. **🎯Outcome**: Quantified deliverable to achieve the value goal. They must be quantified, terminable and actionable. e.g. " Go swimming 10 times this year". Make sure, that the outcomes really serve to achieve the value goals. 
 4. **💎Project**: A series of actions to achieve a milestone in the outcome.
-5. **Video project**: Similar to the project, but optimized for creating videos.
+5. **📽Video project**: Similar to the project, but optimized for creating videos.
 6. **🔁Routine**: Repeated activities to achieve a certain value goal.
 7. **🤯Mindset**: Mindsets required to achieve a certain value goal.
 
@@ -144,7 +144,7 @@ A dataview code block is used for displaying all projects, which belong to the c
 
 ### Yalm front matter
 
-The outcome note has the following standard property in the yalm front matter.
+The project note has the following standard property in the yalm front matter.
 
 ```yaml
 ---

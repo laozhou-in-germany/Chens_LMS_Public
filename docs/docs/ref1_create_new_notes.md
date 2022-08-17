@@ -1,4 +1,4 @@
-# 5 ways to create new notes
+# 6 ways to create new notes
 
 Depending on the note type, there are several ways to add new notes:
 
@@ -7,7 +7,7 @@ Depending on the note type, there are several ways to add new notes:
 3. Use shortcut `Ctrl + Q` [^1] [^4]
 4. Use buttons on the dashboards or on the notes [^1] [^2] [^3]
 5. Right-click the note folder [^1]
-6. Click on the day or week on the Calendar panel [^3]
+6. Click on the day or week on the Calendar pane [^3]
 
 
 [^1]: Plugin Templater required
@@ -66,7 +66,7 @@ Depending on the note type, there are several ways to add new notes:
 - Change the file name  
 ![image-20220814142854247](images/image-20220814142854247.png)
 
-## Click on the day or week on the Calendar panel
+## Click on the day or week on the Calendar pane
 
 - Expand the right sidebar and active the **calendar** panel, if not yet
 - Click on the day or on the week to create a new note  

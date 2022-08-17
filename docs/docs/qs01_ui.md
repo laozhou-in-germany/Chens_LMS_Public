@@ -1,6 +1,6 @@
 # User interface
 
-The following figure shows the user interface of Chen's LMS.
+The following figure shows the user interface of LMS.
 
 From left to right there are 4 main elements:
 

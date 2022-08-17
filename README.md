@@ -20,7 +20,7 @@ The 4 parts interact with each other. I compare them with districts in a medieva
 - Tower of Knowledge (Knowledge Management)  
 - Tower of Review (Periodic Review)  
 - Place of Doing (Project Implementation)  
-- River of Knowledge (Outside Would)  
+- River of Knowledge (Outside World)  
 
 ![image-20220814182011048](docs/docs/images/image-20220814182011048.png)
 

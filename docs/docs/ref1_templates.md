@@ -12,5 +12,5 @@ They are used for generating notes for goal management, journals (with the excep
 Supported format:  e.g  `<% tp.file.creation_date() %>`
 
 ## Templates for  "Periodic Notes" and "Calendar"
-They are used for generating daily notes and periodic reviews and stored in the subfolder "Periodic_Note"
+They are used for generating daily notes and periodic reviews and stored in the subfolder "Periodic_Note".  
 Supported format:  e.g  ` {{date+7d:gggg-[W]ww}}` and `<% tp.file.creation_date() %>`. 
