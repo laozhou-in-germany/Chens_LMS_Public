@@ -1,7 +1,6 @@
 # Show Case - Goal management
 
 
-
 ## Pillar
 
 Goal management dashboard (left pane, pinned) with a pillar note (right pane).  

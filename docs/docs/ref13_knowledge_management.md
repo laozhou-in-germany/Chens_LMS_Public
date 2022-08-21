@@ -120,7 +120,7 @@ In the sample text above there are two bold passages, one highlight passage, and
 You are expected to extract information from the literature note during the progressive summarization:  atomic notes and evergreen notes.  In the sample text, an atomic note and an evergreen note are extracted. (The last two lines.) 
 
 The symbol  `💡` before the note title is used to mark the extracted note. 
-While reading the extracted note, you can easily find out, from which literature note it's extracted.  The literature note has a symbol  `💡` before the title in the linked mention section. E.g. The atomic note "Ich bin ein Berliner - Kennedy" is extracted from "Berlin (Wikipedia)", but not from the topic note "Berlin".
+While reading the extracted note, you can easily find out, from which literature note it's extracted.  The literature note has a symbol  `💡` before the title in the linked mentions section. E.g. The atomic note "Ich bin ein Berliner - Kennedy" is extracted from "Berlin (Wikipedia)", but not from the topic note "Berlin".
 
 ![image-20220803214007822](images/image-20220803214007822.png)
 
@@ -304,12 +304,11 @@ if (tagRel != "#dummytopic") {
 
 Dataview code block to support the consolidation.  
 All notes with the **related tag** are listed below **Not Processed Notes**. The notes will disappear, as soon as they are referenced within the topic (using a wiki link).
-Before consolidation: Three notes are Not Processed.
 
+Before consolidation: One note is Not Processed: `Berlin (Wikipedia)`.  
 ![image-20220816214110876](images/image-20220816214110876.png)
 
-After consolidation: One note remains **Not Processed Notes**.
-
+After consolidation: `Berlin (Wikipedia)` not displayed any more。  
 ![image-20220816214202530](images/image-20220816214202530.png)
 
 

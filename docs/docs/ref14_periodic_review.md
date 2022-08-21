@@ -22,10 +22,10 @@ There are 4 note types for periodic review.
 
 The periodic repeated tasks for defined in the periodic review notes:
 
-- Clean up
-- Review and reflect on the daily notes and journal
-- Review and reflect on goal management
-- Review and reflect on knowledge management
+- Clean up,
+- Review and reflect on the daily notes and journal,
+- Review and reflect on goal management,
+- Review and reflect on knowledge management,
 - Review and reflect on the LMS itself.
 
 Input: Goal management, journal and knowledge management.  

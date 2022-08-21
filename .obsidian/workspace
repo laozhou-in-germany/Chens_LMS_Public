@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/docs/ref11_goal_management.md",
+            "file": "docs/docs/sc_periodic_review.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docs/ref11_goal_management.md"
+                "file": "docs/docs/sc_periodic_review.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docs/ref11_goal_management.md",
+                "file": "docs/docs/sc_periodic_review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +144,15 @@
   },
   "active": "eb47d76bc98c952a",
   "lastOpenFiles": [
-    "100_Goal_Management/171_📽Video_Projects/171_📽Video_Projects.md",
+    "docs/docs/sc_knowledge_management.md",
+    "docs/docs/sc_goal_management.md",
+    "docs/docs/sc_journal.md",
+    "docs/docs/ref16_outside_world.md",
+    "docs/docs/ref15_project_implementation.md",
+    "docs/docs/ref14_periodic_review.md",
+    "docs/docs/ref13_knowledge_management.md",
+    "docs/docs/ref12_journal.md",
     "docs/docs/ref11_goal_management.md",
-    "README.md",
-    "docs/docs/ref10_lms_as_a_medieval_town.md",
-    "docs/docs/ref1_templates.md",
-    "docs/docs/ref1_shortcuts.md",
-    "docs/docs/ref1_folder_structure.md",
-    "docs/docs/ref1_create_new_notes.md",
-    "docs/docs/ref0_general.md",
-    "docs/docs/qs14_use_periodic_review.md"
+    "100_Goal_Management/171_📽Video_Projects/171_📽Video_Projects.md"
   ]
 }

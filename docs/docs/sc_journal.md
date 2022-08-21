@@ -4,7 +4,7 @@
 
 Journal dashboard (left pane, pinned) with a daily note (right pane).  
 **Dashboard**: Notes of the last 14 days are summarized here.  
-**Daily note**:  Prompts for the focuses of the weeks and months, morning and evening routine, and other fleeting notes.  
+**Daily note**:  Prompts for the focuses of this week and this month, morning and evening routine, and other fleeting notes.  
 
 ![image-20220812235708364](images/image-20220812235708364.png)
 

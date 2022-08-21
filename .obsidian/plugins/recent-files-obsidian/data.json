@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "sc_periodic_review",
+      "path": "docs/docs/sc_periodic_review.md"
+    },
+    {
+      "basename": "sc_knowledge_management",
+      "path": "docs/docs/sc_knowledge_management.md"
+    },
+    {
+      "basename": "sc_goal_management",
+      "path": "docs/docs/sc_goal_management.md"
+    },
+    {
+      "basename": "sc_journal",
+      "path": "docs/docs/sc_journal.md"
+    },
+    {
+      "basename": "ref16_outside_world",
+      "path": "docs/docs/ref16_outside_world.md"
+    },
+    {
+      "basename": "ref15_project_implementation",
+      "path": "docs/docs/ref15_project_implementation.md"
+    },
+    {
+      "basename": "ref14_periodic_review",
+      "path": "docs/docs/ref14_periodic_review.md"
+    },
+    {
+      "basename": "ref13_knowledge_management",
+      "path": "docs/docs/ref13_knowledge_management.md"
+    },
+    {
+      "basename": "ref12_journal",
+      "path": "docs/docs/ref12_journal.md"
+    },
+    {
       "basename": "ref11_goal_management",
       "path": "docs/docs/ref11_goal_management.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "en_cn",
       "path": "docs/docs/en_cn.md"
-    },
-    {
-      "basename": "Have healthy life style",
-      "path": "100_Goal_Management/130_🌟Value_Goals/Have healthy life style.md"
-    },
-    {
-      "basename": "2022",
-      "path": "700_Periodic_Review/770_🌏Years/2022.md"
-    },
-    {
-      "basename": "2022-Q3",
-      "path": "700_Periodic_Review/750_⌛Quarters/2022-Q3.md"
-    },
-    {
-      "basename": "2022-08",
-      "path": "700_Periodic_Review/730_📅Months/2022-08.md"
-    },
-    {
-      "basename": "2022-W32",
-      "path": "700_Periodic_Review/710_❇Weeks/2022-W32.md"
-    },
-    {
-      "basename": "New-Week",
-      "path": "900_Supporting_Files/910_Templates/Periodic_Note/New-Week.md"
-    },
-    {
-      "basename": "New-Day",
-      "path": "900_Supporting_Files/910_Templates/Periodic_Note/New-Day.md"
-    },
-    {
-      "basename": "730_📅Months",
-      "path": "700_Periodic_Review/730_📅Months/730_📅Months.md"
-    },
-    {
-      "basename": "710_❇Weeks",
-      "path": "700_Periodic_Review/710_❇Weeks/710_❇Weeks.md"
     }
   ],
   "omittedPaths": [],
