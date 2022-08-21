@@ -1,6 +1,6 @@
 # README
 
-[Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/)
+[Documentation](https://laozhou-in-germany.github.io/Chens_LMS_Public/) | [中文帮助](https://laozhou-in-germany.github.io/Chens_LMS_Public_CN/)
 
 The LMS (Life Management System) is a tool for personal knowledge management and goal management based on Obsidian.md. 
 

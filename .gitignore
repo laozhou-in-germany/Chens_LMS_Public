@@ -1,4 +1,4 @@
 .idea/
 .obsidian/workspace*
 .obsidian/workspace
-site/
+docs/site/*
